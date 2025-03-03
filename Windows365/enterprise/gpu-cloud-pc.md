@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 02/07/2025
+ms.date: 03/03/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -44,6 +44,8 @@ Three GPU offerings are available for Window 365 Enterprise (including FedRamp) 
 For more information on these offerings, see [Cloud PC size recommendations](cloud-pc-size-recommendations.md).
 
 Since regional capacity is dynamic, Microsoft uses available capacity when and where it's needed. Sometimes, this might result in GPU Cloud PCs exceeding their license specified minimum specifications. To see your Cloud PC’s GPU specifications, visit the performance tab of Task Manager.
+
+![Task manager performance for GPU Cloud PC](./media/gpu-cloud-pc/performance.png)
 
 GPU Cloud PCs don't support nested virtualization. For more information, see [Set up virtualization-based workloads on your Windows 365 Cloud PC](nested-virtualization.md).
 
