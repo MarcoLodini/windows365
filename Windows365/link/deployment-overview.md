@@ -10,7 +10,7 @@ manager: dougeby
 ms.date: 11/19/2024
 ms.topic: overview
 ms.service: windows-365-link
-ms.subservice:
+ms.collection: essentials-get-started
 ms.localizationpriority: high
 ms.assetid: 
 
