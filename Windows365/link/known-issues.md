@@ -35,4 +35,11 @@ The following items are known issues for Windows 365 Enterprise.
 
 ## Missing or renamed options in Cloud PC Display settings app for Windows 365 Link device <!--53427829-->
 
-when connecting to a Cloud PC from a Windows 365 Link device, some options aren't available in the **System** > **Display** app. Instead, you can use **Open additional settings** to adjust arrangement and scale of up to two monitors attached.
+When connecting to a Cloud PC from a Windows 365 Link device, some options aren't available in the **System** > **Display** app. Instead, you can use **Open additional settings** to adjust arrangement and scale of up to two monitors attached.
+
+## Locking the Cloud PC does not take the user back to the **Sign in** screen <!--56487937-->
+
+This can happen if you lock the device by selecting **Start** > **Power** > **Lock** inside your connection. To remediate:
+
+1. Perform one of the other sequences to [lock or disconnect your Windows 365 Link](sign-in.md##lock-or-disconnect-your-windows-365-link)
+2. Follow the steps to [configure session lock behavior](/azure/virtual-desktop/configure-sessino-lock-behavior.md?tabs=intune) for single sign-on connections such that the **Disconnect remote session on lock for Microsoft identity platform authentication** policy is set to **Enabled**.
