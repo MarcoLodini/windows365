@@ -41,5 +41,5 @@ When connecting to a Cloud PC from a Windows 365 Link device, some options aren'
 
 This can happen if you lock the device by selecting **Start** > **Power** > **Lock** inside your connection. To remediate:
 
-1. Perform one of the other sequences to [lock or disconnect your Windows 365 Link](sign-in.md##lock-or-disconnect-your-windows-365-link)
+1. Perform one of the other sequences to [lock or disconnect your Windows 365 Link](sign-in.md#lock-or-disconnect-your-windows-365-link)
 2. Follow the steps to [configure session lock behavior](/azure/virtual-desktop/configure-session-lock-behavior?tabs=intune) for single sign-on connections such that the **Disconnect remote session on lock for Microsoft identity platform authentication** policy is set to **Enabled**.
