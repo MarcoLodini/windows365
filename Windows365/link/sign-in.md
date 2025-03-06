@@ -53,7 +53,7 @@ Lock the device by either of these methods:
 - Select **Start** > **Power** > **Lock**.
 - In your Cloud PC, select start > **Power** > **Disconnect**.
 
-The Cloud PC connection persists for 15 minutes (default) after sign-out. Your data and account information aren't stored on the Windows 365 Link. If someone else signs into their account on the Windows 365 Link, the previous user's Cloud PC connection is automatically disconnected.
+After locking the device, the user will be redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again. Your data and account information aren't stored on the Windows 365 Link. If someone else signs into their account on the Windows 365 Link, the previous user's Cloud PC connection is automatically disconnected.
 
 <!-- ########################## -->
 ## Next steps
