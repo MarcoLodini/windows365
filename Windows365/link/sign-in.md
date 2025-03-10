@@ -69,4 +69,4 @@ If you have more than one Cloud PC, you can select a default Cloud PC to use eac
 
 [Use Quick Settings to view and manage monitors, languages, network connections, and more](quick-settings.md).
 
-[Use the Control-Alt-Delete menu to mange manage tasks, connections, sign-out, or lock your Windows 365 Link.](control-alt-delete.md)
+[Use the Control-Alt-Delete menu manage tasks, connections, sign-out, or lock your Windows 365 Link.](control-alt-delete.md)
