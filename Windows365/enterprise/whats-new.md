@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 02/26/2025
+ms.date: 03/10/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,22 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+
+
+<!-- ########################## -->
+## Week of March 10, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Provisioning
+
+#### Windows 365 support for Mexico Central<!--54919656-->
+
+Windows 365 Enterprise now supports the Mexico Central region in the Central America geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+
+#### Windows 365 support for Spain Central<!--54919607-->
+
+Windows 365 Enterprise now supports the Spain Central region in the European Union geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
 
 <!-- ########################## -->
 ## Week of February 26, 2025 (Service release 2502)
