@@ -55,8 +55,6 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 app 
 -->
 
-
-
 <!-- ########################## -->
 ## Week of March 10, 2025
 
