@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 03/10/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -55,9 +55,18 @@ Lock the device by either of these methods:
 
 The Cloud PC connection persists for 15 minutes (default) after sign-out. Your data and account information aren't stored on the Windows 365 Link. If someone else signs into their account on the Windows 365 Link, the previous user's Cloud PC connection is automatically disconnected.
 
+## Multiple Cloud PCs
+
+If you have more than one Cloud PC, you can select a default Cloud PC to use each time you sign in. To set this default:
+
+1. Navigate to [https://windows365.microsoft.com](https://windows365.microsoft.com).
+2. In the card for the Cloud PC you want to set as default, select the ellipses (...) > **Settings**.
+3. In the **Integrated experiences** tab, under **Boot to this Cloud PC**, select **Connect while signed into device**.
+4. Select **Update**.
+
 <!-- ########################## -->
 ## Next steps
 
-[Use Quick Settings to view and manage monitors, langauages, network connections, and more](quick-settings.md).
+[Use Quick Settings to view and manage monitors, languages, network connections, and more](quick-settings.md).
 
-[Use the Control-Alt-Delete menu to mange manage tasks, connections, sign-out, or lock your Windows 365 Link.](control-alt-delete.md)
+[Use the Control-Alt-Delete menu manage tasks, connections, sign-out, or lock your Windows 365 Link.](control-alt-delete.md)
