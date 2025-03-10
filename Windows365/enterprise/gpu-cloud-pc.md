@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/03/2025
+ms.date: 03/10/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -82,7 +82,7 @@ The GPU offerings are available in all [Windows 365 supported regions](requireme
 
 - Central US
 - Norway East
-- West Europe
+- West Europe (Windows 365 Enterprise GPU Standard only)
 
 The West US 2 region is supported but is a restricted region.
 
