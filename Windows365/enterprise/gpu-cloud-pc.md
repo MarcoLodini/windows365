@@ -53,7 +53,7 @@ For purchasing the GPU offerings, contact your account team. GPU offerings aren'
 
 ## GPU Cloud PC hosting and d: drive storage details
 
-Windows 365 GPU-enabled Cloud PCs are hosted by Microsoft using the latest version of Microsoft Hyper-V.
+Microsoft hosts Windows 365 GPU-enabled Cloud PCs using the latest version of Microsoft Hyper-V.
 
 Each of these Cloud PCs comes with an SSD storage drive (c:) for  data and applications plus a large ephemeral disk (d:).
 
@@ -82,7 +82,7 @@ The GPU offerings are available in all [Windows 365 supported regions](requireme
 
 - Central US
 - Norway East
-- West Europe (Windows 365 Enterprise GPU Standard only)
+- West Europe (Windows 365 Enterprise GPU Standard is available in this region)
 
 The West US 2 region is supported but is a restricted region.
 
@@ -96,7 +96,7 @@ For optimal performance of GPU-enabled Cloud PCs, consider these recommendations
 - Use Windows 11 Cloud PCs.
 - GPU-enabled Cloud PCs come pre-provisioned with the correct driver needed for the best experience. For information about installing drivers, see [Install NVIDIA GPU drivers on N-series VMs running Windows](/azure/virtual-machines/windows/n-series-driver-setup) and [Install AMD GPU drivers on N-series VMs running Windows](/azure/virtual-machines/windows/n-series-amd-driver-setup) (for the Standard SKU only in limited regions). The use of any external drivers, including drivers from NVIDIA and AMD websites, isn't supported.
 - Don’t use the Multimedia Redirection extension for the browser or for Teams. By default, this extension is uninstalled for GPU-enabled Cloud PCs during provisioning.
-- GPU offerings aren't designed for game development. These offerings have been optimized for graphics applications typically used in Enterprise scenarios. For more information with game development scenarios, see [Create a Game Development Virtual Machine with other Game Engines](/gaming/azure/).
+- GPU offerings aren't designed for game development. These offerings are optimized for graphics applications typically used in Enterprise scenarios. For more information with game development scenarios, see [Create a Game Development Virtual Machine with other Game Engines](/gaming/azure/).
 - If you want to guarantee that all your users have the exact same BPU configuration, instead of using Cloud PCs, you can use Azure Virtual Desktop (AVD). AVD can help customers who prefer hardware specific configurations over workload focused configurations. For a complete list of Azure’s GPU offerings, see [Sizes for virtual machines in Azure - GPU accelerated](/azure/virtual-machines/sizes/overview?tabs=breakdownseries%2Cgeneralsizelist%2Ccomputesizelist%2Cmemorysizelist%2Cstoragesizelist%2Cgpusizelist%2Cfpgasizelist%2Chpcsizelist#gpu-accelerated).
 
 <!-- ########################## -->
