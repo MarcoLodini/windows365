@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/05/2024
+ms.date: 03/11/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -73,6 +73,8 @@ After the provisioning of a Cloud PC is complete, it doesn't reoccur unless you 
 Changes made to any part of a provisioning policy don't trigger a reprovision. Such changes aren't applied to previously provisioned Cloud PCs. Changes to a provisioning policy will only be applied to Cloud PCs that are provisioned or reprovisioned after the changes.
 
 If a provisioning policy name is changed, it doesn't update the Cloud PC name under All Cloud PCs, and doesn't update the enrollmentProfileName in Microsoft Entra ID.
+
+Some provisioning policy settings can't be changed after initial creation. This includes the License type (Enterprise and Frontline) and the Frontline type (Dedicated or Shared). For Frontline devices in shared mode you can't change Entra ID Join type, Network, Geography or Region settings. If you need to change those properties for Frontline devices in shared mode you can create a new policy and remove the old one.
 
 ### Deleting a provisioning policy
 A provisioning policy can only be [deleted](delete-provisioning-policy.md) if it’s not assigned to any Microsoft Entra groups.
