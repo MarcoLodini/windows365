@@ -81,6 +81,10 @@ Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft
 
 End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com). 
 
+#### Cloud PC concurrency report update<!--55445657-->
+
+The Connected Frontline Cloud PCs report will show a user's session length. You'll also be able to restart Windows 365 Frontline Cloud PCs from the report if you've reached max concurrency on any individual assignments. For more information, see [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md).
+
 <!-- ***********************************************-->
 ## Provisioning
 
