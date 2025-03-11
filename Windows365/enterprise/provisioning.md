@@ -44,7 +44,7 @@ At a high level, the full provisioning process looks like this:
 
 1. You [create a provisioning policy](create-provisioning-policy.md) to manage who gets access to Cloud PCs. The provisioning policies are the engines that build, configure, and make Cloud PCs available to end users. Within a policy, you provide details for the network, the [image](device-images.md) used to create each Cloud PC, and a Microsoft Entra user group.
 2. When a user in the Microsoft Entra user group is assigned a Windows 365 license, Windows 365 automatically provisions a Cloud PC for the user. This automation has three stages, which are invisible to the administrator. For more information on this automated process, see the [Details of the automated provisioning process article](automated-provisioning-steps.md).
-3. Once provisioned, the end user can then sign in to the Windows Cloud PC from anywhere.
+3. After provisioning, the end user can then sign in to the Windows Cloud PC from anywhere.
 
 ## Provisioning policy objects
 
@@ -62,7 +62,7 @@ As the admin, you provide the following required information when creating a pro
 
 Without this information, Windows 365 can’t provision the Cloud PCs.
 
-After you’ve created the provisioning policy, Windows 365 handles all of the provisioning process to automatically get licensed users their own Cloud PCs. After the Cloud PCs are provisioned, you can inform end users that their Cloud PCs are ready for sign-in.
+After you create the provisioning policy, Windows 365 handles all of the provisioning process to automatically get licensed users their own Cloud PCs. After the Cloud PCs are provisioned, you can inform end users that their Cloud PCs are ready for sign-in.
 
 Changing these configurations doesn’t impact any previously provisioned Cloud PCs. However, any newly provisioned (or reprovisioned) Cloud PCs reflect the updated settings.
 
@@ -74,7 +74,7 @@ Changes made to any part of a provisioning policy don't trigger a reprovision. S
 
 If a provisioning policy name is changed, it doesn't update the Cloud PC name under All Cloud PCs, and doesn't update the enrollmentProfileName in Microsoft Entra ID.
 
-Some provisioning policy settings can't be changed after initial creation. This includes the License type (Enterprise and Frontline) and the Frontline type (Dedicated or Shared). For Frontline devices in shared mode you can't change Entra ID Join type, Network, Geography or Region settings. If you need to change those properties for Frontline devices in shared mode you can create a new policy and remove the old one.
+Some provisioning policy settings can't be changed after initial creation. These settings include the License type (Enterprise and Frontline) and the Frontline type (Dedicated or Shared). For Frontline devices in shared mode, you can't change Entra ID Join type, Network, Geography, or Region settings. If you need to change those properties for Frontline devices in shared mode you can create a new policy and remove the old one.
 
 ### Deleting a provisioning policy
 A provisioning policy can only be [deleted](delete-provisioning-policy.md) if it’s not assigned to any Microsoft Entra groups.
@@ -95,7 +95,7 @@ When a Cloud PC provisioning fails, it’s retried automatically two times. Afte
 2. The Cloud PC is marked as *Failed*.
 3. An error message is displayed.
 
-After you’ve resolved the root cause of the error, you can manually trigger a retry of the provisioning process by pressing the **Retry** button in the error dialog.
+After you resolve the root cause of the error, you can manually trigger a retry of the provisioning process by pressing the **Retry** button in the error dialog.
 
 ## Reprovisioning
 
@@ -109,7 +109,7 @@ The **Reprovision** action can also be used when a Cloud PC is in a **Failed pro
 
 When a Cloud PC is reprovisioned, the Cloud PC is deleted and recreated as a new Cloud PC. All user data, applications, customizations, and the like are deleted.
 
-The Cloud PC will be reprovisioned to the current configured settings in the provisioning policy that is targeting the user's Microsoft Entra group. If the image referenced by the policy has changed, or if any other changes to the policy have been made, the reprovisioned Cloud PC uses the new settings.
+The Cloud PC will be reprovisioned to the current configured settings in the provisioning policy that is targeting the user's Microsoft Entra group. If the image referenced by the policy has changed, or if policy has been changed in any other way, the reprovisioned Cloud PC uses the new settings.
 
 [!INCLUDE [Reprovision a Frontline shared Cloud PC](../includes/reprovision-frontline-shared-cloud-pc.md)]
 
@@ -133,7 +133,7 @@ The following objects are cleaned up:
 
 Network security groups created for Cloud PCs aren't cleaned up, as there may be other objects relying on those groups.
 
-Any on-premises Microsoft Entra computer accounts that were joined to the domain during provisioning aren't be deleted. Windows 365 doesn't have sufficient permissions to delete on-premises computer objects, so instead the redundant computer objects are disabled. We encourage your organization to clean up these disabled computer objects during  your regular maintenance process.
+Any on-premises Microsoft Entra computer accounts that were joined to the domain during provisioning aren't deleted. Windows 365 doesn't have sufficient permissions to delete on-premises computer objects, so instead the redundant computer objects are disabled. We encourage your organization to clean up these disabled computer objects during  your regular maintenance process.
 
 <!-- ########################## -->
 ## Next steps
