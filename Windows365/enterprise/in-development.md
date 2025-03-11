@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/04/2025
+ms.date: 03/11/2025
 ms.topic: whats-new
 ms.service: windows-365
 
@@ -61,7 +61,11 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
 
 <!-- ***********************************************-->
-<!--## Device security-->
+## Device security
+
+### Windows 365 Government support for Microsoft Purview Customer Key<!--48232935-->
+
+Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft Purview Customer Key. For more information, see [Service encryption with Microsoft Purview Customer Key](/purview/customer-key-overview).
 
 <!--***********************************************-->
 <!-- ## End user experience -->
