@@ -42,7 +42,7 @@ Admins need only provide a few configuration details to set up the provisioning 
 
 ## How many Cloud PCs can be provisioned per user?
 
-Each user can have up to one Cloud PC of each [Windows 365 Enterprise SKU](cloud-pc-size-recommendations.md) and multiple [Windows 365 Frontline Cloud PCs](introduction-windows-365-frontline.md).
+Each user can have up to one Cloud PC of each [Windows 365 Enterprise SKU](cloud-pc-size-recommendations.md) and multiple [Windows 365 Frontline Cloud PCs](introduction-windows-365-frontline.md). 
 
 ## High-level process
 
