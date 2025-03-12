@@ -69,14 +69,14 @@ As part of the process to place Cloud PCs under review, Windows 365 requires the
 
     NOT SUPPORTED: Setting a [Permit scope for copy operations](/azure/storage/common/security-restrict-copy-operations). It must be (null), the default value, to allow copying from any storage account to the destination account.
 
-3. [Assign an Azure role for access to blob data](/azure/storage/blobs/assign-azure-role-data-access). The minimum permissions required for the Windows 365 service to place a Cloud PC under review are Storage Account Contributor and Storage Blob Data Contributor.
+1. [Assign an Azure role for access to blob data](/azure/storage/blobs/assign-azure-role-data-access). The minimum permissions required for the Windows 365 service to place a Cloud PC under review are **Storage Account Contributor** and **Storage Blob Data Contributor**. NOTE: Depending on when your tenant was provisioned the identity for the Windows 365 service for RBAC will be listed as *Windows 365* whereas older tenants may show *Cloud PC*. 
 
 ## Place a Cloud PC under review
 
 After setting up an Azure storage account with permissions as explained above, you can place a Cloud PC under review using the following steps:
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and select  **Devices** > **All Devices** > choose a device.
-    ![Screenshot of choose a device](./media/place-cloud-pc-under-review/choose-device.png)
+![Screenshot of choose a device](./media/place-cloud-pc-under-review/choose-device.png)
 
 2. Select the ellipses (**…**) > **Place cloud PC under review**.
     :::image type="content" source="./media/place-cloud-pc-under-review/place-cloud-pc-under-review.png" alt-text="[Screenshot of place a Cloud PC under review." lightbox="./media/place-cloud-pc-under-review/place-cloud-pc-under-review.png":::
@@ -89,13 +89,13 @@ After setting up an Azure storage account with permissions as explained above, y
 
     **Premium performance storage account tiers**: Premium performance is always a hot tier storage account. The drop-down menu for access tier is ignored for Premium performance storage accounts.
 
-4. Under **Access during review**, if you choose
+1. Under **Access during review**, if you choose
 
-   - **Block Access**, the Cloud PC will be immediately powered off so the user cannot access the Cloud PC, and then the snapshot will be created. This is useful in cases where you may want to contain a security threat by shutting the Cloud PC down, and then performing analysis of the snapshot later in an isolated environment.
+- **Block Access**, the Cloud PC will be immediately powered off so the user cannot access the Cloud PC, and then the snapshot will be created. This is useful in cases where you may want to contain a security threat by shutting the Cloud PC down, and then performing analysis of the snapshot later in an isolated environment.
    - **Allow Access**, the Cloud PC user can continue to use the Cloud PC even as you create a snapshot in the storage account.
 
     ![Screenshot of choose a subscription and storage](./media/place-cloud-pc-under-review/subscription-storage.png)
-
+   
 5. Select **Place under review**. Based on the disk size of the Cloud PC and storage account destination region, it can range from minutes to a few hours for each snapshot to be saved to the storage account. For example, it can take up to one hour or more per 128 GB of disk data for a storage account in the same Azure region.
 
 To make the snapshot tamper-evident, you should create a file hash of the snapshot when it has been saved in the storage account. One way of creating the file hash is to use the [Get-FileHash](/powershell/module/microsoft.powershell.utility/get-filehash) cmdlet. For best performance, the Get-FileHash cmdlet should be run against a copy of the downloaded file or be run against the snapshot in the Azure storage account from a resource located in the same Azure region.
