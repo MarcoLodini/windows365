@@ -40,6 +40,12 @@ Provisioning in Windows 365 is the automated process that:
 
 Admins need only provide a few configuration details to set up the provisioning process. Then, users who have a Windows 365 license and match the configuration details automatically have a Cloud PC provisioned for them. Provisioning is a one-time per user and per-license process. Any given user and license pair can only have one Cloud PC provisioned for them.
 
+## How many Cloud PCs can be provisioned per user?
+
+Each user can have up to one Cloud PC of each [Windows 365 Enterprise SKU](cloud-pc-size-recommendations.md) and multiple [Windows 365 Frontline Cloud PCs](introduction-windows-365-frontline.md).
+
+## High-level process
+
 At a high level, the full provisioning process looks like this:
 
 1. You [create a provisioning policy](create-provisioning-policy.md) to manage who gets access to Cloud PCs. The provisioning policies are the engines that build, configure, and make Cloud PCs available to end users. Within a policy, you provide details for the network, the [image](device-images.md) used to create each Cloud PC, and a Microsoft Entra user group.
@@ -109,7 +115,7 @@ The **Reprovision** action can also be used when a Cloud PC is in a **Failed pro
 
 When a Cloud PC is reprovisioned, the Cloud PC is deleted and recreated as a new Cloud PC. All user data, applications, customizations, and the like are deleted.
 
-The Cloud PC will be reprovisioned to the current configured settings in the provisioning policy that is targeting the user's Microsoft Entra group. If the image referenced by the policy has changed, or if policy has been changed in any other way, the reprovisioned Cloud PC uses the new settings.
+The Cloud PC is reprovisioned to the current configured settings in the provisioning policy that is targeting the user's Microsoft Entra group. If the image referenced by the policy changed, or if policy changed in any other way, the reprovisioned Cloud PC uses the new settings.
 
 [!INCLUDE [Reprovision a Frontline shared Cloud PC](../includes/reprovision-frontline-shared-cloud-pc.md)]
 
