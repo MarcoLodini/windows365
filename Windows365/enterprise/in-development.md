@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/11/2025
+ms.date: 03/14/2025
 ms.topic: whats-new
 ms.service: windows-365
 
@@ -82,15 +82,7 @@ Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft
 End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com). 
 
 <!-- ***********************************************-->
-## Provisioning
-
-### Windows 365 support for Spain Central region<!--54919607-->
-
-Windows 365 Enterprise will support the Spain Central region. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
-
-### Windows 365 support for Mexico Central region<!--54919656-->
-
-Windows 365 Enterprise will support the Mexico Central region. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+<!--## Provisioning-->
 
 <!-- ***********************************************-->
 <!--## Security-->
