@@ -10,7 +10,6 @@ manager: dougeby
 ms.date: 11/19/2024
 ms.topic: overview
 ms.service: windows-365-link
-ms.subservice:
 ms.localizationpriority: high
 ms.assetid: 
 
@@ -27,6 +26,7 @@ ms.custom: intune-azure; get-started; intro-hub-or-landing
 ms.collection:
 - M365-identity-device-management
 - tier2
+- essentials-overview
 ---
 
 # What is Windows 365 Link?
