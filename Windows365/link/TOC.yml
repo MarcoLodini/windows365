@@ -37,6 +37,8 @@ items:
     href: conditional-access-policies.md
   - name: Suppress single sign-on prompt
     href: single-sign-on-suppress.md
+  - name: Windows 365 Link security
+    href: security-overview.md
 - name: Troubleshooting
   items:
   - name: Known issues
