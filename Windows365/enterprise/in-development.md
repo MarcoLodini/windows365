@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/14/2025
+ms.date: 03/19/2025
 ms.topic: whats-new
 ms.service: windows-365
 
@@ -71,18 +71,29 @@ Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft
 <!-- ## End user experience -->
 
 <!-- ***********************************************-->
-<!--## Miscellaneous
--->
+## Miscellaneous
+
+### More regions adding to global TURN relay support<!--56400921-->
+
+TURN relay support will be improved by expanding from 14 to over 40 regions globally. This expansion will reduce latency and improve connection reliability by serving users from more diverse locations. The dedicated IP range for WCX traffic, separate from the ACS TURN relay, will optimize and isolate traffic for AVD and Windows 365. This will let customers bypass certain network restrictions and enhance the quality and speed of WCX traffic.
 
 <!-- ***********************************************-->
 ## Monitor and troubleshoot
 
 ### End user manual connectivity check<!--37679345 -->
 
-End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com). 
+End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com).
+
+### Health status for Cloud PC restore point<!--56539504-->
+
+Admins will be able to see the health status of Cloud PC restore points before deciding to start a restore.
 
 <!-- ***********************************************-->
-<!--## Provisioning-->
+## Provisioning
+
+### Credential Guard and HVCI enabled by default<!--554824970-->
+
+In a future update, newly provisioned and reprovisioned Cloud PCs will have Virtualization-based Security (VBS), Hypervisor-protected Code Integrity (HVCI), and Credential Guard enabled by default.
 
 <!-- ***********************************************-->
 <!--## Security-->
@@ -98,13 +109,16 @@ When in Windows 365 Boot mode (Windows 11 only), users will be able to switch ba
 - Cloud PC error screens
 Administrators will be able to configure and customize this feature within the Guided Scenario for Boot.
 
-
 <!-- ***********************************************-->
 ## Windows 365 Frontline
 
 ### Concurrency buffer usage alert<!--54902162-->
 
 You’ll be able to set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.
+
+### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
+
+Admins will be able to resize Windows 365 Frontline Cloud PCs in designated mode.
 
 ## Next steps
 
