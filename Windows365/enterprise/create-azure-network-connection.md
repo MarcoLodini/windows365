@@ -48,7 +48,7 @@ To create an ANC, you must meet these requirements:
 - Have the [Intune Administrator](/azure/active-directory/roles/permissions-reference#intune-administrator) or [Windows 365 Administrator](/azure/active-directory/roles/permissions-reference) role.
 - Have an Active Directory user account with sufficient permissions to join the AD domain into this Organizational Unit (hybrid Microsoft Entra join ANCs only).
 - Have the Subscription Reader role in the Azure Subscription where the VNET associated with the ANC was located.
-- If you want to create an ANC with a network or resource group that was never used in any pervious ANC creation, then you must have the Subscription owner or user administrator role.
+- If you want to create an ANC with a network or resource group that was never used in any previous ANC creation, then you must have the Subscription owner or user administrator role.
 - For Disaster Recovery (DR) purposes, make sure that there are at least 50% of the IP addresses available in your subnet. If reprovisioning for DR is required, sufficient new IP addresses are required for each Cloud PC provisioned on the subnet.
 - For Windows 365 Government - GCC only and not GCC-H - make sure to complete the script options listed in [Set up tenants for Windows 365 Government](set-up-tenants-windows-365-gcc.md).
 
