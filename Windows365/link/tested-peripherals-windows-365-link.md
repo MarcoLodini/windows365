@@ -31,8 +31,6 @@ ms.collection:
 
 # Tested peripherals for Windows 365 Link devices
 
-# Tested peripherals for Windows 365 Link 
-
 As part of the Positive Experience List (PEL) initiative, Microsoft engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on the Windows 365 Link device.
 
 Applications used to customize device behavior aren't supported on Windows 365 Link.
@@ -62,22 +60,22 @@ Standard peripherals in the following device classes are supported. However, fun
 
 ## Tested and supported peripherals
 
-These peripherals have been tested across port connections, including USB, USB-C, DisplayPort, HDMI.
+These tables list tested peripherals across port connections, including USB, USB-C, DisplayPort, and HDMI.
 
 Other devices in the above classes may be compatible with Windows 365 Link.
 
 ### Cables/dongles
 
-- Designed for Surface (DFS) Cable Matters USB-C to DP Cable
-- Moshi USB-C to DP Cable
-- Club 3D DP Cable
-- CableMatters DP Cable
-- Moshi USB-C to DP Cable
+- Designed for Surface (DFS) Cable Matters USB-C to DisplayPort Cable
+- Moshi USB-C to DisplayPort Cable
+- Club 3D DisplayPort Cable
+- CableMatters DisplayPort Cable
+- Moshi USB-C to DisplayPort Cable
 - DFS Cable Matters USB-C to USB-C Cable
-- Monoprice DP Cable
+- Monoprice DisplayPort Cable
 - DFS Cable Matters USB-C to HDMI Cable
 - j5Create USB-C Cable
-- Club-3D USB-C to DP Adapter
+- Club-3D USB-C to DisplayPort Adapter
 
 ### Displays
 
