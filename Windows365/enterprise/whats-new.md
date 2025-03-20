@@ -63,7 +63,7 @@ For more information about public preview items, see [Public preview in Windows 
 
 #### Redirection performance improvement<!--56160356-->
 
-Admins now have the option to configure performance improvements for Windows App on Windows operating systems drive redirection.
+Admins now have the option to configure performance improvements for Windows App on Windows operating systems drive redirection. For more information, see [Configure fixed, removable, and network drive redirection over the Remote Desktop Protocol](/azure/virtual-desktop/redirection-configure-drives-storage?tabs=intune&pivots=windows-365).
 
 <!-- ########################## -->
 ## Week of March 10, 2025
