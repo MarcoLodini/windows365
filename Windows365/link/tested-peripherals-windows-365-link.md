@@ -32,10 +32,15 @@ ms.collection:
 # Tested peripherals for Windows 365 Link devices
 
 # Tested peripherals for Windows 365 Link 
+
 As part of the Positive Experience List (PEL) initiative, Microsoft engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on the Windows 365 Link device.
-Applications used to customize device behavior are not supported on Windows 365 Link.
+
+Applications used to customize device behavior aren't supported on Windows 365 Link.
+
 ## Device classes
+
 Windows 365 Link uses class drivers for peripheral devices.
+
 Standard peripherals in the following device classes are supported. However, functionality may be limited.
 
 ## Supported device classes
@@ -43,34 +48,35 @@ Standard peripherals in the following device classes are supported. However, fun
 - USB Audio
 - Bluetooth Audio
 - Human interface devices (HID)
-  - Eg. Keyboard, mouse, trackball
+  - like keyboard, mouse, trackball
 - USB Web camera
 - FIDO2 Passkeys
   - USB
   - NFC (requires compatible NFC reader)
 - Display/monitors
-  - Displayport
+  - DisplayPort
   - HDMI
-  - Displayport/HDMI over USB-C
+  - DisplayPort/HDMI over USB-C
 - USB Hubs
 - USB NFC readers
 
 ## Tested and supported peripherals
 
 These peripherals have been tested across port connections, including USB, USB-C, DisplayPort, HDMI.
+
 Other devices in the above classes may be compatible with Windows 365 Link.
 
 ### Cables/dongles
 
-- DFS Cable Matters USB-C to DP Cable 
-- Moshi USB-C to DP Cable 
-- Club 3D DP Cable 
-- CableMatters DP Cable 
-- Moshi USB-C to DP Cable 
-- DFS Cable Matters USB-C to USB-C Cable 
-- Monoprice DP Cable 
-- DFS Cable Matters USB-C to HDMI Cable 
-- j5Create USB-C Cable 
+- Designed for Surface (DFS) Cable Matters USB-C to DP Cable
+- Moshi USB-C to DP Cable
+- Club 3D DP Cable
+- CableMatters DP Cable
+- Moshi USB-C to DP Cable
+- DFS Cable Matters USB-C to USB-C Cable
+- Monoprice DP Cable
+- DFS Cable Matters USB-C to HDMI Cable
+- j5Create USB-C Cable
 - Club-3D USB-C to DP Adapter
 
 ### Displays
@@ -88,17 +94,17 @@ Other devices in the above classes may be compatible with Windows 365 Link.
 - ViewSonic(DFS) VG245
 - ViewSonic(DFS) VG275
 
-### Non-display peripherals
+### Other peripherals
 
 - Caldigit Thunderbolt 4 Element Hub
 - Dell WD22TB4 Dock
 - Kensington SD5750T Thunderbolt 4 Dock
 - Microsoft Surface Thunderbolt 4 Dock
 - Plugable TBT4-UDZ
-- Microsoft Lifechat LX-6000
-- Anker 4-port ultra slim USB Hub A7516
+- Microsoft LifeChat LX-6000
+- Anker four-port ultra slim USB Hub A7516
 - Kensington USB4 Portable Docking Station
-- Lenovo USB-C to 4 port USB-A Hub
+- Lenovo USB-C to four port USB-A Hub
 
 <!-- ########################## -->
 ## Next steps
