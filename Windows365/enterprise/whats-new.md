@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/10/2025
+ms.date: 03/20/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,16 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+<!-- ########################## -->
+## Week of March 17, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Redirection performance improvement<!--56160356-->
+
+Admins now have the option to configure performance improvements for Windows App on Windows operating systems drive redirection.
 
 <!-- ########################## -->
 ## Week of March 10, 2025
