@@ -7,8 +7,8 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 01/06/2025
-ms.topic: conceptual
+ms.date: 03/10/2025
+ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
 ms.localizationpriority: high
@@ -56,7 +56,35 @@ For more information about public preview items, see [Public preview in Windows 
 -->
 
 <!-- ########################## -->
-## Week of January 3, 2025 (Service release 2501)
+## Week of March 10, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Provisioning
+
+#### Windows 365 support for Mexico Central<!--54919656-->
+
+Windows 365 Enterprise now supports the Mexico Central region in the Central America geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+
+#### Windows 365 support for Spain Central<!--54919607-->
+
+Windows 365 Enterprise now supports the Spain Central region in the European Union geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+
+<!-- ########################## -->
+## Week of February 26, 2025 (Service release 2502)
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows App
+
+#### Support for FIDO devices and passkeys on Android (preview)<!--55482019-->
+
+Windows App and the Remote Desktop app for Android now support FIDO devices and passkeys for Microsoft Entra ID sign in on brokered and unbrokered devices. For more information, see [Compare Windows App features across platforms and devices](/windows-app/compare-platforms-features?pivots=azure-virtual-desktop#cloud-service-authentication).
+
+#### Intune Mobile Application Management (MAM) support on Windows App on Android (preview) for devices running Android 15<!--56126266-->
+
+Intune MAM policies can now be applied to Windows App on Android (preview) when the device is running on Android 15. Previously, Windows App could run on Android 15, but MAM policies wouldn’t take effect. For more information, see [Configure client device redirection settings for Windows App and the Remote Desktop app using Microsoft Intune](/azure/virtual-desktop/client-device-redirection-intune).
+
+<!-- ########################## -->
+## Week of February 3, 2025 (Service release 2501)
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
@@ -75,6 +103,10 @@ The new Device Type filter on the All Cloud PCs page lets you filter the results
 #### Windows 365 support for Japan West<!--54919737-->
 
 Windows 365 Enterprise will support the Japan West region in the Japan geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+
+#### Schedule bulk reprovisioning for Windows 365 Frontline Cloud PCs in shared mode<!--56023525-->
+
+You can now schedule bulk reprovisioning for Windows 365 Frontline Cloud PCs in shared mode. For more information, see [Bulk reprovision Windows 365 Frontline Cloud PCs in shared mode](frontline-shared-bulk-reprovision.md#schedule-bulk-reprovision-frontline-cloud-pcs-in-shared-mode).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Windows 365 Frontline

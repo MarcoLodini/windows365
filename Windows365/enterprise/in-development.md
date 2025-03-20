@@ -7,8 +7,8 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/06/2025
-ms.topic: conceptual
+ms.date: 03/14/2025
+ms.topic: whats-new
 ms.service: windows-365
 
 # optional metadata
@@ -54,10 +54,18 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 -->
 
 <!-- ***********************************************-->
-<!--## Device management-->
+## Device management
+
+### Windows 365 disaster recovery options<!--55482055-->
+
+In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
 
 <!-- ***********************************************-->
-<!--## Device security-->
+## Device security
+
+### Windows 365 Government support for Microsoft Purview Customer Key<!--48232935-->
+
+Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft Purview Customer Key. For more information, see [Service encryption with Microsoft Purview Customer Key](/purview/customer-key-overview).
 
 <!--***********************************************-->
 <!-- ## End user experience -->
@@ -74,21 +82,22 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com). 
 
 <!-- ***********************************************-->
-## Provisioning
-
-### Windows 365 support for Spain Central region<!--54919607-->
-
-Windows 365 Enterprise will support the Spain Central region. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
-
-### Windows 365 support for Mexico Central region<!--54919656-->
-
-Windows 365 Enterprise will support the Mexico Central region. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+<!--## Provisioning-->
 
 <!-- ***********************************************-->
 <!--## Security-->
 
-<!-- ***********************************************
-## Windows 365 app-->
+<!-- ***********************************************-->
+## Windows 365 Boot
+
+### Return to local desktop<!--56381979-->
+
+When in Windows 365 Boot mode (Windows 11 only), users will be able to switch back to their physical device desktop from either:
+
+- CTRL-ALT-DEL screen
+- Cloud PC error screens
+Administrators will be able to configure and customize this feature within the Guided Scenario for Boot.
+
 
 <!-- ***********************************************-->
 ## Windows 365 Frontline

@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 02/14/2024
+ms.date: 02/24/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -38,7 +38,7 @@ The Windows 365 Alerts system notifies you when specific events occur in your Cl
 - Turn each alert rule on or off.
 - Configure each alert to notify you in the console and/or by email.
 
-If emails are turned on, when an alert rule is triggered, one email is sent to the designated email address. After the alert is resolved, if it's triggered again, anohter emila is sent to the designated address.
+If emails are turned on, when an alert rule is triggered, one email is sent to the designated email address. After the alert is resolved, if it's triggered again, another email is sent to the designated address.
 
 ## Requirements
 

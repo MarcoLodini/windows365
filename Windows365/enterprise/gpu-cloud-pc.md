@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 07/31/2024
+ms.date: 03/10/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -43,7 +43,21 @@ Three GPU offerings are available for Window 365 Enterprise (including FedRamp) 
 
 For more information on these offerings, see [Cloud PC size recommendations](cloud-pc-size-recommendations.md).
 
+Since regional capacity is dynamic, Microsoft uses available capacity when and where it's needed. Sometimes, this might result in GPU Cloud PCs exceeding their license specified minimum specifications. To see your Cloud PC’s GPU specifications, visit the performance tab of Task Manager.
+
+![Task manager performance for GPU Cloud PC](./media/gpu-cloud-pc/performance.png)
+
+GPU Cloud PCs don't support nested virtualization. For more information, see [Set up virtualization-based workloads on your Windows 365 Cloud PC](nested-virtualization.md).
+
 For purchasing the GPU offerings, contact your account team. GPU offerings aren't available from the web direct channel.
+
+## GPU Cloud PC hosting and d: drive storage details
+
+Microsoft hosts Windows 365 GPU-enabled Cloud PCs using the latest version of Microsoft Hyper-V.
+
+Each of these Cloud PCs comes with an SSD storage drive (c:) for  data and applications plus a large ephemeral disk (d:).
+
+The ephemeral disk (d: drive) is deleted and recreated every time the Cloud PC reboots. Never use it to store your data. Instead, you can use it as a cache drive to store temporary files. This is helpful to improve the performance of applications that need scratch disks to process large data sets.
 
 ## Registry keys and drivers on GPU Cloud PCs
 
@@ -54,7 +68,7 @@ Supported drivers are automatically installed as part of the provisioning proces
 ## Allowlist
 
 You must allow the following URLs on each Windows 365 GPU Cloud PC:
- 
+
 | URL | Hardware |
 | --- | --- |
 | download.microsoft.com | Nvidia, AMD |
@@ -68,7 +82,7 @@ The GPU offerings are available in all [Windows 365 supported regions](requireme
 
 - Central US
 - Norway East
-- West Europe
+- West Europe (Windows 365 Enterprise GPU Standard is available in this region)
 
 The West US 2 region is supported but is a restricted region.
 
@@ -82,6 +96,8 @@ For optimal performance of GPU-enabled Cloud PCs, consider these recommendations
 - Use Windows 11 Cloud PCs.
 - GPU-enabled Cloud PCs come pre-provisioned with the correct driver needed for the best experience. For information about installing drivers, see [Install NVIDIA GPU drivers on N-series VMs running Windows](/azure/virtual-machines/windows/n-series-driver-setup) and [Install AMD GPU drivers on N-series VMs running Windows](/azure/virtual-machines/windows/n-series-amd-driver-setup) (for the Standard SKU only in limited regions). The use of any external drivers, including drivers from NVIDIA and AMD websites, isn't supported.
 - Don’t use the Multimedia Redirection extension for the browser or for Teams. By default, this extension is uninstalled for GPU-enabled Cloud PCs during provisioning.
+- GPU offerings aren't designed for game development. These offerings are optimized for graphics applications typically used in Enterprise scenarios. For more information with game development scenarios, see [Create a Game Development Virtual Machine with other Game Engines](/gaming/azure/).
+- If you want to guarantee that all your users have the exact same BPU configuration, instead of using Cloud PCs, you can use Azure Virtual Desktop (AVD). AVD can help customers who prefer hardware specific configurations over workload focused configurations. For a complete list of Azure’s GPU offerings, see [Sizes for virtual machines in Azure - GPU accelerated](/azure/virtual-machines/sizes/overview?tabs=breakdownseries%2Cgeneralsizelist%2Ccomputesizelist%2Cmemorysizelist%2Cstoragesizelist%2Cgpusizelist%2Cfpgasizelist%2Chpcsizelist#gpu-accelerated).
 
 <!-- ########################## -->
 ## Next steps
