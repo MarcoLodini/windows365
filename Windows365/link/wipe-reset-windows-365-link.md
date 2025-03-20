@@ -31,12 +31,12 @@ ms.collection:
 
 # Wipe or reset Windows 365 Link device
 
-You can return  Windows 365 Link devices to their factory default out-of-box experience (OOBE) original state. This return to factory settings can be useful:
+You can return  Windows 365 Link devices to their factory default state. This return to factory settings can be useful:
 
 - when experiencing performance issues or software problems
 - to repurpose the device.
 
-There are three ways to return a Windows 365 Link device to is OOBE:
+There are three ways to return a Windows 365 Link device to its factory default state:
 
 - Intune Wipe remote device action.
 - Company Portal Reset.
@@ -67,7 +67,7 @@ For Windows 365 Link devices, WinRE starts automatically after detecting the fol
 - Two consecutive system reboots within two minutes of boot completion.
 - A Secure Boot error (except for issues related to Bootmgr.efi).
 
-A BitLocker recovery key for the device is required To start a device reset from WinRE,  . For instructions on how to get the key, see [Self-recovery in Microsoft Entra ID](/windows/security/operating-system-security/data-protection/bitlocker/recovery-process#self-recovery-in-microsoft-entra-id). 
+A BitLocker recovery key for the device is required To start a device reset from WinRE. For instructions on how to get the key, see [Self-recovery in Microsoft Entra ID](/windows/security/operating-system-security/data-protection/bitlocker/recovery-process#self-recovery-in-microsoft-entra-id). 
 
 <!-- ########################## -->
 ## Next steps
