@@ -88,7 +88,7 @@ Other devices in the above classes may be compatible with Windows 365 Link.
 - Dell U2722DE
 - Dell U2724DE
 - Samsung F24T454GYN
-- Viewsonic VA2447-MH
+- ViewSonic VA2447-MH
 - ViewSonic(DFS) VG245
 - ViewSonic(DFS) VG275
 
