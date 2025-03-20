@@ -35,13 +35,11 @@ As part of the Positive Experience List (PEL) initiative, Microsoft engineering 
 
 Applications used to customize device behavior aren't supported on Windows 365 Link.
 
-## Device classes
+## Supported device classes
 
 Windows 365 Link uses class drivers for peripheral devices.
 
 Standard peripherals in the following device classes are supported. However, functionality may be limited.
-
-## Supported device classes
 
 - USB Audio
 - Bluetooth Audio
