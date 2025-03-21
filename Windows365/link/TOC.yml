@@ -13,6 +13,8 @@ items:
   items:
   - name: First time set up and sign in
     href: setup.md
+  - name: USB NFC smart card reader support
+    href: usb-nfc-reader-support.md
   - name: Daily usage
     items:
     - name: Sign in
