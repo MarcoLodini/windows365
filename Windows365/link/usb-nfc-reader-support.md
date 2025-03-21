@@ -35,7 +35,7 @@ Windows 365 Link supports USB-CCID (Chip Card Interface Device) compatible near-
 
 - Are compatible with the chip card interface device (CCID)  USB protocol.
 - Have USB base class **0b** and subclass **00**.
-- Use NFC Client to Authenticator Protocal (CTAP) for FIDO2 sign in.
+- Use NFC Client to Authenticator Protocol (CTAP) for FIDO2 sign in.
 - Don’t require a third-party driver (either from Windows Update or through manual driver installation)
 - Work on a Windows Desktop with the inbox CCID driver.
 
@@ -60,7 +60,7 @@ Whether you sign into a device you used before or a new device, follow these ste
 
 1. On the landing page, select the USB icon.
 2. After you see the sign in prompt **Tap your security key on the reader or insert it into the USB port**, tap your key on the NFC reader.
-3. Type your security key PIN (if required).
+3. Type your security key PIN (if necessary).
 4. Type the FIDO PIN and press the enter key.
 5. Tap and hold the FIDO token against the reader.
 6. You’re signed in.
