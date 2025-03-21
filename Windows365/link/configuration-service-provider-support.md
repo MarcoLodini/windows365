@@ -4,7 +4,7 @@ title: Supported configuration service provider policies for Windows 365 Link
 titleSuffix:
 description: Learn about the supported configuration service provider policies for Windows 365 Link
 keywords:
-author: ErikjeMS  
+author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 04/02/2025
@@ -31,10 +31,10 @@ ms.collection:
 
 # Supported configuration service provider policies for Windows 365 Link
 
-Windows 365 Link runs a small purpose-built Windows based operating system called Windows CPC.  Because of this, device configuration for Windows 365 Link follows the same process as Windows in general with two main differences.
+Windows 365 Link runs a small purpose-built Windows based operating system called Windows CPC. Therefore, device configuration for Windows 365 Link follows the same process as Windows in general with two main differences.
 
 - Windows 365 Link can only be Entra joined, so Active Directory Group Policy isn’t supported for the device.
-- Windows 365 Link supports a subset of  Windows Configuration Service Provider (CSP) policies.
+- Windows 365 Link supports a subset of Windows Configuration Service Provider (CSP) policies.
 
 There are no new CSPs or policies specific for the Windows 365 Link.
 
@@ -44,7 +44,7 @@ While a CSP in general may be supported, specific policies within it may cover f
 
 - [Audit](/windows/client-management/mdm/policy-csp-audit)
 - [Authentication](/windows/client-management/mdm/policy-csp-authentication)
-- [Bitlocker](/windows/client-management/mdm/policy-csp-bitlocker)
+- [BitLocker](/windows/client-management/mdm/policy-csp-bitlocker)
 - [Bluetooth](/windows/client-management/mdm/policy-csp-bluetooth)
 - [Camera](/windows/client-management/mdm/policy-csp-camera)
 - [CloudDesktop](/windows/client-management/mdm/policy-csp-clouddesktop)
