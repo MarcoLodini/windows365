@@ -31,11 +31,11 @@ ms.collection:
 
 # USB NFC smart card reader support
 
-Windows 365 Link supports t USB-CCID (Chip Card Interface Device) compatible near-field communication (NFC) FIDO2 smart card readers that:
+Windows 365 Link supports USB-CCID (Chip Card Interface Device) compatible near-field communication (NFC) FIDO2 smart card readers that:
 
 - Are compatible with the chip card interface device (CCID)  USB protocol.
 - Have USB base class **0b** and subclass **00**.
-- Use NFC CTAP for FIDO2 sign in.
+- Use NFC Client to Authenticator Protocal (CTAP) for FIDO2 sign in.
 - Don’t require a third-party driver (either from Windows Update or through manual driver installation)
 - Work on a Windows Desktop with the inbox CCID driver.
 
@@ -48,19 +48,19 @@ There are two ways to check if your NFC reader is compatible with Windows 365 Li
 - Refer to the documentation provided by the reader's manufacturer.
 - Use the Device Manager on your PC:
   1. Plug in the USB NFC reader to a Windows PC (not Windows 365 Link).
-  2. In Device Manager, locate the reader device,right-click on it, and select **Properties**.
+  2. In Device Manager, locate the reader device, right-click on it, and select **Properties**.
   3. In the **Details** tab, select **Compatible Ids** properties.
   4. The reader is compatible if **USB\Class_0b&SubClass_00** is in the list.
 
 ![Screencap of smartcard reader properties.](media/usb-nfc-support/smartcard-reader-properties.png)
 
-## Sign in with a NFC Reader
+## Sign in with an NFC Reader
 
 Whether you sign into a device you used before or a new device, follow these steps to sign in with an NFC reader:
 
-1. On the landing page select the USB icon.
-2. After you see the sign in prompt **Tap your security key on the reader or insert it into the USB port**,tap your key on the NFC reader.
-3. Type your security key PIN (iff required).
+1. On the landing page, select the USB icon.
+2. After you see the sign in prompt **Tap your security key on the reader or insert it into the USB port**, tap your key on the NFC reader.
+3. Type your security key PIN (if required).
 4. Type the FIDO PIN and press the enter key.
 5. Tap and hold the FIDO token against the reader.
 6. You’re signed in.
