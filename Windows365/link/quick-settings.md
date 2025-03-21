@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -58,6 +58,18 @@ To see the accessibility options, on the **Sign in** screen, select the **Access
 | Display | Change the scale for you display and set two monitor arrangement. |
 | Privacy and Security | View privacy and security settings for your Location, Camera, and microphone. Not in OOBE.|
 | Power button | View power management options for the device. |
+
+## Shortcuts
+
+You can also connect to the Display and Bluetooth quick settings from within the Cloud PC session using shortcuts.
+
+To access these experiences:
+
+1. Sign into your Cloud PC session.
+2. Open the Settings app.
+3. Navigate to the **Display** page or the **Bluetooth** page.
+4. Select the **Open Additional Settings** button.
+5. Make your desired changes on the quick settings control that appears.
 
 <!-- ########################## -->
 ## Next steps

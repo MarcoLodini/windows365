@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS 
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -79,7 +79,7 @@ Also consider suppressing the SSO Consent Prompt by configuring the SSO on servi
 
 ## Microsoft Teams requirements
 
- Windows 365 Link devices can only use the VDI solution for Teams for media optimizations. These optimizations are pre-installed as part of the Windows 365 Link's operating system. Check the Microsoft Teams PowerShell policy for optimization to ensure that the users signing in to Windows 365 Link devices are in scope for the new VDI policy.
+ Windows 365 Link devices can only use the VDI solution for Teams (VDI 2.0) for media optimizations. These optimizations are pre-installed as part of the Windows 365 Link's operating system. Check the Microsoft Teams PowerShell policy for optimization to ensure that the users signing in to Windows 365 Link devices are in scope for the new VDI policy. For more inoformation, see [New VDI solution for Teams](/MicrosoftTeams/vdi-2).
 
 ## Network Requirements
 

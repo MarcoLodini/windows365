@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -52,10 +52,9 @@ A Device Enrollment Manager is still subject to the limit on the number of devic
 
 Using this DEM account on onboard Windows 365 Link devices:
 
-- Enrolls the Windows 365 Link devices in a shared device mode.
 - Bypasses Intune enrollment restrictions for platforms and device limits that may be in place.
 - Doesn't require any changes to allow personal Windows devices.
-- Doesn't designate a primary user of the device. With no primary user, the Windows 365 Link doesn't appear in a user's list of devices in Intune, Entra, Company Portal, or other places.
+- Sets the DEM account as the primary user for the device.
 
 To set up a DEM account to onboard Windows 365 Link devices, follow these steps:
 
@@ -84,7 +83,7 @@ Rather than having an administrative person onboard each Windows 365 Link, users
 To use this onboarding method, make sure each user:
 
 - Has the required licensing (Microsoft Entra Premium, Intune, Windows, and so on).
-- Has permissions to join devices to Microsoft Entra IP.
+- Has permissions to join devices to Microsoft Entra ID.
 - Doesn't exceed the maximum number of devices that can be joined.
 - Isn't blocked from Intune enrollment by any restrictions or device limits.
 - Has a Cloud PC provisioned and consented to single sign-on.

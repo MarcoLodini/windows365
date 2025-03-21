@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -108,7 +108,13 @@ Operating system updates occur automatically during off hours. To get these upda
 | Storage | 64 GB UFS |
 | Wi-Fi | WiFi 6E |
 | Bluetooth | 5.3 |
-| USB | USB-C, 2 USB-A |
+| USB-A | One front-facing (USB 3.2 Gen 1, 4.5W), two rear-facing (USB 3.2, Gen 2, 4.5W) |
+| USB-C | One rear-facing (USB 3.2, with DP Alt MOde, 7.5 W) |
+| Ethernet | 1.0 Gbit/s |
+| HDMI | 2.0b |
+| Display port | 1.4a |
+
+For information about energy efficiency, see [Energy efficiency](https://www.microsoft.com/en-us/legal/compliance/energy).
 
 <!-- ########################## -->
 ## Next steps
