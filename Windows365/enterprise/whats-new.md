@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 02/26/2025
+ms.date: 03/20/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,30 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+<!-- ########################## -->
+## Week of March 17, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Redirection performance improvement<!--56160356-->
+
+Admins now have the option to configure performance improvements for Windows App on Windows operating systems drive redirection. For more information, see [Configure fixed, removable, and network drive redirection over the Remote Desktop Protocol](/azure/virtual-desktop/redirection-configure-drives-storage?tabs=intune&pivots=windows-365).
+
+<!-- ########################## -->
+## Week of March 10, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Provisioning
+
+#### Windows 365 support for Mexico Central<!--54919656-->
+
+Windows 365 Enterprise now supports the Mexico Central region in the Central America geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+
+#### Windows 365 support for Spain Central<!--54919607-->
+
+Windows 365 Enterprise now supports the Spain Central region in the European Union geography. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
 
 <!-- ########################## -->
 ## Week of February 26, 2025 (Service release 2502)

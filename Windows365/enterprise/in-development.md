@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 03/04/2025
+ms.date: 03/19/2025
 ms.topic: whats-new
 ms.service: windows-365
 
@@ -61,32 +61,39 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
 
 <!-- ***********************************************-->
-<!--## Device security-->
+## Device security
+
+### Windows 365 Government support for Microsoft Purview Customer Key<!--48232935-->
+
+Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft Purview Customer Key. For more information, see [Service encryption with Microsoft Purview Customer Key](/purview/customer-key-overview).
 
 <!--***********************************************-->
 <!-- ## End user experience -->
 
 <!-- ***********************************************-->
-<!--## Miscellaneous
--->
+## Miscellaneous
+
+### More regions adding to global TURN relay support<!--56400921-->
+
+TURN relay support will be improved by expanding from 14 to over 40 regions globally. This expansion will reduce latency and improve connection reliability by serving users from more diverse locations. The dedicated IP range for WCX traffic, separate from the ACS TURN relay, will optimize and isolate traffic for AVD and Windows 365. This will let customers bypass certain network restrictions and enhance the quality and speed of WCX traffic.
 
 <!-- ***********************************************-->
 ## Monitor and troubleshoot
 
 ### End user manual connectivity check<!--37679345 -->
 
-End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com). 
+End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com).
+
+### Health status for Cloud PC restore point<!--56539504-->
+
+Admins will be able to see the health status of Cloud PC restore points before deciding to start a restore.
 
 <!-- ***********************************************-->
 ## Provisioning
 
-### Windows 365 support for Spain Central region<!--54919607-->
+### Credential Guard and HVCI enabled by default<!--554824970-->
 
-Windows 365 Enterprise will support the Spain Central region. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
-
-### Windows 365 support for Mexico Central region<!--54919656-->
-
-Windows 365 Enterprise will support the Mexico Central region. For more information, see [Supported Azure regions for Cloud PC provisioning](requirements.md?tabs=enterprise%2Cent#supported-azure-regions-for-cloud-pc-provisioning).
+In a future update, newly provisioned and reprovisioned Cloud PCs will have Virtualization-based Security (VBS), Hypervisor-protected Code Integrity (HVCI), and Credential Guard enabled by default.
 
 <!-- ***********************************************-->
 <!--## Security-->
@@ -102,13 +109,16 @@ When in Windows 365 Boot mode (Windows 11 only), users will be able to switch ba
 - Cloud PC error screens
 Administrators will be able to configure and customize this feature within the Guided Scenario for Boot.
 
-
 <!-- ***********************************************-->
 ## Windows 365 Frontline
 
 ### Concurrency buffer usage alert<!--54902162-->
 
 You’ll be able to set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.
+
+### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
+
+Admins will be able to resize Windows 365 Frontline Cloud PCs in designated mode.
 
 ## Next steps
 
