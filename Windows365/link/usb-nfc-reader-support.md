@@ -61,7 +61,7 @@ Whether you sign into a device you used before or a new device, follow these ste
 1. On the landing page, select the USB icon.
 2. After you see the sign in prompt **Tap your security key on the reader or insert it into the USB port**, tap your key on the NFC reader.
 3. Type your security key PIN (if necessary).
-4. Type the FIDO PIN and press the enter key.
+4. Type the FIDO PIN and press Enter on your keyboard.
 5. Tap and hold the FIDO token against the reader.
 6. You’re signed in.
 
