@@ -34,7 +34,7 @@ ms.collection:
 Windows 365 Link runs a small purpose-built Windows based operating system called Windows CPC. Therefore, device configuration for Windows 365 Link follows the same process as Windows in general with two main differences.
 
 - Windows 365 Link can only be Entra joined, so Active Directory Group Policy isn’t supported for the device.
-- Windows 365 Link supports a subset of Windows Configuration Service Provider (CSP) policies.
+- Windows 365 Link supports a subset of Windows configuration service provider (CSP) policies.
 
 There are no new CSPs or policies specific for the Windows 365 Link.
 
