@@ -74,4 +74,4 @@ To access these experiences:
 <!-- ########################## -->
 ## Next steps
 
-[Learn about the options in the control + alt + delete meneu](control-alt-delete.md).
+[Learn about the options in the control + alt + delete menu](control-alt-delete.md).

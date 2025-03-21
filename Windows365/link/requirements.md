@@ -53,7 +53,7 @@ For more information, see [Join Windows 365 Link to Microsoft Entra](join-micros
 
 Windows 365 Link devices enroll for management with Intune during the Out of Box Experience (OOBE). The user performing enrollment must have permission to enroll the devices and comply with any defined Enrollment restrictions.
 
-Optionally, Windows 365 Link devices can be used with the Intune corporate identifier enrollment feature to pre-upload the serial number, manufacturer, model to ensure only trusted devices go through enrollment.
+Optionally, Windows 365 Link devices can be used with the Intune corporate identifier enrollment feature to preupload the serial number, manufacturer, model to ensure only trusted devices go through enrollment.
 
 For more information, see [Automatically enroll Windows 365 Link in Intune](intune-automatic-enrollment.md).
 
@@ -79,7 +79,7 @@ Also consider suppressing the SSO Consent Prompt by configuring the SSO on servi
 
 ## Microsoft Teams requirements
 
- Windows 365 Link devices can only use the VDI solution for Teams (VDI 2.0) for media optimizations. These optimizations are pre-installed as part of the Windows 365 Link's operating system. Check the Microsoft Teams PowerShell policy for optimization to ensure that the users signing in to Windows 365 Link devices are in scope for the new VDI policy. For more inoformation, see [New VDI solution for Teams](/MicrosoftTeams/vdi-2).
+ Windows 365 Link devices can only use the Virtualized Desktop Infrastructure (VDI) solution for Teams (VDI 2.0) for media optimizations. These optimizations are preinstalled as part of the Windows 365 Link's operating system. Check the Microsoft Teams PowerShell policy for optimization to ensure that the users signing in to Windows 365 Link devices are in scope for the new VDI policy. For more information, see [New VDI solution for Teams](/MicrosoftTeams/vdi-2).
 
 ## Network Requirements
 

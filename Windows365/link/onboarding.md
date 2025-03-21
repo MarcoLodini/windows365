@@ -33,22 +33,22 @@ ms.collection:
 
 After [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you can decide how you want to onboard the devices to your organization's environment.
 
-Windows 365 Link devices are designed to be shared. The first time a Windows 365 Link boots it loads the Out of Box Experience (OOBE) to guide a user through a simplified process that joins the device to Entra ID and enrolls into Intune management. After this process completes, the device shows only the sign-in screen for any user to authenticate and connect to their own Cloud PC.
+Windows 365 Link devices are designed for sharing. The first time a Windows 365 Link boots it loads the Out of Box Experience (OOBE) to guide a user through a simplified process that joins the device to Entra ID and enrolls into Intune management. After this process completes, the device shows only the sign-in screen for any user to authenticate and connect to their own Cloud PC.
 
-With the right permissions, a standard user can onboard Windows 365 Link devices using the OOBE process. Alternatively, you can choose to have admins onboard Windows 365 Link devices and complete the onboarding before delivering the devices to users.  You can have admins onboard some devices and users onboard others. To help you decide, consider the following recommendations:
+With the right permissions, a standard user can onboard Windows 365 Link devices using the OOBE process. Alternatively, you can choose to have admins onboard Windows 365 Link devices and complete the onboarding before delivering the devices to users. You can have admins onboard some devices and users onboard others. To help you decide, consider the following recommendations:
 
 | Considerations | Admin driven onboarding | User driven onboarding |
 | --- | --- | --- |
-| The device will be used by different users. | Yes |  |
-| The device will be used by one user. |  | Yes |
+| The device is for multiple different users. | Yes |  |
+| The device is for one user. |  | Yes |
 | Users aren't allowed to join or register devices.  | Yes |  |
 | Devices are shipped directly to users. |  | Yes |
 
 ## Admin driven onboarding
 
-When onboarding devices shared by multiple users, you can use an account that is designated as a [Device Enrollment Manager](/mem/intune/enrollment/device-enrollment-manager-enroll) (DEM). This account doesn't need admin privileges in the tenant but is allowed to enroll up to 1000 devices in Intune.
+When onboarding devices shared by multiple users, you can use an account that is designated as a [Device Enrollment Manager](/mem/intune/enrollment/device-enrollment-manager-enroll) (DEM). This account doesn't need admin privileges in the tenant but is allowed to enroll up to 1,000 devices in Intune.
 
-A Device Enrollment Manager is still subject to the limit on the number of devices that can be joined to Entra ID. For more information, see [Join Windows 365 Link to Microosft Entra](join-microsoft-entra.md). Consider increasing the **Maximum number of devices per user** to a value you expect a DEM to enroll.
+A Device Enrollment Manager is still subject to the limit on the number of devices that can be joined to Entra ID. For more information, see [Join Windows 365 Link to Microsoft Entra](join-microsoft-entra.md). Consider increasing the **Maximum number of devices per user** to a value you expect a DEM to enroll.
 
 Using this DEM account on onboard Windows 365 Link devices:
 
@@ -59,7 +59,7 @@ Using this DEM account on onboard Windows 365 Link devices:
 To set up a DEM account to onboard Windows 365 Link devices, follow these steps:
 
 1. Create an account to use for Windows 365 Link device onboarding.
-2. Assign the required licensing (Microsoft Entra Premium, Intune, Windows, and so on ).
+2. Assign the required licensing (like Microsoft Entra Premium, Intune, and Windows).
 3. Make sure the user has permissions to join devices to Microsoft Entra ID.
 4. Add the user to the list of Device Enrollment Managers.
 5. To validate connectivity, provision a Cloud PC for this DEM account.
