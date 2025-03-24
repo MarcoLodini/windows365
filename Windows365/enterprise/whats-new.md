@@ -202,7 +202,7 @@ Windows 365 Enterprise now supports the Israel Central region in the Middle East
 
 #### Windows 365 Frontline in shared mode (preview)<!--52583422-->
 
-Windows 365 Frontline in shared mode gives you the ability to provision a collection of Cloud PCs that can be used across multiple users mapped to a Microsoft Entra ID group. One active Cloud PC is permitted per license. For more information, see [Windows 365 Frontline in shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode-preview).
+Windows 365 Frontline in shared mode gives you the ability to provision a collection of Cloud PCs that can be used across multiple users mapped to a Microsoft Entra ID group. One active Cloud PC is permitted per license. For more information, see [Windows 365 Frontline in shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
