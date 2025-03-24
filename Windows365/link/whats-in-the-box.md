@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -31,7 +31,7 @@ ms.collection:
 
 # What's in the box
 
-When you unbox your Windows 365 Link, you'll find the following hardware, software, and network and peripheral support.
+When you unbox your Windows 365 Link, you find the following hardware, software, and network and peripheral support.
 
 ## Hardware
 
@@ -48,7 +48,7 @@ The Windows 365 Link has the following ports:
 #### Front panel
 
 - USB-A
-- 3.5 mm audio jack
+- - mm audio jack
 - Power button and LED indicator
 
 ![Image of the Windows 365 Link device front.](media/overview/device-front.png)
@@ -91,7 +91,7 @@ USB and Bluetooth support for:
 
 ## Software
 
-The Windows 365 Link comes pre-installed with the Windows CPC operating system.
+The Windows 365 Link comes preinstalled with the Windows CPC operating system.
 
 Operating system updates occur automatically during off hours. To get these updates, make sure the device is plugged in and powered on (in standby or sleep mode).
 
@@ -108,7 +108,13 @@ Operating system updates occur automatically during off hours. To get these upda
 | Storage | 64 GB UFS |
 | Wi-Fi | WiFi 6E |
 | Bluetooth | 5.3 |
-| USB | USB-C, 2 USB-A |
+| USB-A | One front-facing (USB 3.2 Gen 1, 4.5 W), two rear-facing (USB 3.2, Gen 2, 4.5 W) |
+| USB-C | One rear-facing (USB 3.2, with DP Alt Mode, 7.5 W) |
+| Ethernet | 1.0 Gbit/s |
+| HDMI | 2.0b |
+| Display port | 1.4a |
+
+For information about energy efficiency, see [Energy efficiency](https://www.microsoft.com/en-us/legal/compliance/energy).
 
 <!-- ########################## -->
 ## Next steps
