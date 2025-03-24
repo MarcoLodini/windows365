@@ -51,7 +51,7 @@ Security is on by default with Windows 365 Link and includes the following featu
 
 ## Minimal software footprint
 
-Windows 365 Link has a small, purpose-built Windows-based operating system called Windows CPC with features that help reduce the attack surface. This operating system includes only the essential components needed to securely authenticate users against Entra ID and connect them to their Windows 365 Cloud PC. To help reduce the attack surface, these features are enabled by default and can’t be turned off:
+Windows 365 Link has a small, purpose-built Windows-based operating system called Windows CPC with features that help reduce the attack surface. This operating system includes only the essential components needed to securely authenticate users against Entra ID and connect them to their Windows 365 Cloud PC. To help reduce the attack surface, these features are enabled by default and can’t be turned off: 
 
 - Applicable security baseline policies, which remove the need to define and apply such configurations to the endpoint.
 - Driver security. Only standard Windows class drivers and OEM-installed drivers are allowed to execute. Automatic driver acquisition is disabled.
