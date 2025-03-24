@@ -75,17 +75,17 @@ If the Windows 365 Link sign-in screen doesn’t show two icons (a security key 
 ### Using FIDO2 security key
 
 1. To start the FIDO2 security key sign in process, you can either:
-2. Insert the security key into the USB port. Windows 365 Link automatically switches to this credential provider and prompts you to enter your PIN. 
-  
+
+- Insert the security key into the USB port. Windows 365 Link automatically switches to this credential provider. 
 - Select the security key icon.
 
-3. In the prompt, enter your PIN.
-4. When prompted, touch the security key to prove presence.
-5. Access to the Windows 365 Link is granted and you’re connected to your Cloud PC.
+2. In the prompt, enter your PIN.
+3. When prompted, touch the security key to prove presence.
+4. The sign-in process completes and you’re connected to your Cloud PC.
 
 ### Multiple Microsoft Entra accounts on one FIDO2 security key
 
-If a FIDO2 security key contains more than one Microsoft Entra account, the last account added to the FIDO2 security key is automatically selected for sign-in or unlocking.
+If a FIDO2 security key contains more than one Microsoft Entra account, the last account added to the FIDO2 security key is automatically selected for sign-in or unlocking using this credential provider.
 
 If supporting a security key containing multiple keys is a required scenario and you want to avoid the forced key selection, you can instead use the Web sign-in credential provider. In this case, select security key when prompted for the authentication method. This option lets you select a specific Microsoft Entra account on the FIDO2 security key.
 
