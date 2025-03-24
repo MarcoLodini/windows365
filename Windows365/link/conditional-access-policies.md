@@ -31,23 +31,23 @@ ms.collection:
 
 # Conditional Access policies for Windows 365 Link
 
-As part of [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you must make sure that your Conditional Access policies accommodate both the login through and connection from Windows Cloud PC devices. If Conditional Access is used to protect the resources used to access Windows 365 Cloud PCs as described in [Set conditional access policies for Windows 365](/windows-365/enterprise/set-conditional-access-policies), another Conditional Access policy must also be used to protect the user action to register or join devices. Failure to create this second policy may cause Windows 365 Link authentication to fail.
+As part of [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you must make sure that your Conditional Access policies accommodate both the login through and connection from Windows Cloud PC devices. If Conditional Access is used to protect resources used to access Windows 365 Cloud PCs as described in [Set conditional access policies for Windows 365](/windows-365/enterprise/set-conditional-access-policies), another Conditional Access policy must also be used to protect the user action to register or join devices. Failure to create this second policy may cause Windows 365 Link authentication to fail.
 
 To decide if you need a user action policy, follow these steps:
 
-1. Check if any polices are triggered when connecting to Winodws 365 resources.
+1. Check if any polices are triggered when connecting to Windows 365 resources.
 2. Create a new user action policy with the same access controls.
 
 ## How Windows Windows 365 Link authentication works
 
 Windows 365 Cloud PC devices authenticate in two consecutive stages:
 
-1. Interactive sign-in: When the user signs in on the Windows 365 Link sign in screen, it can trigger Conditional Access polices applied to Register or Join devices actions. Users can be shown messages or get challenged for stronger, multifactor authentication methods. This stage generates the token that is used in the second stage.
-2. Non-interactive connections to Cloud PC resources using single sign-on: This stage can trigger Conditional Access polices on resources like **Windows 365**, **Windows Cloud Login**, and **All resources**. Users can't be prompted or challenged in this stage. If stronger authentication is needed, the connection is interrupted, and the user is shown an error that an interactive window can't be shown.
+1. Interactive sign-in: When the user signs in on the Windows 365 Link sign in screen, it can trigger Conditional Access policies applied to Register or Join devices actions. Users can be shown messages or get challenged for stronger, multifactor authentication methods. This stage generates the token that is used in the second stage.
+2. Non-interactive connections to Cloud PC resources using single sign-on: This stage can trigger Conditional Access policies on resources like **Windows 365**, **Windows Cloud Login**, and **All resources**. Users can't be prompted or challenged in this stage. If stronger authentication is needed, the connection is interrupted, and the user is shown an error that an interactive window can't be shown.
 
 ## Review existing policies
 
-You can use the **What if** tool to determine if any Conditional Access policies are applied to relevant Windows 365 Resources during the non-interactive connection stage.  This includes a policy that is applied to **All resources** (formerly **All cloud apps**). 
+You can use the **What if** tool to determine if any Conditional Access policies are applied to relevant Windows 365 Resources during the non-interactive connection stage. This includes a policy that is applied to **All resources** (formerly **All cloud apps**).
 
 1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Policies** > **What if**.
 2. For **User or Workload identity** select a user to test with.
@@ -66,7 +66,7 @@ Review each of the **Policies that will apply** and determine the access control
 
 Using the information you gathered from the **What if** tool in the previous section, you can now create a new Conditional Access policy to require the same controls for the sign-in stage.
 
-1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Polices** > **New policy**
+1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Policies** > **New policy**
 2. Give your policy a name. Consider using a meaningful standard for policy names.
 3. Under **Assignments** > **Users**, select **0 users and groups selected**.
 4. Under **Include**, select **All users** or select a group of users who will sign-in through Windows 365 Link devices.
