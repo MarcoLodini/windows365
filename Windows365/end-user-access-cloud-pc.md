@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 01/06/2025
+ms.date: 04/02/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice:
@@ -33,7 +33,7 @@ ms.collection:
 
 Users can access their Cloud PCs in accordance with the matrix below:
 
-| Windows 365 Edition | [Windows App](/windows-app/overview) | [windows365.microsoft.com](https://Windows365.microsoft.com) web client | [Microsoft Remote Desktop](#remote-desktop) | [LG Web OS](#lg-webos-23) |
+| Windows 365 Edition | [Windows App](/windows-app/overview) | [windows.cloud.microsoft](https://windows.cloud.microsoft) web client | [Microsoft Remote Desktop](#remote-desktop) | [LG Web OS](#lg-webos-23) |
 |--|--|--|--|--|
 | Windows 365 Business | X | X | X | X |
 | Windows 365 Enterprise | X | X | X | X |
