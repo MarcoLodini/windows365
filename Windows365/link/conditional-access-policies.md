@@ -35,7 +35,7 @@ As part of [setting up your organization's environment to support Windows 365 Li
 
 To decide if you need a user action policy, follow these steps:
 
-1. Check if any polices are triggered when connecting to Windows 365 resources.
+1. Check if any policies are triggered when connecting to Windows 365 resources.
 2. Create a new user action policy with the same access controls.
 
 ## How Windows Windows 365 Link authentication works
