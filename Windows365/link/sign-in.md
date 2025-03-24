@@ -56,11 +56,11 @@ Lock the device using any of these methods:
 - In your Cloud PC, select start > **Power** > **Disconnect**.\*
 - In your Cloud PC, select start > **Power** > **Lock**.\*
 
-\* These methods lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differnetly).
+\* These methods lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differently).
 
-After locking the device, the user is redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again.
+After the user locks the device, the user is redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again.
 
-If Windows 365 Link is locked, the current signed in user’s connection to their Cloud PC is maintained until Cloud PC’s configured idle timeout expires. Within this time window, if the user unlocks Windows 365 Link by completing the authentication experience again, they are taken directly on their Cloud PC without the need for re-establishing the connection.
+If Windows 365 Link is locked, the current signed in user’s connection to their Cloud PC is maintained until Cloud PC’s idle time-out expires. Within this time window, if the user unlocks Windows 365 Link by completing the authentication experience again, they're taken directly on their Cloud PC without the need for re-establishing the connection.
 
 ## Data
 
