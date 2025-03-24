@@ -7,10 +7,14 @@ items:
     href: overview.md
   - name: What's in the box
     href: whats-in-the-box.md
+  - name: Tested peripherals
+    href: tested-peripherals-windows-365-link.md
 - name: Using your Windows 365 Link
   items:
   - name: First time set up and sign in
     href: setup.md
+  - name: USB NFC smart card reader support
+    href: usb-nfc-reader-support.md
   - name: Daily usage
     items:
     - name: Sign in
@@ -41,6 +45,10 @@ items:
     href: security-overview.md
   - name: Supported configuration service providers
     href: configuration-service-provider-support.md
+  - name: Sign-in methods
+    href: sign-in-methods.md
+  - name: Wipe or reset Windows 365 Link
+    href: wipe-reset-windows-365-link.md
 - name: Troubleshooting
   items:
   - name: Known issues
