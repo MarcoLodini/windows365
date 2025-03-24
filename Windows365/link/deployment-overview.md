@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.localizationpriority: high
@@ -41,7 +41,6 @@ To set up your organization's environment to deploy and manage Windows 365 Link 
 4. [Create an Intune filter for Windows 365 Link devices](create-intune-filter.md) (optional).
 5. [Configure enrollment restrictions to let Windows 365 Link devices enroll](enrollment-restrictions.md).
 6. [Validate Conditional Access policies](conditional-access-policies.md).
-7. [Suppress single sign-on consent prompt](single-sign-on-suppress.md) (recommended).
 
 After setting up deployment for your Windows 365 Link devices, you can start [onboarding](onboarding.md) them.
 
