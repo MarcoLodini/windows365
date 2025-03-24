@@ -44,7 +44,7 @@ Built on a secure-by-design foundation with default patterns, Windows 365 Link s
 Security is on by default with Windows 365 Link and includes the following features which can’t be disabled.
 
 - A discrete [Trusted Platform Module](/windows/security/hardware-security/tpm/trusted-platform-module-overview) (TPM) 2.0 chip establishing a hardware root of trust that supports other security features like BitLocker and App Control.
-- Silicon-assisted security features like [Virtualization-based Security](/windows-hardware/design/device-experiences/oem-vbs) (VBS) and [hypervisor-protected code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity?tabs=security) (HVCI). This feature helps protect the kernal from laicious code injection.
+- Silicon-assisted security features like [Virtualization-based Security](/windows-hardware/design/device-experiences/oem-vbs) (VBS) and [hypervisor-protected code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity?tabs=security) (HVCI). This feature helps protect the kernal from malicious code injection.
 - Windows 365 Link follows the Unified Extensible Firmware Interface (UEFI) Secure Boot standard. This standard helps ensure only authorized firmware and software with trusted digital signatures can execute.
 - [BitLocker](/windows/security/operating-system-security/data-protection/bitlocker/) is enabled during setup.
 - [Application Control](/windows/security/application-security/application-control/app-control-for-business/) code integrity policies, which can’t be modified, and allow only necessary software to execute.
