@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/10/2025
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -43,17 +43,28 @@ When you want to use the Windows 365 Link, complete the following steps to sign 
 To sign out of your Windows 365 Link:
 
 1. Press control-alt-delete.
-1. Select **Sign out**.
+2. Select **Sign out**.
+
+Signing out disconnects the current signed in user from their Cloud PC and brings Windows 365 Link back to the sign-in screen.
 
 ## Lock or disconnect your Windows 365 Link
 
-Lock the device by either of these methods:
+Lock the device using any of these methods:
 
 - Press the **Windows key + L** on your keyboard.
 - Select **Start** > **Power** > **Lock**.
-- In your Cloud PC, select start > **Power** > **Disconnect**.
+- In your Cloud PC, select start > **Power** > **Disconnect**.\*
+- In your Cloud PC, select start > **Power** > **Lock**.\*
 
-After locking the device, the user will be redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again. Your data and account information aren't stored on the Windows 365 Link. If someone else signs into their account on the Windows 365 Link, the previous user's Cloud PC connection is automatically disconnected.
+\* These methods lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differnetly).
+
+After locking the device, the user is redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again.
+
+If Windows 365 Link is locked, the current signed in user’s connection to their Cloud PC is maintained until Cloud PC’s configured idle timeout expires. Within this time window, if the user unlocks Windows 365 Link by completing the authentication experience again, they are taken directly on their Cloud PC without the need for re-establishing the connection.
+
+## Data
+
+Your data and account information aren't stored on the Windows 365 Link. If someone else signs into their account on the Windows 365 Link, the previous user's Cloud PC connection is automatically disconnected and the new user has no access to the previous user's data.
 
 ## Multiple Cloud PCs
 
