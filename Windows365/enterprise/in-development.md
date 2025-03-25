@@ -75,7 +75,7 @@ Windows 365 Government will support encrypting Cloud PCs by setting up Microsoft
 
 ### More regions adding to global TURN relay support<!--56400921-->
 
-TURN relay support will be improved by expanding from 14 to over 40 regions globally. This expansion will reduce latency and improve connection reliability by serving users from more diverse locations. The dedicated IP range for WCX traffic, separate from the ACS TURN relay, will optimize and isolate traffic for AVD and Windows 365. This will let customers bypass certain network restrictions and enhance the quality and speed of WCX traffic.
+TURN relay support will be improved by expanding from 14 to over 40 regions globally. This expansion will reduce latency and improve connection reliability by serving users from more diverse locations. The dedicated IP range for Windows 365 traffic, separate from the ACS TURN relay, will optimize and isolate traffic for AVD and Windows 365. This will let customers bypass certain network restrictions and enhance the quality and speed of Windows 365 traffic.
 
 <!-- ***********************************************-->
 ## Monitor and troubleshoot
