@@ -10,6 +10,9 @@ ms.custom: include file
 ---
 
 11. Select **Next**.
+
 12. On the **Scope tags** page, select the scope tags that you want > **Next**.
+
 13. On the **Assignments** page, add the groups that you want to provide Frontline Cloud PCs > **Next**.
+
 14. On the **Review + create** page, select **Create**.
