@@ -73,9 +73,13 @@ Idle session time limits define how long until a user is automatically disconnec
 Disconnect session time limits are the time until the user is automatically signed-out from the Frontline Cloud PC.
 
 [!INCLUDE [Time limits first steps](../includes/time-limits-first-steps.md)]
-1. Select the box for **Set time limit for disconnected sessions**.
-1. Under **Create profile**, expand **Administrative Templates** > enable **Set time limit for disconnected sessions**.
-1. For **End a disconnected session (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC is disconnected for this period of time, the user is automatically signed out from the Cloud PC.
+
+8. Select the box for **Set time limit for disconnected sessions**.
+
+9. Under **Create profile**, expand **Administrative Templates** > enable **Set time limit for disconnected sessions**.
+
+10. For **End a disconnected session (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC is disconnected for this period of time, the user is automatically signed out from the Cloud PC.
+
 [!INCLUDE [Time limits last steps](../includes/time-limits-last-steps.md)]
 
 <!-- ########################## -->
