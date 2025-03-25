@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 08/05/2024
+ms.date: 03/31/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -107,7 +107,6 @@ Windows 365 Boot supports [Windows Autopatch](/windows/deployment/windows-autopa
     - **Company logo URL**
     - **Lock screen image URL**
 
-
 ## Step 5 - Assignments
 
 Select the groups that you want to receive this guided scenario, and all the resources it creates. You can assign existing groups, or create new ones and assign them.
@@ -118,11 +117,17 @@ Select the groups that you want to receive this guided scenario, and all the res
 
 - **Choose an existing group**: Select an existing group. Your guided scenario resources are deployed to this group.
 
+You can also choose user groups to assign the physical device access policy to. This policy allows users to access the local desktop on the physical device by using the CTRL-ALT-DEL screen or any error screens. You can choose to apply the CTRL-ALT-DEL screen access, the error screen access, none, or both, to any user group. You can assign this policy to an existing group or create a new group for the policy.
+
+![Screenshot of Windows 365 Boot assignments tab.](./media/windows-365-boot-guide/assignments-tab.png)
+
 When you're done assigning groups, select **Next: Review + create**.
 
 You can complete the guided scenario before there are any devices in the group. When devices are added to the group, and have internet access, they automatically start receiving the policies in this guided scenario.
 
 You can also add preregistered Windows Autopilot devices to the group. Add them to the group before you enroll or apply any policies. For steps to set up new devices with Windows Autopilot, see [Windows 365 Boot physical device requirements](windows-365-boot-physical-device-requirements.md).
+
+
 
 ## Step 6 - Review + create
 
