@@ -42,7 +42,7 @@ Time limits help protect sensitive company data and add another layer of securit
 
 Windows 365 Frontline Cloud PCs in dedicated mode keep the user session active until:
 
-- The Cloud PC is idle for 30 minutes (default value). Two minutes before the idle timeout, the user is notified with a dialog box.
+- The Cloud PC is idle for 30 minutes (default value). Two minutes before the idle time limit, the user is notified with a dialog box.
 - The user signs off from the Cloud PC through the start menu.
 - The browser or Windows App is closed (causing the Cloud PC to disconnect).
 
@@ -65,7 +65,7 @@ Idle session time limits define how long until a user is automatically disconnec
 [!INCLUDE [Time limits first steps](../includes/time-limits-first-steps.md)]
 1. Select the box for **Set time limit for active but idle Remote Desktop Services session**.
 1. Under **Create profile**, expand **Administrative Templates** > enable **Set time limit for active but idle Remote Desktop Services sessions**.
-1. For **Idle session limit: (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC has been idle for this period of time, the Cloud PC is automatically disconnected.
+1. For **Idle session limit: (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC is idle for this period of time, the Cloud PC is automatically disconnected.
 [!INCLUDE [Time limits last steps](../includes/time-limits-last-steps.md)]
 
 ## Change disconnect session time limits
@@ -75,7 +75,7 @@ Disconnect session time limits are the time until the user is automatically sign
 [!INCLUDE [Time limits first steps](../includes/time-limits-first-steps.md)]
 1. Select the box for **Set time limit for disconnected sessions**.
 1. Under **Create profile**, expand **Administrative Templates** > enable **Set time limit for disconnected sessions**.
-1. For **End a disconnected session (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC has been disconnected for this period of time, the user is automatically signed out from the Cloud PC.
+1. For **End a disconnected session (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC is disconnected for this period of time, the user is automatically signed out from the Cloud PC.
 [!INCLUDE [Time limits last steps](../includes/time-limits-last-steps.md)]
 
 <!-- ########################## -->
