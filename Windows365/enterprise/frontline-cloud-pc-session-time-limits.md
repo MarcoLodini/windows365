@@ -63,11 +63,9 @@ If a user forgets to disconnect or sign out, it might block others from connecti
 Idle session time limits define how long until a user is automatically disconnected from a Windows 365 Frontline Cloud PC.
 
 [!INCLUDE [Time limits first steps](../includes/time-limits-first-steps.md)]
-
-1. Select the box for **Set time limit for active but idle Remote Desktop Services session**.
-1. Under **Create profile**, expand **Administrative Templates** > enable **Set time limit for active but idle Remote Desktop Services sessions**.
-1. For **Idle session limit: (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC is idle for this period of time, the Cloud PC is automatically disconnected.
-
+8. Select the box for **Set time limit for active but idle Remote Desktop Services session**.
+9. Under **Create profile**, expand **Administrative Templates** > enable **Set time limit for active but idle Remote Desktop Services sessions**.
+10. For **Idle session limit: (Device)**, select a time limit that meets your company's compliance requirements. When a Frontline Cloud PC is idle for this period of time, the Cloud PC is automatically disconnected.
 [!INCLUDE [Time limits last steps](../includes/time-limits-last-steps.md)]
 
 ## Change disconnect session time limits
