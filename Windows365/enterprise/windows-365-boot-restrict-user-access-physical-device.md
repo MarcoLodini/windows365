@@ -35,7 +35,7 @@ Windows 365 Boot physical devices are intended to let users interact with their 
 
 Windows 365 Boot doesn't automatically set these policies to fully restrict end users from accessing certain resources on the physical device. Admins should review the following CSPs and decide which ones to implement on the physical device to meet your organization's security requirements.
 
-A new CSP policy in [public preview](..\public-preview.md) is available. You can use this policy to further restrict devices automatically. For more information, see [TBS](whats-new.md).
+A new CSP policy in [public preview](..\public-preview.md) is available. You can use this policy to further restrict devices automatically.
 
 Using a configuration policy, you can also allow users to access the physical PC from the CTRL-ALT-DEL screen, Cloud PC error screens, or both.
 
@@ -46,23 +46,19 @@ Using the physical device access policy, you can allow users to access the physi
 - Sign in to their Cloud PC (during internet outages or Microsoft service outages).
 - Sign in to a Captive Wi-Fi.  
 
-Users can access the physical PC from the CTRL-ALT-DEL screen or error screens, configurable by the administrator. When a user selects **Return to physical PC sign in** button on either screen, they'll be taken to the sign-in screen on their physical device. To return to the Cloud PC sign-on page, users can lock or sign out of the physical PC.
+Users can access the physical PC from the CTRL-ALT-DEL screen or error screens, configurable by the administrator. When a user selects **Return to physical PC sign in** button on either screen, they're taken to the sign-in screen on their physical device. To return to the Cloud PC sign-on page, users can lock or sign out of the physical PC.
 
 For any group of users, you can choose whether users have access to the physical PC from the CTRL-ALT-DEL screen, error screens, both, or neither. **Neither** is the default. After the setting is changed, users can see the **Return to physical sign in** buttons.  
 
-Admins configure this policy using the Guided Scenario for Boot in the **Assignments** tab, or manually.For more information, see [Configuration service providers - User/EnablePhysicalDeviceAccessOnCtrlAltDel](/windows/client-management/mdm/clouddesktop-csp#userenablephysicaldeviceaccessonctrlaltdel) and [Configuration service proviers - User/EnablePhysicalDeviceAccessOnErrorScreens](/windows/client-management/mdm/clouddesktop-csp#userenablephysicaldeviceaccessonerrorscreens).
+Admins configure this policy using the Guided Scenario for Boot in the **Assignments** tab, or manually. For more information, see [Configuration service providers - User/EnablePhysicalDeviceAccessOnCtrlAltDel](/windows/client-management/mdm/clouddesktop-csp#userenablephysicaldeviceaccessonctrlaltdel) and [Configuration service providers - User/EnablePhysicalDeviceAccessOnErrorScreens](/windows/client-management/mdm/clouddesktop-csp#userenablephysicaldeviceaccessonerrorscreens).
 
-Access physical device from CTRL-ALT-DEL screen 
+Windows 365 Boot to Cloud supports the physical device access policy on the following versions of Windows and later:
 
-Access physical device from error screens  
-
-Windows 365 Boot to Cloud supports the Physical device access policy on the following versions of Windows and later: 
-
-KB5043145 (OS Builds 22621.4249 and 22631.4249) 
+Windows 11, version 24H2, OS Builds 22621.4249 and 22631.4249.
 
 ## Prevent access to physical device's Task Manager
 
-In the public preview version of Windows 365 Boot feature, the local device’s Task Manager can still be accessed when users press Ctrl+Alt+Delete. The Task Manager can be disabled by using the [DisableTaskMgr CSP policy](/windows/client-management/mdm/policy-csp-admx-ctrlaltdel#disabletaskmgr).
+In the public preview version of the Windows 365 Boot feature, the local device’s Task Manager can still be accessed when users press Ctrl+Alt+Delete. The Task Manager can be disabled by using the [DisableTaskMgr CSP policy](/windows/client-management/mdm/policy-csp-admx-ctrlaltdel#disabletaskmgr).
 
 This policy prevents the use of the Task Manager in the system for all users including admins. It also prevents the launch of Task Manager using shortcut keys on the physical device. While this policy increases the security of the device, this lack of access to the physical device makes it harder to troubleshoot issues on the device.
 
