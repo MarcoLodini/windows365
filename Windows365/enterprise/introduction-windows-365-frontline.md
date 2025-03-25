@@ -67,9 +67,6 @@ A single license:
 - Lets you provision one Cloud PC that can be shared noncurrently among a group of users.
 - Provides one concurrent session.
 
-> [!NOTE]
-> During [public preview](../public-preview.md), we are evaluating the potential limits for assigned users for shared Cloud PCs. More information will be shared at general availability.
-
 Windows 365 Frontline in shared mode is designed specifically for workers who
 
 - Require access to a Cloud PC to perform specialized tasks for a short time during their work day.
