@@ -53,7 +53,6 @@ GPU Cloud PCs don't support nested virtualization.
 To set up a specific virtualization-based workloads system, see the following articles:
 
 - [Set up a WSL development environment](/windows/wsl/setup/environment).
-- [Windows Subsystem for Android™️](/windows/android/wsa/).
 - [Install Hyper-V on Windows 10](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
 
 <!-- ########################## -->
