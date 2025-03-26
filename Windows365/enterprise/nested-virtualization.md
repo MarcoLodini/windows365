@@ -34,7 +34,6 @@ ms.collection:
 Virtualization-based workloads let customers use the following systems on their Windows 365 Enterprise Cloud PCs:
 
 - Windows Subsystem for Linux (WSL)
-- Windows Subsystem for Android
 - Sandbox
 - Hyper-V  
 
