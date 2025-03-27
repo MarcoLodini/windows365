@@ -31,7 +31,7 @@ ms.collection:
 
 # Guided scenario - deploy Windows 365 Boot to physical devices
 
-By following this guided scenario, you can deploy [Windows 365 Boot](windows-365-boot-overview.md) to shared Windows 11 Pro physical devices. Windows 365 Boot lets physical device users sign in directly to their Cloud PCs, without signing in to their physical devices.
+By following this guided scenario, you can deploy [Windows 365 Boot](windows-365-boot-overview.md) to shared Windows 11 Pro or Enterprise physical devices. Windows 365 Boot lets physical device users sign in directly to their Cloud PCs, without signing in to their physical devices.
 
 This guide steps you through defining:
 
@@ -118,6 +118,8 @@ Select the groups that you want to receive this guided scenario, and all the res
 - **Choose an existing group**: Select an existing group. Your guided scenario resources are deployed to this group.
 
 You can also choose user groups to assign the physical device access policy to. This policy allows users to access the local desktop on the physical device by using the CTRL-ALT-DEL screen or any error screens. You can choose to apply the CTRL-ALT-DEL screen access, the error screen access, none, or both, to any user group. You can assign this policy to an existing group or create a new group for the policy.
+
+For more information about the physical device access feature, see [Enable or restrict access to physical device](windows-365-boot-restrict-user-access-physical-device.md).
 
 ![Screenshot of Windows 365 Boot assignments tab.](./media/windows-365-boot-guide/assignments-tab.png)
 
