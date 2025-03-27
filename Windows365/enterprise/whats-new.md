@@ -1495,7 +1495,7 @@ The permissions required for the editing, creating, and deleting Azure network c
 
 #### Windows 365 app is now generally available<!--41929443-->
 
-The Windows 365 app has moved out of preview and into general availability. For more information, see [Installing the Windows 365 app](https://support.microsoft.com/topic/cbb0d4d5-69d4-4f00-b050-6dc7a02d02d0).
+The Windows 365 app has moved out of preview and into general availability.
 
 #### Improved video playback by using multimedia redirection is now generally available<!--43524455-->
 
@@ -1561,7 +1561,7 @@ Windows 365 nested virtualization now supports 4vCPU Cloud PCs. For more informa
 
 #### Windows 365 app now supports Windows 10<!--42212516-->
 
-The [Windows 365](https://support.microsoft.com/topic/cbb0d4d5-69d4-4f00-b050-6dc7a02d02d0) app now supports Windows 10.
+The Windows 365 app now supports Windows 10.
 
 #### Microsoft Teams: Share application windows from Windows 365 Cloud PC<!--43105503-->
 
@@ -1741,7 +1741,7 @@ Forensic auditing has moved out of preview and into general availability. For mo
 
 #### Windows 365 app in public preview<!--41161804-->
 
-A new app to sign in to and manage your Windows 365 Cloud PCs is now in public preview. The app provides functionality similar to the windows365.microsoft.com web site for accessing and managing your Cloud PCs. For more information, see [Installing the Windows 365 app](https://support.microsoft.com/topic/cbb0d4d5-69d4-4f00-b050-6dc7a02d02d0). 
+A new app to sign in to and manage your Windows 365 Cloud PCs is now in public preview. The app provides functionality similar to the windows365.microsoft.com web site for accessing and managing your Cloud PCs.
 
 <!-- ***********************************************-->
 ### Device provisioning
