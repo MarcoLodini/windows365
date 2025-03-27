@@ -142,7 +142,7 @@ To select an ANC, follow these steps:
     2. For **Number of licenses**, enter the number of licenses that you want to reserve for the group. You can also see the number of unassigned licenses.
 13. For Windows 365 Frontline in shared mode you must:
     1. Choose **Select one** > select a size under **Available sizes** > **Select**.
-    2. Type in a **Friendly name** > select a **Cloud PC number** > **Next**. The **Friendly name** shows up in the end user's Windows Ap.
+    2. Type in a **Friendly name** > select a **Cloud PC number** > **Next**. The **Friendly name** shows up in the end user's Windows app.
 14. On the **Review + create** page, select **Create**. If you used Microsoft Entra hybrid join as the join type, it can take up to 60 minutes for the policy creation process to complete. The time depends on when the Microsoft Entra Connect sync last happened.
 
 After the provisioning policy is created and assigned, Windows 365 automatically starts to provision Cloud PCs.
