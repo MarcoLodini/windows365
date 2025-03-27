@@ -58,6 +58,14 @@ Signing out of the Windows 365 Cloud PC brings the device back to the Windows 11
 
 In this scenario, the physical device is assigned to a specific user for them to connect to their Cloud PC. Windows 365 Boot dedicated mode supports Windows Hello.
 
+## Access to the physical device
+
+Windows 365 Boot physical devices are intended to let users interact with their Cloud PCs without the ability to interact with the physical device. To meet this goal, you must set some configuration service provider (CSP) policies.
+
+Windows 365 Boot doesn't automatically set these policies to fully restrict end users from accessing certain resources on the physical device. You should review the  configuration policies that can be applied to your Windows 365 Boot devices to meet your organization’s security needs for preventing access to the physical device. For more information about these configuration profiles, see [Restrict user access to Windows 365 Boot physical device](windows-365-boot-restrict-user-access-physical-device.md).
+
+The primary intention is such that users can't log in to the physical PC. For information about controls to provide physical access, see [Enable or restrict access to physical device](windows-365-boot-restrict-user-access-physical-device.md).
+
 ## Process overview
 
 1. Using the [Windows 365 Boot guided scenario](windows-365-boot-guide.md) in the Microsoft Intune admin center, configure the physical device for Windows 365 Boot.

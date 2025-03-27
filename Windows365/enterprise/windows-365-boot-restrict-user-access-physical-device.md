@@ -35,8 +35,6 @@ Windows 365 Boot physical devices are intended to let users interact with their 
 
 Windows 365 Boot doesn't automatically set these policies to fully restrict end users from accessing certain resources on the physical device. Admins should review the following CSPs and decide which ones to implement on the physical device to meet your organization's security requirements.
 
-A new CSP policy in [public preview](..\public-preview.md) is available. You can use this policy to further restrict devices automatically.
-
 Using a configuration policy, you can also allow users to access the physical PC from the CTRL-ALT-DEL screen, Cloud PC error screens, or both.
 
 ## Allow user access to the physical device
@@ -54,11 +52,12 @@ Admins configure this policy using the Guided Scenario for Boot in the **Assignm
 
 Windows 365 Boot to Cloud supports the physical device access policy on the following versions of Windows and later:
 
-Windows 11, version 24H2, OS Builds 22621.4249 and 22631.4249.
+- Windows 11, version 23H2 OS build 22621.4249 or later.
+- Windows 11, version 24H2, OS Builds 22621.4249 and 22631.4249.
 
 ## Prevent access to physical device's Task Manager
 
-In the public preview version of the Windows 365 Boot feature, the local device’s Task Manager can still be accessed when users press Ctrl+Alt+Delete. The Task Manager can be disabled by using the [DisableTaskMgr CSP policy](/windows/client-management/mdm/policy-csp-admx-ctrlaltdel#disabletaskmgr).
+In Windows 365 Boot, the local device’s Task Manager can be accessed when users press Ctrl+Alt+Delete. The Task Manager can be disabled by using the [DisableTaskMgr CSP policy](/windows/client-management/mdm/policy-csp-admx-ctrlaltdel#disabletaskmgr).
 
 This policy prevents the use of the Task Manager in the system for all users including admins. It also prevents the launch of Task Manager using shortcut keys on the physical device. While this policy increases the security of the device, this lack of access to the physical device makes it harder to troubleshoot issues on the device.
 
@@ -68,7 +67,7 @@ Changing user passwords isn't supported for Windows 365 Boot physical devices. I
 
 ## Set default credential provider
 
-The public preview version of Windows 365 Boot is designed for shared PC mode. This mode requires the username and password authentication method. Depending on your environment, other authentication providers might be configured and could confuse your users. To avoid this confusion, consider setting the default credential provider to username and password. To set this default, use the [DefaultCredentialProvider CSP policy](/windows/client-management/mdm/policy-csp-admx-credentialproviders#defaultcredentialprovider).  
+Windows 365 Boot is designed for shared PC mode. This mode requires the username and password authentication method. Depending on your environment, other authentication providers might be configured and could confuse your users. To avoid this confusion, consider setting the default credential provider to username and password. To set this default, use the [DefaultCredentialProvider CSP policy](/windows/client-management/mdm/policy-csp-admx-credentialproviders#defaultcredentialprovider).  
 
 ## Remove Notifications and Action Center from the task bar
 
