@@ -38,11 +38,11 @@ When provisioning Cloud PCs, you can optionally link [Autopilot device preparati
 ## Link policy-driven device preparation policies to Cloud PCs
 
 1. Meet the [Windows Autopilot device preparation requirements](/autopilot/device-preparation/requirements).
-2. While [creating a new](create-provisioning-policy.md) or [editing an existing](edit-provisioning-policy.md) Windows 365 provisioning policy also complete the following steps:
+2. When [creating a new](create-provisioning-policy.md) or [editing an existing](edit-provisioning-policy.md) Windows 365 provisioning policy also complete the following steps:
 
     1. On the **Configuration** tab, for **Autopilot device preparation policy**, select a policy.
     2. For **Minutes allowed before device preparation fails**, type a value for that allows adequate time to install the apps and scripts defined in your policy. If the apps and scripts aren't finished installing by this time, the device preparation fails (but the provisioning continues).
-    3. Optionally, you can select **Prevent users from connection to Cloud PC upon installation failure or timeout** option to force the provisioning result to **Failed** if there is a timeout or failure. If selected, Cloud PCs that fail to complete device preparation policy installation are marked as **Failed**. In this case, users can't connect to them. If not selected, Cloud PCs are marked as **Provisioned with warnings** and users can connect to their Cloud PCs.
+    3. Optionally, you can select **Prevent users from connection to Cloud PC upon installation failure or time-out** option to force the provisioning result to **Failed** if there's a time-out or failure. If selected, Cloud PCs that fail to complete device preparation policy installation are marked as **Failed**. In this case, users can't connect to them. If not selected, Cloud PCs are marked as **Provisioned with warnings** and users can connect to their Cloud PCs.
 
 3. Complete the remaining steps to [create a new](create-provisioning-policy.md) or [edit an existing](edit-provisioning-policy.md) Windows 365 provisioning policy
 
@@ -58,4 +58,4 @@ To see the status of device preparation for Cloud PC provisioning, go to **Devic
 <!-- ########################## -->
 ## Next steps
 
-[Learn more about Windows Autopilot device prepration](/autopilot/device-preparation/overview).
+[Learn more about Windows Autopilot device preparation](/autopilot/device-preparation/overview).
