@@ -35,7 +35,7 @@ When a user signs in to a device for the first time, the Enrollment Status Page 
 
 > [!NOTE]
 >
-> Autopilot Device Preparation (preview) for Frontline devices in shared mode and Enrollment Status Page or not compatible. If you enable Autopilot Device Preparation for Cloud PCs within provisioning policies, ESP is disabled.
+> Autopilot device preparation (preview) for Windows 365 Frontline devices in shared mode and the ESP aren't compatible. If you enable Autopilot device preparation for Cloud PCs within provisioning policies, ESP is disabled.
 
 ## Windows 365 and the ESP process
 
