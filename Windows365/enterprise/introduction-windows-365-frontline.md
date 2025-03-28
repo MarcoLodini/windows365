@@ -185,4 +185,8 @@ Windows 365 Frontline in shared mode can only be provisioned in the following Az
 
 ## Next steps
 
-To learn more about Windows 365, see [What is Windows 365?](..\overview.md)
+For more information about Windows 365 Frontline, see:
+
+- [Bulk reprovision Windows 365 Frontline Cloud PCs in shared mode](frontline-shared-bulk-reprovision.md)
+- [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md)
+- [Configure Windows Update for Windows 365 Frontline Cloud PCs](windows-update-frontline-cloud-pc.md)
