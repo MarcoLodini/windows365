@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS 
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -53,7 +53,7 @@ For more information, see [Join Windows 365 Link to Microsoft Entra](join-micros
 
 Windows 365 Link devices enroll for management with Intune during the Out of Box Experience (OOBE). The user performing enrollment must have permission to enroll the devices and comply with any defined Enrollment restrictions.
 
-Optionally, Windows 365 Link devices can be used with the Intune corporate identifier enrollment feature to pre-upload the serial number, manufacturer, model to ensure only trusted devices go through enrollment.
+Optionally, Windows 365 Link devices can be used with the Intune corporate identifier enrollment feature to preupload the serial number, manufacturer, model to ensure only trusted devices go through enrollment.
 
 For more information, see [Automatically enroll Windows 365 Link in Intune](intune-automatic-enrollment.md).
 
@@ -71,6 +71,22 @@ To [configure SSO](../enterprise/configure-single-sign-on.md), use either of the
 
 After SSO is enabled, Windows 365 Link devices can be used to connect to those Cloud PCs. For more information, see [Configure single sign-on for Windows 365 using Microsoft Entra authentication](../enterprise/configure-single-sign-on.md).
 
+## Suppress single sign-on consent prompts for Windows 365 Link
+
+As part of [setting up your organization's environment to support Windows 365 Link devices](deployment-overview.md), you should consider suppressing single sign-on consent prompts for your Windows 365 Link devices. The Windows 365 Link connection experience doesn’t currently support interacting with the SSO consent prompt.
+
+When connecting to a Cloud PC for the first time after single sign-on (SSO) is enabled, users are prompted for consent to allow the connection. They're also prompted every 30 days or after a Cloud PC is reprovisioned. If a connection to a Cloud PC requires SSO consent, the Windows 365 Link connection fails. This failure necessitates that the user first connects to the Cloud PC from another device or web browser and grant SSO consent before attempting to connect from a Windows 365 Link device again.  
+
+To avoid this experience, you must suppress the SSO consent prompt by configuring a property on the SSO service principals in Entra ID.
+
+To suppress the SSO consent prompt, follow these steps:
+
+1. [Create a dynamic device group for all Cloud PCs](../enterprise/create-dynamic-device-group-all-cloudpcs.md#create-a-dynamic-device-group-for-all-cloud-pcs).
+2. [Enable Entra authentication for Remote Desktop Protocol (RDP) on the SSO service principal](/azure/virtual-desktop/configure-single-sign-on#enable-microsoft-entra-authentication-for-rdp).
+3. [Add the group of Cloud PCs to the Service Principal target](/azure/virtual-desktop/configure-single-sign-on#hide-the-consent-prompt-dialog).
+
+After the Cloud PCs are in the target group, the users aren't prompted to consent to use SSO.
+
 ### Conditional Access
 
 If you're using Conditional Access to protect access to Cloud PC, make sure to include the SSO Cloud App resource in the target resources of those Conditional Access policies.
@@ -79,7 +95,7 @@ Also consider suppressing the SSO Consent Prompt by configuring the SSO on servi
 
 ## Microsoft Teams requirements
 
- Windows 365 Link devices can only use the VDI solution for Teams for media optimizations. These optimizations are pre-installed as part of the Windows 365 Link's operating system. Check the Microsoft Teams PowerShell policy for optimization to ensure that the users signing in to Windows 365 Link devices are in scope for the new VDI policy.
+ Windows 365 Link devices can only use the Virtualized Desktop Infrastructure (VDI) solution for Teams (VDI 2.0) for media optimizations. These optimizations are preinstalled as part of the Windows 365 Link's operating system. Check the Microsoft Teams PowerShell policy for optimization to ensure that the users signing in to Windows 365 Link devices are in scope for the new VDI policy. For more information, see [New VDI solution for Teams](/MicrosoftTeams/vdi-2).
 
 ## Network Requirements
 
