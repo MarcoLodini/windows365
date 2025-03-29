@@ -61,7 +61,7 @@ The Windows 365 Link has the following ports:
 - HDMI
 - Ethernet
 - Power supply
-- UEFI pin hole
+- Unified Extensible Firmware Interface (UEFI) pin hole
 
 ![Image of the Windows 365 Link device back.](media/whats-in-the-box/device-back.png)
 
@@ -71,7 +71,7 @@ Kensington lock to physically secure the device
 
 ![Image of the Windows 365 Link side back.](media/whats-in-the-box/device-side.png)
 
-The bottom of the device supports VESA 100 pattern.
+The bottom of the device supports Video Electronics Standards Association (VESA) 100 pattern.
 
 ### Power
 
@@ -93,9 +93,9 @@ USB and Bluetooth support for:
 - Camera
 - FIDO2 Passkeys
   - USB
-  - NFC (requires compatible NVC reader)
+  - Near field communication (NFC) (requires compatible NFC reader)
 
-For more information, see [Tested peripherals for Windows 365 Link devices](/windows-365/link/tested-peripherals-windows-365-link?branch=release-win365-linkga).
+For more information, see [Tested peripherals for Windows 365 Link devices](tested-peripherals-windows-365-link.md).
 
 ## Software
 
@@ -114,7 +114,7 @@ Operating system updates occur automatically during off hours. To get these upda
 | --- | --- |
 | Processor | Intel Processor N250 |
 | Memory | 8 GB LPDDR5 |
-| Storage | 64 GB UFS |
+| Storage | 64 GB Universal Flash Storge (UFS) |
 | Wi-Fi | WiFi 6E |
 | Bluetooth | 5.3 |
 | USB-A | One front-facing (USB 3.2 Gen 1, 4.5 W), two rear-facing (USB 3.2, Gen 2, 4.5 W) |
