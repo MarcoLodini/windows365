@@ -40,7 +40,7 @@ Any [device platform restriction](enrollment-restrictions.md) that blocks person
 To ensure Windows 365 Link devices can be enrolled in Intune, use any of the following methods:
 
 - [Use  corporate identifiers to mark Windows 365 Link devices as corporate-owned](/mem/intune/enrollment/corporate-identifiers-add#add-windows-corporate-identifiers).
-- [Use an operating system SKU filter to let Windows 365 Link devices enroll](#use-an-operating-system-sku-filter-to-let-windows-365-link-devices-enroll-in-intune).
+- [Use an operating system SKU filter to let Windows 365 Link devices enroll](#use-an-operating-system-sku-filter-to-allow-windows-365-link-devices-to-enroll-in-intune).
 - [Use a Device Enrollment Manager (DEM) to bypass all restrictions](/mem/intune/enrollment/device-enrollment-manager-enroll).
 
 ## Use corporate identifiers to mark Windows 365 Link devices as corporate-owned
