@@ -48,7 +48,7 @@ The Windows 365 Link has the following ports:
 #### Front panel
 
 - USB-A
-- 3.5 mm audio jack
+- 3.5-mm audio jack
 - Power button and LED indicator
 
 ![Image of the Windows 365 Link device front.](media/overview/device-front.png)
