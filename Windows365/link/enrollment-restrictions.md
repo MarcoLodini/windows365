@@ -33,23 +33,23 @@ ms.collection:
 
 While [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you should make sure that your environment's enrollment restrictions don't block Windows 365 Link devices from enrolling in Intune.
 
-The [first time a user signs in](setup.md) during the Out of Box Experience (OOBE), Windows 365 Link devices use [Automatic MDM enrollment](intune-automatic-enrollment.md) with [Microsoft Entra join during Windows setup](join-microsoft-entra.md).  Initially, the device is considered Unknown at the time of enrollment, but after the join, the device is set to Corporate-owned.
+The [first time a user signs in](setup.md) during the Out of Box Experience (OOBE), Windows 365 Link devices use [Automatic mobile device management (MDM) enrollment](intune-automatic-enrollment.md) with [Microsoft Entra join during Windows setup](join-microsoft-entra.md). Initially, the device is considered Unknown at the time of enrollment, but after the join, the device is set to Corporate-owned.
 
-Any [device platform restriction](enrollment-restrictions.md) that blocks personally-owned Windows devices also blocks Unknown devices. This kind of restriction also blocks Windows 365 Link devices from completing Intune enrollment.
+Any [device platform restriction](enrollment-restrictions.md) that blocks personally owned Windows devices also blocks Unknown devices. This kind of restriction also blocks Windows 365 Link devices from completing Intune enrollment.
 
 To ensure Windows 365 Link devices can be enrolled in Intune, use any of the following methods:
 
-- [Use  corporate identifiers to mark Windows 365 Link devices as corporate-owned](/mem/intune/enrollment/corporate-identifiers-add#add-windows-corporate-identifiers).
+- [Use corporate identifiers to mark Windows 365 Link devices as corporate-owned](/mem/intune/enrollment/corporate-identifiers-add#add-windows-corporate-identifiers).
 - [Use an operating system SKU filter to let Windows 365 Link devices enroll](#use-an-operating-system-sku-filter-to-allow-windows-365-link-devices-to-enroll-in-intune).
 - [Use a Device Enrollment Manager (DEM) to bypass all restrictions](/mem/intune/enrollment/device-enrollment-manager-enroll).
 
 ## Use corporate identifiers to mark Windows 365 Link devices as corporate-owned
 
-Adding corporate identifiers makes sure that devices are marked as corporate-owned as soon as they are enrolled. Platform restrictions that block unknown or personally-owned devices don’t block devices that match a corporate identifier.
+Adding corporate identifiers makes sure that devices are marked as corporate-owned as soon as they're enrolled. Platform restrictions that block unknown or personally owned devices don’t block devices that match a corporate identifier.
 
 To add Windows corporate identifiers for Windows 365 Link devices, follow these steps:
 
-1. Create a comma-separated list of the manufacturer, model, and serial number for each device as shown in the following exampl:
+1. Create a comma-separated list of the manufacturer, model, and serial number for each device as shown in the following example:
 
     `Microsoft Corporation,Windows 365 Link,01234567890123`<br>
     `Microsoft Corporation,Windows 365 Link,02234567890123`
@@ -92,9 +92,9 @@ For more information about Intune platform enrollment restrictions, see [Create 
 
 ## Use a Device Enrollment Manager to bypass enrollment restrictions
 
-A DEM can enroll devices that are normally blocked by a platform restriction policy.  A DEM is also not blocked by Intune device limit restrictions. Using a DEM is recommended for scenarios where the Windows 365 Link device doesn’t have a dedicated owner.
+A DEM can enroll devices that are normally blocked by a platform restriction policy. A DEM is also not blocked by Intune device limit restrictions. Using a DEM is recommended for scenarios where the Windows 365 Link device doesn’t have a dedicated owner.
 
-After you designated an account as a DEM, the account can be used to enroll up to 1,000 devices. However, there is a separate limit on the number of devices any user is allowed to join to Entra ID.  
+After you designated an account as a DEM, the account can be used to enroll up to 1,000 devices. However, there's a separate limit on the number of devices any user is allowed to join to Entra ID.
 
 Follow these steps to designate an account as a DEM in Intune:
 
