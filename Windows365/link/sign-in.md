@@ -36,7 +36,7 @@ When you want to use the Windows 365 Link, complete the following steps to sign 
 1. Power on the Windows 365 Link.
 2. On the **Sign in** screen, provide your sign in credentials. The device automatically presents you with the sign-in process configured by your organization (FIDO2 security key, Passkey (FIDO2), Microsoft Authenticator app, and so on).
 3. Authenticate your account as requested.
-4. You're connected to your Cloud PC with all of your context and apps just where you left off
+4. You're connected to your Cloud PC.
 
 ## Sign out
 
@@ -53,10 +53,10 @@ Lock the device using any of these methods:
 
 - Press the **Windows key + L** on your keyboard.
 - Select **Start** > **Power** > **Lock**.
-- In your Cloud PC, select start > **Power** > **Disconnect**.\*
+- In your Cloud PC, select start > **Power** > **Disconnect**.
 - In your Cloud PC, select start > **Power** > **Lock**.\*
 
-\* These methods lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differently).
+\* This methods lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differently).
 
 After the user locks the device, the user is redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again.
 
