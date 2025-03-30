@@ -31,7 +31,7 @@ ms.collection:
 
 # Commercial warranty and Protection Plan
 
-Every Windows 365 Link device comes with a minimum 1-year Limited Hardware Warranty\*. For more information, see [Warranty and Protection Plan Terms & Conditions](https://support.microsoft.com/topic/warranty-and-protection-plan-terms-conditions-f3bb538c-53cd-4490-bf69-ba72743f6ab6).
+Every Windows 365 Link device comes with a minimum 1-year Limited Hardware Warranty\*. For more information, see [Warranty and Protection Plan Terms & Conditions](https://support.microsoft.com/topic/warranty-and-protection-plan-terms-conditions-f3bb538c-53cd-4490-bf69-ba72743f6ab6). 
 
 ## Microsoft Protection Plan
 
