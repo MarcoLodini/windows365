@@ -46,7 +46,7 @@ If the device receives driver/firmware updates and OS updates at the same time, 
 
 ## Check for updates
 
-You can check for updates manually from the device information pane in the [quick settings menu](quick-settings).
+You can check for updates manually from the device information pane in the [quick settings menu](quick-settings.md).
 
 ## Pause updates
 
