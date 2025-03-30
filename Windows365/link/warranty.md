@@ -55,3 +55,5 @@ If the device is no longer covered by Microsoft’s Limited Hardware Warranty or
 
 <!-- ########################## -->
 ## Next steps
+
+[What's in the box](whats-in-the-box.md)
