@@ -52,7 +52,7 @@ You can check for updates manually from the device information pane in the [quic
 
 You can pause updates using the:
 
-[Policy configuration service provider (CSP)]( /windows/client-management/mdm/policy-configuration-service-provider) > [Update area]( /windows/client-management/mdm/policy-csp-update) > [AllowAutoUpdate node]( ](/windows/client-management/mdm/policy-csp-update#allowautoupdate)
+[Policy configuration service provider (CSP)]( /windows/client-management/mdm/policy-configuration-service-provider) > [Update area]( /windows/client-management/mdm/policy-csp-update) > [AllowAutoUpdate node](/windows/client-management/mdm/policy-csp-update#allowautoupdate).
 
 Allowed values for Windows 365 Link devices include:
 
@@ -67,4 +67,4 @@ For more information about these values, see [AllowAutoUpdate node](/windows/cli
 <!-- ########################## -->
 ## Next steps
 
-[ee other quick settings options](quick-settings.md).
+[See other quick settings options](quick-settings.md).
