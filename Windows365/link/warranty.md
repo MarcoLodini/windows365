@@ -38,7 +38,7 @@ Every Windows 365 Link device comes with a minimum one-year Limited Hardware War
 The Microsoft Protection Plan provides extra coverage beyond the warranty to avoid unplanned expenses.
 
 - Microsoft Extended Hardware Service (EHS) provides extended coverage for mechanical breakdown and electrical failure up to two, three, or four years.
-- Microsoft Complete for Business (CfB), provides all the coverage from EHS plus accidental damage protection for up to two, three, or four years.  
+- Microsoft Complete for Business (CfB) provides all the coverage from EHS plus accidental damage protection for up to two, three, or four years.  
 
 You can purchase a Microsoft Protection Plan by:
 
