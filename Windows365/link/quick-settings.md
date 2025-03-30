@@ -45,7 +45,7 @@ To see the internet options, on the **Sign in** screen, select the **Internet** 
 
 Select audio output device and manage its volume.
 
-## Quick settings menu
+## Accessibility
 
 To see the accessibility options, on the **Sign in** screen, select the **Accessibility** icon (![Image of the Accessibility icon.](media/quick-settings/accessibility-icon.gif)). You can then set the following accessibility options.
 
