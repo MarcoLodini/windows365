@@ -38,7 +38,7 @@ Windows 365 Link devices update automatically using the same Windows Update Serv
 When an update is available and detected by a device that is powered on, the device:
 
 1. Silently downloads the update.
-2. Installs the update during the next reboot, or at 3AM when the device is not in use.  
+2. Installs the update during the next reboot or at 3 AM when the device isn't in use.  
 
 Driver and firmware updates occur separately from OS updates, and are also applied during a reboot.
 
@@ -58,7 +58,7 @@ Allowed values for Windows 365 Link devices include:
 
 | Value | Description |
 | --- | --- |
-| 0 – 3 | Unavailable. Do not use. |
+| 0 – 3 | Unavailable. Don't use. |
 | 4 | Turn on automatic updates. |
 | 5 | Turn off automatic updates. |
 
