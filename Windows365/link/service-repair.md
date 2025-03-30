@@ -45,7 +45,7 @@ You can use the Intune admin center to open support cases to:
 To open a support case:
 
 1. Sign into the Microsoft Intune admin center and select **Troubleshooting + Support** > **Help and Support** > **Windows 365** > **Windows 365 Link** > type a description of the issue > **Contact Support**.
-2. A Microsoft support agent will contact you to troubleshoot your issue. For hardware servicing issues, the turnaround time depends on your location and supply chain availability.
+2. A Microsoft support agent contacts you to troubleshoot your issue. For hardware servicing issues, the turnaround time depends on your location and supply chain availability.
 
 ## Customer self-repair for Windows 365 Link
 
@@ -65,4 +65,4 @@ The following replacements components are available for the Windows 365 Link dev
 <!-- ########################## -->
 ## Next steps
 
-[What's in the box](whats-in-the-box.md).
+[What's in the box?](whats-in-the-box.md).
