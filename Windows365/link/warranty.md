@@ -1,6 +1,6 @@
 ---
 # required metadata
-title: Commerical warranty and protection plan for Windows 365 Link
+title: Commercial warranty and protection plan for Windows 365 Link
 titleSuffix:
 description: Learn about commercial warranty and protection plan for Windows 365 Link
 keywords:
@@ -31,14 +31,14 @@ ms.collection:
 
 # Commercial warranty and Protection Plan
 
-Every Windows 365 Link device comes with a minimum 1-year Limited Hardware Warranty\*. For more information, see [Warranty and Protection Plan Terms & Conditions](https://support.microsoft.com/topic/warranty-and-protection-plan-terms-conditions-f3bb538c-53cd-4490-bf69-ba72743f6ab6). 
+Every Windows 365 Link device comes with a minimum one-year Limited Hardware Warranty\*. For more information, see [Warranty and Protection Plan Terms & Conditions](https://support.microsoft.com/topic/warranty-and-protection-plan-terms-conditions-f3bb538c-53cd-4490-bf69-ba72743f6ab6).
 
 ## Microsoft Protection Plan
 
 The Microsoft Protection Plan provides extra coverage beyond the warranty to avoid unplanned expenses.
 
-- Microsoft Extended Hardware Service (EHS) provides extended coverage for mechanical breakdown and electrical failure up to 2, 3, or 4 years.
-- Microsoft Complete for Business (CfB), provides all the coverage from EHS plus accidental damage protection for up to 2, 3, or 4 years.  
+- Microsoft Extended Hardware Service (EHS) provides extended coverage for mechanical breakdown and electrical failure up to two, three, or four years.
+- Microsoft Complete for Business (CfB), provides all the coverage from EHS plus accidental damage protection for up to two, three, or four years.  
 
 You can purchase a Microsoft Protection Plan by:
 
