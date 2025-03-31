@@ -116,9 +116,9 @@ Administrators will be able to configure and customize this feature within the G
 
 You’ll be able to set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.
 
-### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
+### Resize Windows 365 Frontline Cloud PCs in dedicated mode<!--54353038-->
 
-Admins will be able to resize Windows 365 Frontline Cloud PCs in designated mode.
+Admins will be able to resize Windows 365 Frontline Cloud PCs in dedicated mode.
 
 ## Next steps
 
