@@ -11,6 +11,8 @@ items:
     href: tested-peripherals-windows-365-link.md
   - name: Warranty and Protection Plan
     href: warranty.md
+  - name: Windows 365 Link security
+    href: security-overview.md
 - name: Using your Windows 365 Link
   items:
   - name: First time set up and sign in
@@ -43,8 +45,6 @@ items:
     href: conditional-access-policies.md
   - name: Suppress single sign-on prompt
     href: single-sign-on-suppress.md
-  - name: Windows 365 Link security
-    href: security-overview.md
   - name: Supported configuration service providers
     href: configuration-service-provider-support.md
   - name: Sign-in methods
