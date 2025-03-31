@@ -165,7 +165,6 @@ You can monitor the use of concurrency buffer with the Frontline connection hour
 The following features aren't yet supported for Windows 365 Frontline.
 
 - Resize a Cloud PC remote action
-- [Move a Cloud PC](move-cloud-pc.md)
 - Cross region disaster recovery
 
 Windows 365 Frontline in shared mode can only be provisioned in the following Azure regions:
