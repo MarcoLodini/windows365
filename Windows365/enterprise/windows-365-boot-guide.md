@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 08/05/2024
+ms.date: 03/31/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -31,7 +31,7 @@ ms.collection:
 
 # Guided scenario - deploy Windows 365 Boot to physical devices
 
-By following this guided scenario, you can deploy [Windows 365 Boot](windows-365-boot-overview.md) to shared Windows 11 Pro physical devices. Windows 365 Boot lets physical device users sign in directly to their Cloud PCs, without signing in to their physical devices.
+By following this guided scenario, you can deploy [Windows 365 Boot](windows-365-boot-overview.md) to shared Windows 11 Pro or Enterprise physical devices. Windows 365 Boot lets physical device users sign in directly to their Cloud PCs, without signing in to their physical devices.
 
 This guide steps you through defining:
 
@@ -98,15 +98,14 @@ Windows 365 Boot supports [Windows Autopatch](/windows/deployment/windows-autopa
 
 ![Screenshot of Windows 365 Boot guided scenario Settings tab.](./media/windows-365-boot-guide/settings-tab.png)
 
-1. (Optional) On the **Settings** page, select the **VPN profile** and **Wifi profile** to use for Windows 365 Boot physical devices. When you select an existing WiFi or VPN profile, if the profile is already assigned to **All Users** or **All Devices**, this assignment will be removed and replaced with a new assignment that only targets the Windows 365 group created or selected in this guided scenario.
+1. (Optional) On the **Settings** page, select the **VPN profile** and **Wifi profile** to use for Windows 365 Boot physical devices. When you select an existing WiFi or VPN profile, if the profile is already assigned to **All Users** or **All Devices**, this assignment is removed and replaced with a new assignment that only targets the Windows 365 group created or selected in this guided scenario.
 2. (Optional) If you don't want to use the operating system's default language, select a specific **Language (region)** > **Next: Assignments**.
 3. (Optional) Select the **Security baseline profile** to use for Windows 365 Boot physical devices.
-4. (Optional) Select a value for the **Set Max Connection timeout** for Windows 365 Boot. The operating system waits for a connection until the selected timeout value has been reached. For more information, see [SetMaxConnectionTimeout policy CSP](/windows/client-management/mdm/policy-csp-clouddesktop#setmaxconnectiontimeout).
+4. (Optional) Select a value for the **Set Max Connection time-out** for Windows 365 Boot. The operating system waits for a connection until the selected time-out value is reached. For more information, see [SetMaxConnectionTimeout policy configuration service provider (CSP)](/windows/client-management/mdm/policy-csp-clouddesktop#setmaxconnectiontimeout).
 5. (Optional) If you want to customize the branding shown at the top of the sign-in screen, provide any or all of the following information:
     - **Company name**
     - **Company logo URL**
     - **Lock screen image URL**
-
 
 ## Step 5 - Assignments
 
@@ -118,11 +117,19 @@ Select the groups that you want to receive this guided scenario, and all the res
 
 - **Choose an existing group**: Select an existing group. Your guided scenario resources are deployed to this group.
 
+You can also choose user groups to assign the physical device access policy to. This policy allows users to access the local desktop on the physical device by using the CTRL-ALT-DEL screen or any error screens. You can choose to apply the CTRL-ALT-DEL screen access, the error screen access, none, or both, to any user group. You can assign this policy to an existing group or create a new group for the policy.
+
+For more information about the physical device access feature, see [Enable or restrict access to physical device](windows-365-boot-restrict-user-access-physical-device.md).
+
+![Screenshot of Windows 365 Boot assignments tab.](./media/windows-365-boot-guide/assignments-tab.png)
+
 When you're done assigning groups, select **Next: Review + create**.
 
 You can complete the guided scenario before there are any devices in the group. When devices are added to the group, and have internet access, they automatically start receiving the policies in this guided scenario.
 
 You can also add preregistered Windows Autopilot devices to the group. Add them to the group before you enroll or apply any policies. For steps to set up new devices with Windows Autopilot, see [Windows 365 Boot physical device requirements](windows-365-boot-physical-device-requirements.md).
+
+
 
 ## Step 6 - Review + create
 

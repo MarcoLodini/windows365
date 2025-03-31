@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/20/2025
+ms.date: 03/31/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,21 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+<!-- ########################## -->
+## Week of March 31, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### End user experience
+
+#### Return to local desktop<!--56381979-->
+
+When in Windows 365 Boot mode (Windows 11 only), users can now switch back to their physical device desktop from either:
+
+- CTRL-ALT-DEL screen
+- Cloud PC error screens
+- 
+Administrators can configure and customize this feature within the Guided Scenario for Boot.
 
 <!-- ########################## -->
 ## Week of March 17, 2025
