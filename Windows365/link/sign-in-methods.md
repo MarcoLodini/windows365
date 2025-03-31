@@ -35,11 +35,9 @@ Windows 365 Link supports two methods for user sign-in: Web sign-in and FIDO2 se
 
 ## Web sign-in
 
-Web sign-in is a web-based sign-in experience for Microsoft Entra ID tenants and Microsoft Entra joined devices. You can configure your Microsoft Entra tenant to support this sign-in method for Windows 365 Link without the need to configure anything on the device.
+Web sign-in is a web-based sign-in experience for Microsoft Entra ID tenants and Microsoft Entra joined devices. This sign in method is available on Windows 365 Link without the need to configure anything on the device. Authentication options are based on the authentication methods enabled in your Entra tenant and can include:
 
-You can configure the following Authentication Methods in your Microsoft Entra tenant:
-
-- User name and password.
+- Username and password.
 - Phone sign-in with Microsoft Authenticator.
 - FIDO2 security key.
 - Passkey on another device through cross device authentication.
