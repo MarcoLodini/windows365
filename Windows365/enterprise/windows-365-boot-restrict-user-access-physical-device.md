@@ -53,7 +53,6 @@ Admins configure this policy using the Guided Scenario for Boot in the **Assignm
 Windows 365 Boot to Cloud supports the physical device access policy on the following versions of Windows and later:
 
 - Windows 11, version 23H2 OS build 22621.4249 or later.
-- Windows 11, version 24H2, OS Builds 22621.4249 and 22631.4249.
 
 ## Prevent access to physical device's Task Manager
 
