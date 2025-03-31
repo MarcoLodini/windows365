@@ -59,5 +59,7 @@ items:
     href: service-repair.md
 - name: Troubleshooting
   items:
+  - name: Troubleshooting
+    href: troublehsooting.md
   - name: Known issues
     href: known-issues.md
