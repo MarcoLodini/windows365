@@ -29,13 +29,13 @@ ms.collection:
 - tier2
 ---
 
-# Use policy-driven Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode
+# Use automated Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode
 
 When provisioning Cloud PCs, you can optionally link [Autopilot device preparation](/autopilot/device-preparation/overview) to help make sure Windows 365 Frontline Cloud PCs in shared mode are provisioned with important Intune apps and scripts.
 
 
 
-## Link policy-driven device preparation policies to Cloud PCs
+## Link device preparation policies to Cloud PCs
 
 1. Meet the [Windows Autopilot device preparation requirements](/autopilot/device-preparation/requirements).
 2. When [creating a new](create-provisioning-policy.md) or [editing an existing](edit-provisioning-policy.md) Windows 365 provisioning policy also complete the following steps:
