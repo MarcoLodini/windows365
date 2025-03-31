@@ -115,7 +115,7 @@ items:
           href: windows-365-boot-guide.md
         - name: Physical device requirements
           href: windows-365-boot-physical-device-requirements.md
-        - name: Restrict access to physical device
+        - name: Allow or restrict access to physical device
           href: windows-365-boot-restrict-user-access-physical-device.md
       - name: Partner connectors for Windows 365
         items:
