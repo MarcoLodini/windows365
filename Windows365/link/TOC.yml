@@ -49,6 +49,8 @@ items:
     href: sign-in-methods.md
   - name: Wipe or reset Windows 365 Link
     href: wipe-reset-windows-365-link.md
+  - name: Service and repair
+    href: service-repair.md
 - name: Troubleshooting
   items:
   - name: Known issues
