@@ -79,6 +79,8 @@ Using the information you gathered from the **What if** tool in the previous sec
 
 While these steps are specifically for enabling interactive authentication on Windows 365 Link devices, the resulting user action policy is also applied when users Register or Join devices to Microsoft Entra ID.
 
+> [!VIDEO e83133df-aeab-4563-92c5-eff455f656b0]
+
 For more information about creating Conditional Access policies for device registration, including potential conflicts, see [Require multifactor authentication for device registration](/entra/identity/conditional-access/policy-all-users-device-registration#create-a-conditional-access-policy).
 
 For more information about user actions with Conditional Access, see [User actions](/entra/identity/conditional-access/concept-conditional-access-cloud-apps#user-actions).
