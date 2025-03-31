@@ -67,7 +67,7 @@ When in Windows 365 Boot mode (Windows 11 only), users can now switch back to th
 
 - CTRL-ALT-DEL screen
 - Cloud PC error screens
-- 
+
 Administrators can configure and customize this feature within the Guided Scenario for Boot.
 
 <!-- ########################## -->
