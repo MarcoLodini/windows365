@@ -65,4 +65,4 @@ The following replacements components are available for the Windows 365 Link dev
 <!-- ########################## -->
 ## Next steps
 
-[What's in the box?](whats-in-the-box.md).
+[What's in the box?](whats-in-the-box.md)
