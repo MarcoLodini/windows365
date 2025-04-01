@@ -71,7 +71,7 @@ There are several features that don’t apply to Windows 365 Link.
 
 - **App management**: Windows 365 Link doesn’t run local applications so tasks and options for installing and managing apps don’t apply. If an app configuration policy targets Windows 365 Link devices, Intune continuously reports **Pending install** for the device. To avoid this situation, update such policies to exclude Windows 365 Link devices by using an Intune device filter.
 - **Microsoft Defender Malware scanning**: Windows 365 Link doesn’t run the Windows Defender Malware component. Device actions like Quick scan, Full scan, and Update Windows Defender security intelligence don’t apply to Windows 365 Link. If you try to use one of these actions on Windows 365 Link devices, Intune doesn’t execute the action and displays the message **Initiating (action) failed**.
-- **Device scripts and remediation**: Windows 365 Link’s strict code integrity policy only allows software to execute when it’s needed for the solution. Remediation script packages don’t run on Windows 365 Link and don’t show up in scripts and remediations device status reports.
+- **Device scripts and remediation**: Windows 365 Link’s strict code integrity policy only allows software to execute when needed for the solution. Remediation script packages don’t run on Windows 365 Link and don’t show up in scripts and remediations device status reports.
 - **Autopilot**: Windows 365 Link doesn’t support Autopilot or Autopilot device preparation, including:
   - Autopilot enrollment
   - Onboarding configurations
