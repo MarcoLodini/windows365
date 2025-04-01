@@ -39,7 +39,7 @@ For more information about managing Cloud PCs, see [Device management overview f
 
 ## Compliance settings
 
-The only [compliance settings](/intune/intune-service/protect/compliance-policy-create-windows) that apply to Windows 365 Link devices is [Device health](/intune/intune-service/protect/compliance-policy-create-windows?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#device-health). This compliance setting includes BitLocker, Secure Boot, and code integrity which are enabled by default (and cant’ be turned off) on Windows 365 Link.
+The only [compliance settings](/intune/intune-service/protect/compliance-policy-create-windows) that apply to Windows 365 Link devices is [Device health](/intune/intune-service/protect/compliance-policy-create-windows?WT.mc_id=Portal-Microsoft_Intune_DeviceSettings#device-health). This compliance setting includes BitLocker, Secure Boot, and code integrity which are enabled by default (and can't be turned off) on Windows 365 Link.
 
 For more information on compliance policies in general, see [Use compliance policies to set rules for devices you manage with Intune](/intune/intune-service/protect/device-compliance-get-started).
 
