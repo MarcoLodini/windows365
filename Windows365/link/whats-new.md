@@ -29,7 +29,7 @@ ms.collection:
 - tier2
 ---
 
-# What's new in Windows 365 Enterprise
+# What's new in Windows 365 Link
 
 Learn what new features are available in Windows 365 Link.
 
