@@ -103,6 +103,8 @@ The Windows 365 Link comes preinstalled with the Windows CPC operating system.
 
 Operating system updates occur automatically during off hours. To get these updates, make sure the device is plugged in and powered on (in standby or sleep mode).
 
+Windows 365 Link will receive driver, firmware, and operating system updates for at least six years from when it was first released (April 2nd, 2025). Closely aligned with the annual Fall release of Windows, the OS will automatically be updated to the next version, on a yearly basis. 
+
 ## Wireless support
 
 - Wi-Fi 6E
