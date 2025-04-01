@@ -60,6 +60,6 @@ items:
 - name: Troubleshooting
   items:
   - name: Troubleshooting
-    href: troublehsooting.md
+    href: troubleshooting.md
   - name: Known issues
     href: known-issues.md
