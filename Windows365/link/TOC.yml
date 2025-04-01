@@ -53,6 +53,8 @@ items:
     href: wipe-reset-windows-365-link.md
 - name: Managing Windows 365 Link
   items:
+  - name: Management overview
+    href: device-management-overview.md
   - name: Update behavior and control
     href: update-behavior-control.md
   - name: Service and repair
