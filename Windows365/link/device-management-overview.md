@@ -49,11 +49,11 @@ For information on which configuration service provider (CSP) policies apply to 
 
 ## Device filters
 
-[Intune device filters](/en-us/mem/intune-service/fundamentals/filters) can be created to identify Windows 365 Link devices based on the Windows CPC operating system.
+[Intune device filters](/mem/intune-service/fundamentals/filters) can be created to identify Windows 365 Link devices based on the Windows CPC operating system.
 
 ## Intune endpoint security
 
-Most of Intune’s endpoint security features don’t apply to Windows 365 Link. Windows 365 Link’s OS includes the [Microsoft for Defender endpoint detection and response](/en-us/defender-endpoint/overview-endpoint-detection-response) sensor. You can [onboard your Windows 365 Link devices to Defender for Endpoint](/en-us/defender-endpoint/configure-endpoints-mdm).
+Most of Intune’s endpoint security features don’t apply to Windows 365 Link. Windows 365 Link’s OS includes the [Microsoft for Defender endpoint detection and response](/defender-endpoint/overview-endpoint-detection-response) sensor. You can [onboard your Windows 365 Link devices to Defender for Endpoint](/defender-endpoint/configure-endpoints-mdm).
 
 ## Remote device actions
 
