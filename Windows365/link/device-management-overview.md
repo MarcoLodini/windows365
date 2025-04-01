@@ -35,7 +35,7 @@ You manage Windows 365 Link devices in Intune, similar to managing other Windows
 
 This article explains some of the helpful features and different features that apply when you’re managing Windows 365 Link devices with Intune.
 
-For more information about managing Cloud PCs, see [Device management overview for Cloud PCs](../enterprise/device-management/overview.md).
+For more information about managing Cloud PCs, see [Device management overview for Cloud PCs](../enterprise/device-management-overview.md).
 
 ## Compliance settings
 
@@ -45,11 +45,11 @@ For more information on compliance policies in general, go to get started with c
 
 ## Configuration service providers
 
-For information on which configuration service provider (CSP) policies apply to Windows 365 Link, see [Supported configuration service provider policies for Windows 365 Link](configuration-service-provder-support.md).
+For information on which configuration service provider (CSP) policies apply to Windows 365 Link, see [Supported configuration service provider policies for Windows 365 Link](configuration-service-provider-support.md).
 
 ## Device filters
 
-Intune device filters can be created to identify Windows 365 Link devices based on the Windows CPC operating system.
+[Intune device filters](/en-us/mem/intune-service/fundamentals/filters) can be created to identify Windows 365 Link devices based on the Windows CPC operating system.
 
 ## Intune endpoint security
 
@@ -57,22 +57,22 @@ Most of Intune’s endpoint security features don’t apply to Windows 365 Link.
 
 ## Remote device actions
 
-When Windows 365 Link is in sleep mode it’s also in disconnected standby mode. While in this mode, the device doesn’t check in with Intune nor does it respond to [remote device actions](/intune/intune-service/remote-actions/device-management).
+When Windows 365 Link is in sleep mode, it’s also in disconnected standby mode. While in this mode, the device doesn’t check in with Intune nor does it respond to [remote device actions](/intune/intune-service/remote-actions/device-management).
 
-If remote device actions are taking longer than expected, the device might be in sleep mode. In this case, awaken the device by doing any of the following:
+If remote device actions are taking longer than expected, the device might be in sleep mode. In this case, awaken the device by taking any of the following actions:
 
 - Press the power button.
 - Move the mouse.
 - Press several keys on the keyboard.
 
-## Intune features that odn't apply to Windows 365 Link
+## Intune features that don't apply to Windows 365 Link
 
 There are several features that don’t apply to Windows 365 Link.
 
-- **App management**: Windows 365 Link doesn’t run local applications so tasks and options for installing and managing apps don’t apply. If an app configuration policy targets Windows 365 Link devices, Intune will continuously reports **Pending install** for the device. To avoid this, update such policies to exclude Windows 365 Link devices by using an Intune device filter.
-- **Microsoft Defender Malware scanning**: Windows 365 Link doesn’t run the Windows Defender Malware component. Device actions like Quick scan, Full scan, and Update Windows Defender security intelligence don’t apply to Windows 365 Link. If you try to use one of these actions on Windows 365 Link devices, Intune doesn’t execute the action and displays the message **Initiating <action> failed**.
-- **Device scripts and remediation**: Windows 365 Link’s strict code integrity policy only allows software to execute that’s needed for the solution. Remediation script packages don’t run on Windows 365 Link and don’t show up in scripts and remediations device status reports.
-- **Autopilot**: Windows 365 Link doesn’t support Autopilot or Autopilot device preparation. This includes:
+- **App management**: Windows 365 Link doesn’t run local applications so tasks and options for installing and managing apps don’t apply. If an app configuration policy targets Windows 365 Link devices, Intune continuously reports **Pending install** for the device. To avoid this situation, update such policies to exclude Windows 365 Link devices by using an Intune device filter.
+- **Microsoft Defender Malware scanning**: Windows 365 Link doesn’t run the Windows Defender Malware component. Device actions like Quick scan, Full scan, and Update Windows Defender security intelligence don’t apply to Windows 365 Link. If you try to use one of these actions on Windows 365 Link devices, Intune doesn’t execute the action and displays the message **Initiating (action) failed**.
+- **Device scripts and remediation**: Windows 365 Link’s strict code integrity policy only allows software to execute when it’s needed for the solution. Remediation script packages don’t run on Windows 365 Link and don’t show up in scripts and remediations device status reports.
+- **Autopilot**: Windows 365 Link doesn’t support Autopilot or Autopilot device preparation, including:
   - Autopilot enrollment
   - Onboarding configurations
   - Autopilot specific device actions like Autopilot Reset.
