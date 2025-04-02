@@ -56,7 +56,7 @@ This release includes the following new help articles:
 - [Troubleshooting Windows 365 Link](troubleshooting.md)
 - [Windows 365 Link update behavior and control](update-behavior-control.md)
 - [USB NFC smart card reader support](usb-nfc-reader-support.md)
-- [Commerical warranty and Protection Plan](warranty.md)
+- [Commercial warranty and Protection Plan](warranty.md)
 - [Wipe or reset Windows 365 Link device](wipe-reset-windows-365-link.md)
 
 <!-- ########################## -->
