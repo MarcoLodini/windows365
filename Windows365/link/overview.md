@@ -31,9 +31,6 @@ ms.collection:
 
 # What is Windows 365 Link?
 
-> [!NOTE]
-> Windows 365 Link is in ["public preview"](../public-preview.md). Customers who want to participate in the preview and get Windows 365 Link devices for their organization should contact their Microsoft account team. As part of your participation, you can join the Customer Connections Program and Office hours for the latest updates.
-
 Windows 365 Link is the first Cloud PC hardware device that lets users connect directly to their Cloud PC virtual machine. It’s a full stack, purpose-built solution by Microsoft. When users sign in to their Windows 365 Link, they're connected to their Windows 365 [Cloud PC virtual machine](/windows-365/overview#what-is-a-cloud-pc) through the Windows 365 service.
 
 ![Image of the Windows 365 Link device.](media/overview/device-front.png)

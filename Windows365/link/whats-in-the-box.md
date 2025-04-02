@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -31,7 +31,7 @@ ms.collection:
 
 # What's in the box
 
-When you unbox your Windows 365 Link, you'll find the following hardware, software, and network and peripheral support.
+When you unbox your Windows 365 Link, you find the following hardware, monitor, peripheral, software, and wireless connectivity support.
 
 ## Hardware
 
@@ -61,6 +61,7 @@ The Windows 365 Link has the following ports:
 - HDMI
 - Ethernet
 - Power supply
+- Unified Extensible Firmware Interface (UEFI) pin hole
 
 ![Image of the Windows 365 Link device back.](media/whats-in-the-box/device-back.png)
 
@@ -70,6 +71,8 @@ Kensington lock to physically secure the device
 
 ![Image of the Windows 365 Link side back.](media/whats-in-the-box/device-side.png)
 
+The bottom of the device supports Video Electronics Standards Association (VESA) 100 pattern.
+
 ### Power
 
 **Power supply**: Barrel type, 65 watts.
@@ -78,7 +81,7 @@ Kensington lock to physically secure the device
 
 ## Monitor support
 
-Both the HDMI and Display Port support one monitor each, up to 4k in resolution.
+HDMI, Display Port, and Type C can support monitors up to 4k in resolution (two 4K monitors maximum).
 
 ## Peripheral support
 
@@ -88,12 +91,19 @@ USB and Bluetooth support for:
 - Mouse
 - Headphones
 - Camera
+- FIDO2 Passkeys
+  - USB
+  - Near field communication (NFC) (requires compatible NFC reader)
+
+For more information, see [Tested peripherals for Windows 365 Link devices](tested-peripherals-windows-365-link.md).
 
 ## Software
 
-The Windows 365 Link comes pre-installed with the Windows CPC operating system.
+The Windows 365 Link comes preinstalled with the Windows CPC operating system.
 
 Operating system updates occur automatically during off hours. To get these updates, make sure the device is plugged in and powered on (in standby or sleep mode).
+
+Windows 365 Link will receive driver, firmware, and operating system updates for at least six years from when it was first released (April 2nd, 2025). Closely aligned with the annual Fall release of Windows, the OS will automatically be updated to the next version, on a yearly basis. 
 
 ## Wireless support
 
@@ -104,11 +114,18 @@ Operating system updates occur automatically during off hours. To get these upda
 
 | Component | Details |
 | --- | --- |
-| Memory | 8 GB LPDDRS |
-| Storage | 64 GB UFS |
+| Processor | Intel Processor N250 |
+| Memory | 8 GB LPDDR5 |
+| Storage | 64 GB Universal Flash Storge (UFS) |
 | Wi-Fi | WiFi 6E |
 | Bluetooth | 5.3 |
-| USB | USB-C, 2 USB-A |
+| USB-A | One front-facing (USB 3.2 Gen 1, 4.5 W), two rear-facing (USB 3.2, Gen 2, 4.5 W) |
+| USB-C | One rear-facing (USB 3.2, with DP 1.4 Alt Mode, 7.5 W) |
+| Ethernet | 1.0 Gbit/s |
+| HDMI | 2.0b, up to 4k60 |
+| Display port | 1.4a, up to 4k60 |
+
+For information about energy efficiency, see [Energy efficiency](https://www.microsoft.com/en-us/legal/compliance/energy).
 
 <!-- ########################## -->
 ## Next steps

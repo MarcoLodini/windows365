@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -31,7 +31,7 @@ ms.collection:
 
 # Create an Intune filter for Windows 365 Link devices
 
-To help with [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you can use filters when assigning Intune polices. Such a filter can be used on any policy assignment to include or exclude Windows 365 Link devices.
+To help with [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you can use filters when assigning Intune configuration policies and enrollment restrictions.
 
 To create a filter exclusively including Windows 365 Link devices:
 

@@ -40,7 +40,7 @@ When you press Control + Alt + Delete on your Windows 365 Link, you see the foll
 | Task Manager | Opens the Task Manager of your Cloud PC. |
 | Connection details | Shows information about the current connection to your Cloud PC. |
 | Restore and Troubleshoot | Initiates these processes for your Cloud PC. |
-| Quick settings | Opens a small set of essential settings. For details on individual Quick settings, see below. |
+| Quick settings | Opens a small set of essential settings. For more information, see [Quick settings](quick-settings.md). |
 
 <!-- ########################## -->
 ## Next steps
