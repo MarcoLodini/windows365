@@ -46,6 +46,7 @@ Both marketplace and custom images must meet the following requirements:
 - Single Session VM images (multi-session isn’t supported).
 - No recovery partition. For information about how to remove a recovery partition, see the [Windows Server command: delete partition](/windows-server/administration/windows-commands/delete-partition).
 - Default 64-GB OS disk size. The OS disk size is automatically adjusted to the size specified in SKU description of the Windows 365 license.
+- Data disks can't be attached to the VM prior to capturing the image.
 
 A custom image must also meet the following extra requirements:
 
