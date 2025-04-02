@@ -34,7 +34,6 @@ ms.collection:
 You can enforce the local time zone on Windows 365 Link devices by following these steps:
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > **Devices** > **Configuration** (under **Manage devices**) > **Create** > **New Policy**.
-![Screenshot of delete policy](./media/create-device-configuration-profile/create-profile.png)
 2. Under **Create a profile**, select the following options:
     - **Platform**: **Windows 10 and later**
     - **Profile Type**: **Settings catalog**
