@@ -59,6 +59,13 @@ For more information about public preview items, see [Public preview in Windows 
 ## Week of March 31, 2025 (Service release 2503)
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+### Every time sign-in frequency option now is generally available<!--49474031-->
+
+The Every time sign-in frequency option has moved out of preview and into general availability. For more information, see [Set conditional access policies](https://learn.microsoft.com/windows-365/enterprise/set-conditional-access-policies).
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Windows 365 Frontline
 
 #### Windows 365 Frontline Cloud PCs in shared mode now generally available<!-- 40028465 -->
