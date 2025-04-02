@@ -399,6 +399,11 @@
       "source_path": "Windows365/enterprise/windows-365-switch-known-issues.md",
       "redirect_url": "/troubleshoot/windows-365/windows-365-switch-known-issues",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Windows365/link/single-sign-on-suppress.md",
+      "redirect_url": "/windows-365/link/requirements",
+      "redirect_document_id": false
     }
   ]
 }
