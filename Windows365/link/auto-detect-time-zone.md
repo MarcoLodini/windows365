@@ -53,4 +53,4 @@ You can enforce the local time zone on Windows 365 Link devices by following the
 <!-- ########################## -->
 ## Next steps
 
-[Manage Windows 365 Link devices](device-management-overview.md).
+[Manage Windows 365 Link devices](device-management-overview.md)
