@@ -31,7 +31,7 @@ ms.collection:
 
 # Access a Cloud PC
 
-Users can access their Cloud PCs in accordance with the following matrix:
+Users can access their Cloud PCs in accordance with the following matrix: 
 
 | Windows 365 Edition | [Windows App](/windows-app/overview) | [windows365.microsoft.com](https://windows365.microsoft.com) web client | [Microsoft Remote Desktop](#remote-desktop) | [LG Web OS](#lg-webos-23) |
 |--|--|--|--|--|
