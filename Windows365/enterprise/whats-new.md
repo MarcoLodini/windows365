@@ -67,7 +67,7 @@ Windows 365 Frontline Cloud PCs in shared mode has moved out of preview and into
 
 #### Link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode<!-- -->
 
-You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode. For more information, see [Use policy-driven Autopilot device preparation with Windows 365 Front Cloud PCs in shared mode](autopilot-device-prepation.md).
+You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode. For more information, see [Use policy-driven Autopilot device preparation with Windows 365 Front Cloud PCs in shared mode](autopilot-device-preparation.md).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### End user experience
