@@ -65,6 +65,10 @@ For more information about public preview items, see [Public preview in Windows 
 
 The Every time sign-in frequency option has moved out of preview and into general availability. For more information, see [Set conditional access policies](set-conditional-access-policies.md).
 
+#### Default Visual Effects performance option change<!—55063759-->
+
+The Visual Effects performance option now defaults to **Let Windows choose what’s best for my computer**.
+
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Provisioning
 
@@ -94,6 +98,13 @@ When in Windows 365 Boot mode (Windows 11 only), users can now switch back to th
 - Cloud PC error screens
 
 Administrators can configure and customize this feature within the Guided Scenario for Boot.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows App
+
+#### Access Windows App using Edge on personal Windows devices with MAM<!--56304984-->
+
+You can now enable protected Mobile Application Management (MAM) access to Windows App using Microsoft Edge on personal Windows devices. For more information, see [Require local client device security compliance with Microsoft Intune and Microsoft Entra Conditional Access](/windows-app/require-device-security-compliance-intune).
 
 <!-- ########################## -->
 ## Week of March 17, 2025
