@@ -66,6 +66,13 @@ For more information about public preview items, see [Public preview in Windows 
 The Every time sign-in frequency option has moved out of preview and into general availability. For more information, see [Set conditional access policies](https://learn.microsoft.com/windows-365/enterprise/set-conditional-access-policies).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Provisioning
+
+#### Data disk not allowed for custom images<!--56649236-->
+
+Uploading a custom image with attached managed data disks are no longer allowed for Windows 365 custom images.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Windows 365 Frontline
 
 #### Windows 365 Frontline Cloud PCs in shared mode now generally available<!-- 40028465 -->
