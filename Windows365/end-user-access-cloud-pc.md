@@ -33,7 +33,7 @@ ms.collection:
 
 Users can access their Cloud PCs in accordance with the matrix below:
 
-| Windows 365 Edition | [Windows App](/windows-app/overview) | [windows.cloud.microsoft](https://windows.cloud.microsoft) web client | [Microsoft Remote Desktop](#remote-desktop) | [LG Web OS](#lg-webos-23) |
+| Windows 365 Edition | [Windows App](/windows-app/overview) | [windows365.microsoft.com](https://windows365.microsoft.com) web client | [Microsoft Remote Desktop](#remote-desktop) | [LG Web OS](#lg-webos-23) |
 |--|--|--|--|--|
 | Windows 365 Business | X | X | X | X |
 | Windows 365 Enterprise | X | X | X | X |
