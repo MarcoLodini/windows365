@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/31/2025
+ms.date: 04/02/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -56,7 +56,14 @@ For more information about public preview items, see [Public preview in Windows 
 -->
 
 <!-- ########################## -->
-## Week of March 31, 2025
+## Week of March 31, 2025 (Service release 2503)
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows 365 Frontline
+
+#### Windows 365 Frontline Cloud PCs in shared mode now generally available<!-- 40028465 -->
+
+Windows 365 Frontline Cloud PCs in shared mode has moved out of preview and into general availability. For more information, see [Windows 365 Frontline in shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### End user experience
