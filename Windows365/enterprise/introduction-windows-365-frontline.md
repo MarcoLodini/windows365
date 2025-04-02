@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 01/10/2025
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -60,15 +60,12 @@ The maximum number of active Windows 365 Frontline Cloud PC sessions in your org
 > Windows 365 Frontline Cloud PCs in dedicated mode will automatically power off after the user signs off from the Cloud PC, and will be powered on when the user attempts to connect. It may take more time for the user to connect when the Cloud PC is being powered on. This connection time does not include executing logon scripts set by organizations.
 > After the user signs off, the Cloud PC remains powered on for two hours. If the user attempts to reconnect while the Cloud PC is powered on, the connection time will be same as Windows 365 Enterprise Cloud PCs.
 
-## Windows 365 Frontline in shared mode (preview)
+## Windows 365 Frontline in shared mode
 
 A single license:
 
 - Lets you provision one Cloud PC that can be shared noncurrently among a group of users.
 - Provides one concurrent session.
-
-> [!NOTE]
-> During [public preview](../public-preview.md), we are evaluating the potential limits for assigned users for shared Cloud PCs. More information will be shared at general availability.
 
 Windows 365 Frontline in shared mode is designed specifically for workers who
 
@@ -168,7 +165,6 @@ You can monitor the use of concurrency buffer with the Frontline connection hour
 The following features aren't yet supported for Windows 365 Frontline.
 
 - Resize a Cloud PC remote action
-- [Move a Cloud PC](move-cloud-pc.md)
 - Cross region disaster recovery
 
 Windows 365 Frontline in shared mode can only be provisioned in the following Azure regions:
@@ -178,10 +174,16 @@ Windows 365 Frontline in shared mode can only be provisioned in the following Az
 - North Europe
 - Central India
 - Japan East
+- Japan West
+- South Africa North
 - UK South
 - Central US
 - East US
 - East US 2
+- West US 3
+- South Central US
+- East Asia
+- Southeast Asia
 
 ## Next steps
 

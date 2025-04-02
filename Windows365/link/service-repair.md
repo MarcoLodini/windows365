@@ -62,6 +62,18 @@ The following replacements components are available for the Windows 365 Link dev
 - Top enclosure
 - Bottom plate screw covers
 
+## Windows 365 Link Service Guide
+
+The Windows 365 Link Service Guide provides instructions for repairing the Microsoft Windows 365 Link device using genuine Microsoft parts. It is intended for technically inclined individuals  with the knowledge, experience, and specialized tools required to repair Microsoft devices. The guide is available as a PDF in the following languages:
+
+- [Chinese (simplified)](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Chinese_(Simplified)_Windows_365_Link_Service_Guide.pdf)
+- [Dutch](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Dutch_Windows_365_Link_Service_Guide.pdf)
+- [English](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/English_Windows_365_Link_Service_Guide.pdf)
+- [French](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/French_Windows_365_Link_Service_Guide.pdf)
+- [German](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/German_Windows_365_Link_Service_Guide.pdf)
+- [Japanese](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Japanese_Windows_365_Link_Service_Guide.pdf)
+- [Spanish](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Spanish_Windows_365_Link_Service_Guide.pdf)
+
 <!-- ########################## -->
 ## Next steps
 

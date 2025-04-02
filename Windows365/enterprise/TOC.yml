@@ -149,6 +149,8 @@ items:
         href: manage-cloud-pcs-using-configuration-manager.md
       - name: Enrollment Status Page
         href: enrollment-status-page.md
+      - name: Autopilot device preparation for Frontline
+        href: autopilot-device-preparation.md
     - name: Profiles and policies
       items:
       - name: Create a dynamic device group

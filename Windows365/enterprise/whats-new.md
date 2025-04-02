@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/31/2025
+ms.date: 04/02/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -56,7 +56,36 @@ For more information about public preview items, see [Public preview in Windows 
 -->
 
 <!-- ########################## -->
-## Week of March 31, 2025
+## Week of March 31, 2025 (Service release 2503)
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+### Every time sign-in frequency option now is generally available<!--49474031-->
+
+The Every time sign-in frequency option has moved out of preview and into general availability. For more information, see [Set conditional access policies](set-conditional-access-policies.md).
+
+#### Default Visual Effects performance option change<!—55063759-->
+
+The Visual Effects performance option now defaults to **Let Windows choose what’s best for my computer**.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Provisioning
+
+#### Data disk not allowed for custom images<!--56649236-->
+
+Uploading a custom image with attached managed data disks are no longer allowed for Windows 365 custom images.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows 365 Frontline
+
+#### Windows 365 Frontline Cloud PCs in shared mode now generally available<!-- 40028465 -->
+
+Windows 365 Frontline Cloud PCs in shared mode has moved out of preview and into general availability. For more information, see [Windows 365 Frontline in shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode).
+
+#### Link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode<!-- -->
+
+You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode. For more information, see [Use policy-driven Autopilot device preparation with Windows 365 Front Cloud PCs in shared mode](autopilot-device-preparation.md).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### End user experience
@@ -69,6 +98,13 @@ When in Windows 365 Boot mode (Windows 11 only), users can now switch back to th
 - Cloud PC error screens
 
 Administrators can configure and customize this feature within the Guided Scenario for Boot.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows App
+
+#### Access Windows App using Edge on personal Windows devices with MAM<!--56304984-->
+
+You can now enable protected Mobile Application Management (MAM) access to Windows App using Microsoft Edge on personal Windows devices. For more information, see [Require local client device security compliance with Microsoft Intune and Microsoft Entra Conditional Access](/windows-app/require-device-security-compliance-intune).
 
 <!-- ########################## -->
 ## Week of March 17, 2025
@@ -217,7 +253,7 @@ Windows 365 Enterprise now supports the Israel Central region in the Middle East
 
 #### Windows 365 Frontline in shared mode (preview)<!--52583422-->
 
-Windows 365 Frontline in shared mode gives you the ability to provision a collection of Cloud PCs that can be used across multiple users mapped to a Microsoft Entra ID group. One active Cloud PC is permitted per license. For more information, see [Windows 365 Frontline in shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode-preview).
+Windows 365 Frontline in shared mode gives you the ability to provision a collection of Cloud PCs that can be used across multiple users mapped to a Microsoft Entra ID group. One active Cloud PC is permitted per license. For more information, see [Windows 365 Frontline in shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
