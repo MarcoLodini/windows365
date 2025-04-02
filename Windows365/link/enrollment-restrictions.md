@@ -41,7 +41,9 @@ If a [device platform restriction]() blocks personally owned devices, Windows 36
 - [Use an operating system SKU filter to let Windows 365 Link devices enroll](#use-an-operating-system-sku-filter-to-let-windows-365-link-devices-enroll-in-intune).
 - [Preregister Windows 365 Link devices using corporate identifiers](/mem/intune/enrollment/corporate-identifiers-add#add-windows-corporate-identifiers).
 
-Windows 365 Link devices don't currently support Autopilot.
+Windows 365 Link devices don't currently support Autopilot. 
+
+> [!VIDEO 3f74ecdf-20c1-4778-bbaa-403e92f384fc]
 
 ## Use an operating system SKU filter to let Windows 365 Link devices enroll in Intune
 

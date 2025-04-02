@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/02/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -45,7 +45,7 @@ To see the internet options, on the **Sign in** screen, select the **Internet** 
 
 Select audio output device and manage its volume.
 
-## Quick settings menu
+## Accessibility
 
 To see the accessibility options, on the **Sign in** screen, select the **Accessibility** icon (![Image of the Accessibility icon.](media/quick-settings/accessibility-icon.gif)). You can then set the following accessibility options.
 
@@ -59,7 +59,19 @@ To see the accessibility options, on the **Sign in** screen, select the **Access
 | Privacy and Security | View privacy and security settings for your Location, Camera, and microphone. Not in OOBE.|
 | Power button | View power management options for the device. |
 
+## Shortcuts
+
+You can also connect to the Display and Bluetooth quick settings from within the Cloud PC session using shortcuts.
+
+To access these experiences:
+
+1. Sign into your Cloud PC session.
+2. Open the Settings app.
+3. Navigate to the **Display** page or the **Bluetooth** page.
+4. Select the **Open Additional Settings** button.
+5. Make your desired changes on the quick settings control that appears.
+
 <!-- ########################## -->
 ## Next steps
 
-[Learn about the options in the control + alt + delete meneu](control-alt-delete.md).
+[Learn about the options in the control + alt + delete menu](control-alt-delete.md).

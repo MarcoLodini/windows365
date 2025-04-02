@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 12/13/2024
+ms.date: 04/02/2025 
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -31,31 +31,23 @@ ms.collection:
 
 # Conditional Access policies for Windows 365 Link
 
-As part of [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you must make sure that your Conditional Access policies accommodate both the login through and connection from Windows Cloud PC devices. If Conditional Access is used to protect the resources used to access Windows 365 Cloud PCs as described in [Set conditional access policies for Windows 365](/windows-365/enterprise/set-conditional-access-policies), a separate but matching Conditional Access policy must also be used to protect the user action to register or join devices.
+As part of [setting up your organization's environment to support Windows 365 Link](deployment-overview.md), you must make sure that your Conditional Access policies accommodate both the login through and connection from Windows Cloud PC devices. If Conditional Access is used to protect resources used to access Windows 365 Cloud PCs as described in [Set conditional access policies for Windows 365](/windows-365/enterprise/set-conditional-access-policies), another Conditional Access policy must also be used to protect the user action to register or join devices. Failure to create this second policy may cause Windows 365 Link authentication to fail.
 
-## Authentication process for Windows 365 Link devices
+To decide if you need a user action policy, follow these steps:
 
-1. When the user signs in on the Windows 365 Link interactive **Sign in** screen, their account is authenticated against the device registration service.
-2. Windows 365 Link silently authenticates against the other required cloud resources (like Microsoft Graph and the Windows 365 service by using single sign-on (SSO)).
+1. Check if any policies are triggered when connecting to Windows 365 resources.
+2. Create a new user action policy with the same access controls.
 
-Windows 365 Cloud PC devices have two distinct stages of authentication:
+## How Windows Windows 365 Link authentication works
 
-- Interactive sign-in: When the user signs in on the Windows 365 Link sign in screen, the device registration service is used to get an authentication token.
-- Non-interactive connections: The token obtained from the user sign in is then used to perform non-interactive sign-ins when connecting to other cloud app resources like Windows 365 services.
+Windows 365 Cloud PC devices authenticate in two consecutive stages:
 
-Sign-ins from Windows 365 Link devices don't trigger any Conditional Access policies that are targeted to *All resources (formerly cloud apps)* or directly to the *Device Registration Service* resource. Also, the non-interactive connection can't prompt a user to satisfy those requirements.
+1. Interactive sign-in: When the user signs in on the Windows 365 Link sign in screen, it can trigger Conditional Access policies applied to Register or Join devices actions. Users can be shown messages or get challenged for stronger, multifactor authentication methods. This stage generates the token that is used in the second stage.
+2. Non-interactive connections to Cloud PC resources using single sign-on: This stage can trigger Conditional Access policies on resources like **Windows 365**, **Windows Cloud Login**, and **All resources**. Users can't be prompted or challenged in this stage. If stronger authentication is needed, the connection is interrupted, and the user is shown an error that an interactive window can't be shown.
 
-If a Conditional Access policy is assigned to any of the Windows 365 resources, then another policy with the same Access control settings must also be applied to the User Actions to Register or join devices. This policy can trigger an interactive sign-in and obtain the claims that are necessary for the connection.
+## Review existing policies
 
-Without a matching set of policies, the connection is interrupted, and users can't connect to their Cloud PC.
-
-These activities can be seen in the Entra Conditional Access sign-in logs:
-
-1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Sign-in logs**.
-2. On the **User sign-ins (interactive)** tab, use filters to find events from the sign in screen.
-3. On the **User sign-ins (non-interactive)** tab, use filters to find events from the connections. 
-
-## Create a Conditional Access policy for interactive sign in
+You can use the **What if** tool to determine if any Conditional Access policies are applied to relevant Windows 365 Resources during the non-interactive connection stage. This includes a policy that is applied to **All resources** (formerly **All cloud apps**).
 
 1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Policies** > **What if**.
 2. For **User or Workload identity** select a user to test with.
@@ -68,21 +60,26 @@ These activities can be seen in the Entra Conditional Access sign-in logs:
     - **Windows Cloud Login** (app ID 270efc09-cd0d-444b-a71f-39af4910ec45).
 6. Select **What If**.
 
-Review each of the **Policies that will apply** and determine the access controls used to grant access to those resources and session settings.
+Review each of the **Policies that will apply** and determine the access controls used to grant access to those resources and session settings. Note these policies for use when creating the new user action policies in the next section.
 
-You can now create a new Conditional Access policy to [Require MFA for device registration](/entra/identity/conditional-access/policy-all-users-device-registration#create-a-conditional-access-policy) using the same Access controls.
+## Create new Conditional Access policy for interactive sign-in stage
 
-1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Polices** > **New policy**
+Using the information you gathered from the **What if** tool in the previous section, you can now create a new Conditional Access policy to require the same controls for the sign-in stage.
+
+1. Sign in to the [Microsoft Entra admin center](https://aad.portal.azure.com/) > **Protection** > **Conditional Access** > **Policies** > **New policy**
 2. Give your policy a name. Consider using a meaningful standard for policy names.
 3. Under **Assignments** > **Users**, select **0 users and groups selected**.
 4. Under **Include**, select **All users** or select a group of users who will sign-in through Windows 365 Link devices.
 5. Under **Exclude**, select **Users and groups** > select your organization's emergency access or break-glass accounts.
 6. Under **Target resources** > **User actions**, select **Register or join devices**.
-7. Under **Access controls** > **Grant**, use the same controls found earlier using the What If tool.
-8. Under **Access controls** > **Session**, use the same controls found earlier using the What If tool.
-9. Confirm your settings and set **Enable policy** to **Report-only**.
-10. Select **Create**.
-11. After confirming the settings using report-only mode, change the **Enable policy** toggle from **Report-only** to **On**.
+7. Under **Access controls** > **Grant**, use the same controls found earlier using the **What If** tool.
+8. Confirm your settings and set **Enable policy** to **Report-only**.
+9. Select **Create**.
+10. After confirming the settings using report-only mode, change the **Enable policy** toggle from **Report-only** to **On**.
+
+While these steps are specifically for enabling interactive authentication on Windows 365 Link devices, the resulting user action policy is also applied when users Register or Join devices to Microsoft Entra ID.
+
+> [!VIDEO e83133df-aeab-4563-92c5-eff455f656b0]
 
 For more information about creating Conditional Access policies for device registration, including potential conflicts, see [Require multifactor authentication for device registration](/entra/identity/conditional-access/policy-all-users-device-registration#create-a-conditional-access-policy).
 
