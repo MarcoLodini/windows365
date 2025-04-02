@@ -45,6 +45,20 @@ For information about Windows 365 Enterprise new features, see [What's new in Wi
 
 Windows 365 Link has moved out of preview and into general availability.
 
+This release includes the following new help articles:
+
+- [Supported configuration service provider policies for Windows 365 Link](configuration-service-provider-support.md)
+- [Device management overview for Windows 365 Link](device-management-overview.md)
+- [Windows 365 Link security](security-overview.md)
+- [Service and repair options for your Windows 365 Link](service-repair.md)
+- [Windows 365 Link sign-in methods](sign-in-methods.md)
+- [Tested peripherals for Windows 365 Link devices](tested-peripherals-windows-365-link.md)
+- [Troubleshooting Windows 365 Link](troubleshooting.md)
+- [Windows 365 Link update behavior and control](update-behavior-control.md)
+- [USB NFC smart card reader support](usb-nfc-reader-support.md)
+- [Commerical warranty and Protection Plan](warranty.md)
+- [Wipe or reset Windows 365 Link device](wipe-reset-windows-365-link.md)
+
 <!-- ########################## -->
 ## Next steps
 
