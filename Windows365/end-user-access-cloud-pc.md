@@ -31,7 +31,7 @@ ms.collection:
 
 # Access a Cloud PC
 
-Users can access their Cloud PCs in accordance with the matrix below:
+Users can access their Cloud PCs in accordance with the following matrix: 
 
 | Windows 365 Edition | [Windows App](/windows-app/overview) | [windows365.microsoft.com](https://windows365.microsoft.com) web client | [Microsoft Remote Desktop](#remote-desktop) | [LG Web OS](#lg-webos-23) |
 |--|--|--|--|--|
@@ -83,7 +83,7 @@ While on windows365.microsoft.com, users can take actions on their Cloud PCs by 
   - Removes your apps.
 
     > [!IMPORTANT]  
-    > Before resetting your Cloud PC, make sure to back up any important files you need to keep to a cloud storage service or external storage. Resetting your Cloud PC will delete these files.
+    > Before resetting your Cloud PC, make sure to back up any important files you need to keep to a cloud storage service or external storage. Resetting your Cloud PC deletes these files.
 
 - **Restart**: Restarts the Cloud PC. For Cloud PCs created after 1/31/2024, you can also restart or shut down by using the keyboard combination CTRL+ALT+DEL.
 - **Troubleshoot**: Troubleshoot and attempt to resolve any issues that may be preventing a user from connecting to their Cloud PC. The checks run include:
@@ -149,7 +149,7 @@ Users can view and download connection details.
 
 To transfer files from the local device to the Cloud PC, select the upload icon to launch File Explorer. Select the files to transfer them to the \This PC\Windows365 virtual drive\Uploads folder on the Cloud PC.
 
-To transfer files from the Cloud PC to the local device, copy the files to the Downloads folder on the Cloud PC. The files will be copied to the \This PC\Windows365 virtual drive\Downloads folder of the local device.
+To transfer files from the Cloud PC to the local device, copy the files to the Downloads folder on the Cloud PC. The files are automatically copied to the \This PC\Windows365 virtual drive\Downloads folder of the local device.
 
 #### Restrict users from transferring files to and from Cloud PCs
 
