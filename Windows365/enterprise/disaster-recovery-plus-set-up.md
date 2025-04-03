@@ -31,10 +31,10 @@ ms.collection:
 
 # Set up disaster recovery plus
 
-To configure [disaster recovery plus](disaster-recovery-plus.md), use the following steps. For more information about user settings, see [User settings](assign-users-as-local-admin.md).
+To configure disaster recovery plus, use the following steps. For more information about user settings, see [User settings](assign-users-as-local-admin.md).
 
 > [!IMPORTANT]  
-> When using disaster recovery plus, it's critical to configure and test the entire cross region flow as part of your repeating [business continuity and disaster recovery planning](../business-continuity-disaster-recovery.md). Before releasing widely across your whole environment, you should activate and deactivate multiple test devices to make sure that it's working as expected. You should also periodically check that your environment is healthy and configured correctly by using the [**Cloud PC optional business continuity and disaster recovery status** report](cloud-pc-optional-business-continuity-disaster-recovery-status-report.md).
+> When using disaster recovery plus, it's critical to configure and test the entire cross region flow as part of your repeating [business continuity and disaster recovery planning](../business-continuity-disaster-recovery.md). Before releasing widely across your whole environment, you should activate and deactivate multiple test devices to make sure that it's working as expected. You should also periodically check that your environment is healthy and configured correctly by using the [**Cloud PC optional business continuity and disaster recovery status** report](cross-region-disaster-recovery-report.md).
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > **Devices** > **Windows 365**(under **Device Onboarding**)> **User Settings**.
 2. Select **Create** (alternately, you can make the following changes to an existing user setting).
@@ -52,7 +52,7 @@ To configure [disaster recovery plus](disaster-recovery-plus.md), use the follow
 9. On the **Assignments** page, add the groups containing users that you want this user setting applied to. All Cloud PCs associated with a user share the same disaster recovery plus settings.
 10. On the **Review + create** page, select **Create**.
 
-After you finish this configuration, the first backup of the Cloud PC may take up to three days. Subsequent incremental copies take only a few minutes. To see the current state of backups, check the [Cloud PC optional business continuity and disaster recovery status report](xx.md).
+After you finish this configuration, the first backup of the Cloud PC may take up to three days. Subsequent incremental copies take only a few minutes. To see the current state of backups, check the [Cloud PC optional business continuity and disaster recovery status report](cross-region-disaster-recovery-report.md).
 
 <!-- ########################## -->
 ## Next steps
