@@ -265,8 +265,6 @@ items:
           href: cross-region-disaster-recovery-activate.md
       - name: Disaster recovery plus
         items:
-        - name: Overview
-          href: disaster-recovery-plus.md
         - name: Set up disaster recovery plus
           href: disaster-recovery-plus-set-up.md
       - name: Digital forensics
