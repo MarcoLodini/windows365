@@ -33,6 +33,10 @@ ms.collection:
 
 When a user signs in to a device for the first time, the Enrollment Status Page (ESP) displays the Intune provisioning status. Windows 365 supports the ESP, which provides a common experience for users who sign into their physical and Cloud PCs for the first time.  For full information about the ESP, see [Set up the Enrollment Status Page]( /mem/intune/enrollment/windows-enrollment-status).
 
+> [!NOTE]
+>
+> Autopilot device preparation (preview) for Windows 365 Frontline devices in shared mode and the ESP aren't compatible. If you enable Autopilot device preparation for Cloud PCs within provisioning policies, ESP is disabled.
+
 ## Windows 365 and the ESP process
 
 When a Cloud PC is provisioned, the Windows 365 service:
