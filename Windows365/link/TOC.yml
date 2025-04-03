@@ -63,6 +63,10 @@ items:
     href: wipe-reset-windows-365-link.md
   - name: Auto detect local time zone
     href: auto-detect-time-zone.md
+- name: Developers
+  items:
+  - name: Secure out-of-process plugin
+    href: secure-out-process-plugin.md
 - name: Troubleshooting
   items:
   - name: Troubleshooting
