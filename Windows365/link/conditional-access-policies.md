@@ -43,7 +43,7 @@ To decide if you need a user action policy, follow these steps:
 Windows 365 Cloud PC devices authenticate in two consecutive stages:
 
 1. Interactive sign-in: When the user signs in on the Windows 365 Link sign in screen, it can trigger Conditional Access policies applied to Register or Join devices actions. Users can be shown messages or get challenged for stronger, multifactor authentication methods. This stage generates the token that is used in the second stage.
-2. Non-interactive connections to Cloud PC resources using single sign-on: This stage can trigger Conditional Access policies on resources like **Windows 365**, **Windows Cloud Login**, and **All resources**. Users can't be prompted or challenged in this stage. If stronger authentication is needed, the connection is interrupted, and the user is shown an error that an interactive window can't be shown.
+2. Non-interactive connections to Cloud PC resources using single sign-on: This stage can trigger Conditional Access policies on resources like **Windows 365**, **Windows Cloud Login**, and **All resources**. Users can't be prompted or challenged in this stage. If stronger authentication is needed, the connection is interrupted, and the user is shown an error that [an interactive window can't be shown](/troubleshoot/windows-365/connection-error-interactive-window-not-shown).
 
 ## Review existing policies
 
