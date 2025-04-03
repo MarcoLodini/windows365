@@ -263,6 +263,10 @@ items:
           href: cross-region-disaster-recovery-set-up.md
         - name: Activate/deactivate cross region disaster recovery
           href: cross-region-disaster-recovery-activate.md
+      - name: Disaster recovery plus
+        items:
+        - name: Set up disaster recovery plus
+          href: disaster-recovery-plus-set-up.md
       - name: Digital forensics
         items:
         - name: Overview
