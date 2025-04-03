@@ -39,7 +39,7 @@ Users can access their Cloud PCs in accordance with the matrix below:
 | Windows 365 Enterprise | X | X | X | X |
 | Windows 365 Frontline | X | X\* | | |
 
-\* Frontline Cloud PCs in shared mode can't be accessed using windows365.microsoft.com. You must use windows.cloud.microsoft to access your Frontline Cloud PC in shared mode. 
+\* Frontline Cloud PCs in shared mode can't be accessed using [windows365.microsoft.com](https://windows365.microsoft.com). You must use [windows.cloud.microsoft](https://windows.cloud.microsoft) to access your Frontline Cloud PC in shared mode. 
 
 For information on hardware requirements, see [End user hardware requirements](end-user-hardware-requirements.md).
 
