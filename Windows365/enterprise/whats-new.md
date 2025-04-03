@@ -65,7 +65,7 @@ For more information about public preview items, see [Public preview in Windows 
 
 The Every time sign-in frequency option has moved out of preview and into general availability. For more information, see [Set conditional access policies](set-conditional-access-policies.md).
 
-#### Default Visual Effects performance option change<!—55063759-->
+#### Default Visual Effects performance option change<!--55063759-->
 
 The Visual Effects performance option now defaults to **Let Windows choose what’s best for my computer**.
 
