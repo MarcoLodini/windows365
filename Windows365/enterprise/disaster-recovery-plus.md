@@ -36,15 +36,15 @@ Windows 365 disaster recovery plus is an optional service for Windows 365 Enterp
 - Creates three copies of the Cloud PC OS disk to a different geography/region.
 - Allocates and reserves capacity for a Cloud PC in the alternate region.
 
-In the case of an Azure regional level event that restricts access to Cloud PCs in the primary region, the disk copies can be used to restore the device to the allocated Cloud PC in the alternate region.
+If there's an Azure regional level event that restricts access to Cloud PCs in the primary region, the disk copies can be used to restore the device to the allocated Cloud PC in the alternate region.
 
 When you configure Windows 365 disaster recovery plus for a user, Windows 365 makes a copy of the OS disk for all of the user’s Cloud PCs, to the alternate geography/region you specify. The initial full disk copy may take up to three days, but subsequent incremental copies take only minutes.
 
-## Comparison with point-in-time restore and cross region disaster recovery
+## Compared to point-in-time restore and cross region disaster recovery
 
-To successfully restore a Cloud PC during an outage, [point-in-time restore](restore-overview.md) to an alternate zone and [cross region disaster recovery](cross-region-disaster-recovery.md) are dependent on capacity in the target region/zone at the time of the outage.
+To successfully restore a Cloud PC during an outage, [point-in-time restore](restore-overview.md) to an alternate zone and [cross region disaster recovery](cross-region-disaster-recovery.md)  depend on the target region/zone capacity.
 
-Windows 365 disaster recovery plus allocates resources when configured, proactively reserving the resources. This greatly increases the likelihood that the restore will succeed.
+Windows 365 disaster recovery plus allocates resources when configured, proactively reserving the resources. This proactive allocation greatly increases the likelihood that the restore succeeds.
 
 If a point-in-time restore fails due to capacity constraints, Windows 365 Disaster Recovery Plus provides a secondary opportunity to restore the Cloud PC to the reserved capacity of the alternate region.
 
