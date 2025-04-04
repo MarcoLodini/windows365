@@ -53,7 +53,7 @@ If a point-in-time restore fails due to capacity constraints, Windows 365 Disast
 If there's an outage, the service has the following target objectives for disaster recovery plus:
 
 - Restore point objective (RPO) of < 61 minutes.
-- Restore time objective (RPO) of < 31 minutes.
+- Restore time objective (RTO) of < 31 minutes.
 
 Devices are restored as quickly as possible.
 
@@ -68,4 +68,4 @@ When you deactivate disaster recovery plus after the outage event, the temporary
 <!-- ########################## -->
 ## Next steps
 
-Learn how to [set up](disaster-recovery-plus-set-up.md).
+[Set up disaster recovery plus](disaster-recovery-plus-set-up.md).
