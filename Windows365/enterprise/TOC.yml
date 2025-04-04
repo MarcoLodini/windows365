@@ -269,6 +269,8 @@ items:
           href: disaster-recovery-plus.md
         - name: Set up disaster recovery plus
           href: disaster-recovery-plus-set-up.md
+        - name: Activate/deactivate disaster recovery plus
+          href: disaster-recovery-plus-activate.md
       - name: Digital forensics
         items:
         - name: Overview
