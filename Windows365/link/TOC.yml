@@ -75,3 +75,15 @@ items:
     href: troubleshooting.md
   - name: Known issues
     href: known-issues.md
+  - name: OOBE An error has occurred
+    href: /troubleshoot/windows-365/oobe-fails-error-has-occurred?context=/windows-365/link/context/context
+  - name: OOBE Something went wrong
+    href: /troubleshoot/windows-365/oobe-fails-error-something-wrong?context=/windows-365/link/context/context
+  - name: An interactive window could not be shown
+    href: /troubleshoot/windows-365/connection-error-interactive-window-not-shown?context=/windows-365/link/context/context
+  - name: Connection to the remote PC was lost
+    href: /troubleshoot/windows-365/connection-fails-with-connection-to-the-remote-pc-was-lost?context=/windows-365/link/context/context
+  - name: Cloud PC does not support Entra ID single sign-on
+    href: /troubleshoot/windows-365/connection-fails-with-cloud-pc-does-not-support-entra-id-single-sign-on-sso?context=/windows-365/link/context/context
+  - name: Failed to open a Microsoft Entra ID credential prompt
+    href: /troubleshoot/windows-365/connection-fails-with-failed-to-open-a-microsoft-entra-id-credential-prompt?context=/windows-365/link/context/context
