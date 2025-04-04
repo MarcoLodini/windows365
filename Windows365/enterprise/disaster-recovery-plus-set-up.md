@@ -31,7 +31,7 @@ ms.collection:
 
 # Set up disaster recovery plus
 
-To configure disaster recovery plus, use the following steps. For more information about user settings, see [User settings](assign-users-as-local-admin.md).
+To configure [disaster recovery plus](disaster-recovery-plus.md), use the following steps. For more information about user settings, see [User settings](assign-users-as-local-admin.md).
 
 > [!IMPORTANT]  
 > When using disaster recovery plus, it's critical to configure and test the entire cross region flow as part of your repeating [business continuity and disaster recovery planning](../business-continuity-disaster-recovery.md). Before releasing widely across your whole environment, you should activate and deactivate multiple test devices to make sure that it's working as expected. You should also periodically check that your environment is healthy and configured correctly by using the [**Cloud PC optional business continuity and disaster recovery status** report](cross-region-disaster-recovery-report.md).
