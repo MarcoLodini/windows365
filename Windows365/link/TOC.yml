@@ -69,3 +69,5 @@ items:
     href: troubleshooting.md
   - name: Known issues
     href: known-issues.md
+  - name: OOBE An error has occured
+    href: /troubleshoot/windows-365/oobe-fails-error-has-occurred?context=/windows-365/link/context/context
