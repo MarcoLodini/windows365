@@ -1,0 +1,10 @@
+- name: Windows 365
+  tocHref: /windows-365/
+  topicHref: /windows-365/index
+  items:
+  - name: Windows 365 Link
+    tocHref: /windows-365/link/
+    topicHref: /windows-365/link/index
+  - name: Windows 365 Link
+    tocHref: /troubleshoot/windows-365/
+    topicHref: /windows-365/link/index
