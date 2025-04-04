@@ -67,6 +67,8 @@ items:
   items:
   - name: Secure out-of-process plugin
     href: secure-out-process-plugin.md
+  - name: Interfaces
+    href: interfaces.md
 - name: Troubleshooting
   items:
   - name: Troubleshooting
