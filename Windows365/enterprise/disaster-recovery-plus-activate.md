@@ -29,7 +29,7 @@ ms.collection:
 - tier2
 ---
 
-# Activate or deactive disaster recovery plus in Windows 365
+# Activate or deactivate disaster recovery plus in Windows 365
 
 During an outage or for testing, you can activate or deactivate Windows 365 disaster recovery plus to move users to their temporary Cloud PCs and back. Disaster recovery plus is designed for use during a large-scale event, with the temporary Cloud PCs activated and deactivated from the Intune admin center.
 
