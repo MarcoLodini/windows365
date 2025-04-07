@@ -54,7 +54,7 @@ The following diagram shows a high-level explaination of how the RDP clients int
 
 ## Implementation details
 There are three parties involved when plugins are used in an RDP connection.
-1. The RDP client (for example, [Azure Virtual Desktop](/products/virtual-desktop)).
+1. The RDP client (for example, [Azure Virtual Desktop](https://azure.microsoft.com/products/virtual-desktop)).
 2. The RDP plugin.
 3. The application for which the plugin is written (for example, [Teams application](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)).
 
