@@ -62,7 +62,7 @@ typedef struct WTSWindowInfo
 ```
 
 ## Inheritance
-The **IWTSWindowInfoService** interface inherits from the [IUnknown](https://learn.microsoft.com/en-us/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWTSWindowInfoService** also has these types of members:
+The **IWTSWindowInfoService** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWTSWindowInfoService** also has these types of members:
 
 ## Methods
 ### IWTSWindowInfoService::GetWindowInfo
