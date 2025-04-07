@@ -33,3 +33,7 @@ items:
     href: end-user-hardware-requirements.md
   - name: Access a Cloud PC
     href: end-user-access-cloud-pc.md
+- name: IWTSWindowInfoService
+  href: IWTSWindowInfoService.md
+- name: IWTSWindowChangedCallback
+  href: IWTSWindowChangedCallback.md
