@@ -31,7 +31,7 @@ ms.collection:
 
 # IWTSWindowChangedCallback
 ## Overview
-A callback that will be invoked whenever a RDP window that is subscribed to and it changes. This is implemented by the RDP plugin.
+A callback that is invoked whenever an RDP window that is subscribed to and it changes. The RDP plugin should implement the interface IWTSWindowChangedCallback.
 
 ## Inheritance
 **IWTSWindowChangedCallback** interface inherits from the [IUnknown](https://learn.microsoft.com/en-us/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. IWTSWindowChangedCallback also has these types of members:
