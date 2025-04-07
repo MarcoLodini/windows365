@@ -72,7 +72,7 @@ At a high level, it's the RDP client's responsibility to
 2. Implement client-side interfaces like `IWTSWindowInfoService`.
 
 Once, the RDP client process is launched, it should have the code to,
-1. Discover the plugins using `AppExtensionCatalog::Open("com.microsoft.rdp.plugin.wtsplugin")`. For more information, see [app extensions documentation](/uwp/api/windows.applicationmodel.appextensions.appextensioncatalog.open?view=winrt-26100).
+1. Discover the plugins using `AppExtensionCatalog::Open("com.microsoft.rdp.plugin.wtsplugin")`. For more information, see [app extensions documentation](/uwp/api/windows.applicationmodel.appextensions.appextensioncatalog.open).
 2. Get the COM class id of the discovered plugins.
 3. Create the plugin factory's COM object using [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) 
 Create the actual plugin by using the plugin factory's `CreatePluginAPI` (defined in the RDP plugin itself).
