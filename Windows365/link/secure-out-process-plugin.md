@@ -41,33 +41,33 @@ Traditional RDP plugins are loaded into the same process as the RDP client. As s
 ![in process plugin model](../media/secure-out-process-plugin/inproc.png "in process plugin model")
 
 In the out of proc model,
-1. The RDP client process by loads the RDP plugins out of proc i.e. as an independent process from that of the RDP client and
+1. The RDP client process loads the RDP plugins out of proc, i.e., as an independent process separate from the RDP client and
 2. Limit the plugin's access to the wider Windows operating system by enforcing process isolation [using AppContainers](https://learn.microsoft.com/en-us/windows/win32/secauthz/appcontainer-isolation).
 
 ## Out-of-proc plugin loading architecture
-The following diagram shows a high-level diagram explaining how the RDP clients will interact with the RDP plugins in an out of proc model.
+The following shows a high-level diagram explaining how the RDP clients interact with the RDP plugins in an out of proc model.
 
 ![out of process plugin model](../media/secure-out-process-plugin/outofproc.png "out of process plugin model")
 1. The RDP plugins can be thought of as COM servers and RDP clients are COM clients.
 2. The RDP plugins are now independent processes running in App Isolation [Link to section]. The RDPClientProcess.exeloads the plugins using COM's [CoCreateInstance] API(https://learn.microsoft.com/en-us/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
-3. The RDP plugin authors don't have to change the core business logic present in the dlls. They just need to package the plugin as an MSIX [Link to section]. This ensures minimal changes to the RDP plugin code.
+3. The RDP plugin authors don't have to change the core business logic present in the dlls. They just need to package the plugin as an MSIX [Link to section]. Thus, plugin authors have to make minimal changes to the RDP plugin code.
 
 ## Implementation Details
 There are 3 parties involved when plugins are used in an RDP connection.
-1. The RDP client (e.g. [Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop)).
+1. The RDP client (for example, [Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop)).
 2. The RDP plugin.
-3. The application for which the plugin is written (e.g. [Teams application](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)).
+3. The application for which the plugin is written (for example, [Teams application](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)).
 
-For example, when a user uses Azure Virtual desktop to connect to a virtual desktop and uses Teams application running in the virtual desktop, then, the Azure Virtual Desktop is the RDP client (client application), the [Teams VDI plugin](https://learn.microsoft.com/en-us/microsoftteams/new-teams-vdi-requirements-deploy) is the RDP plugin and the Teams is the remote application running in the virtual desktop is the server application.
+For example, consider a situation, when a user uses Azure Virtual desktop to connect to a virtual desktop and uses Teams application running in the virtual desktop. Here the Azure Virtual Desktop is the RDP client (client application), the [Teams VDI plugin](https://learn.microsoft.com/en-us/microsoftteams/new-teams-vdi-requirements-deploy) is the RDP plugin and the Teams is the remote application running in the virtual desktop is the server application.
 
 ### What do plugin authors have to do?
-All RDP plugins will work through COM communications. The RDP plugin will be the COM server, and the RDP client will be the COM client (see [COM clients and COM servers](https://learn.microsoft.com/en-us/windows/win32/com/com-clients-and-servers)). Note this should be confused with RDP client application and RDP server application. Both the COM client (RDP client) and COM server (RDP Plugin) are in the client machine.
+All RDP plugins work through COM communications. The RDP plugin is the COM server, and the RDP client is the COM client (see [COM clients and COM servers](https://learn.microsoft.com/en-us/windows/win32/com/com-clients-and-servers)). Both the COM client (RDP client) and COM server (RDP Plugin) are in the client machine.
 There are 2 main tasks that the plugin authors need to complete-
 1. Define the functions of the interfaces declared in [tsvirtualchannels documentation](https://learn.microsoft.com/en-us/windows/win32/api/tsvirtualchannels/). Plugin authors need not define every single function but only the ones that are in use.
-2. Package/distribute the RDP plugin as an MSIX [Link to section]. Currently MSIX is the only way of packaging applications which supports App Isolation [Link to section], COM [Link to section] and Package Identity [Link to section]. There are some important details that need to be kept in mind while packaging the app. These are addressed in the section, "Packaging the SamplePlugin project as an MSIX"
+2. Package/distribute the RDP plugin as an MSIX [Link to section]. Currently MSIX is the only way of packaging applications which supports App Isolation [Link to section], COM [Link to section] and Package Identity [Link to section]. There are some important details that need to be kept in mind while packaging the app. These details are addressed in the section, "Packaging the SamplePlugin project as an MSIX"
 
 ### What do the RDP clients have to do?
-At a high level it is the RDP client's responsibility to 
+At a high level, it is the RDP client's responsibility to 
 1. discover and load the RDP plugins into memory.
 2. implement client-side interfaces like `IWTSWindowInfoService`.
 
@@ -78,10 +78,10 @@ Once, the RDP client process is launched, it should have the code to,
 Create the actual plugin by using the plugin factory's `CreatePluginAPI` (defined in the RDP plugin itself).
 
 ### What does the RDP server application have to do to send/receive data?
-The server application can use the [WTSVirtualChannelOpenEx](https://learn.microsoft.com/en-us/windows/win32/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex) API to open a dynamic virtual channel to the RDP plugin running in the client machine by passing the `WTS_CHANNEL_OPTION_DYNAMIC` flag. This opens a duplex channel between the RDP client and server application.
+The server application can use the [WTSVirtualChannelOpenEx](https://learn.microsoft.com/en-us/windows/win32/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex) API to open a dynamic virtual channel to the RDP plugin running in the client machine by passing the `WTS_CHANNEL_OPTION_DYNAMIC` flag. This API opens a duplex channel between the RDP client and server application.
 
 It can then write data to the virtual channel using the [WTSVirtualChannelWrite](https://learn.microsoft.com/en-us/windows/win32/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelwrite) API and similarly read data from the channel using the [WTSVirtualChannelRead](https://learn.microsoft.com/en-us/windows/win32/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread) API.
-Note that the prerequisites of opening this dynamic virtual channel are:
+The prerequisites of opening this dynamic virtual channel are:
 1. an RDP connection must exist between the RDP client and server
 2. the RDP plugin must already be loaded in the client machine
 
