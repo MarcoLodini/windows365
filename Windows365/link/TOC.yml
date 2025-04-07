@@ -67,8 +67,10 @@ items:
   items:
   - name: Secure out-of-process plugin
     href: secure-out-process-plugin.md
-  - name: Interfaces
-    href: interfaces.md
+  - name: IWTSWindowInfoService
+    href: IWTSWindowInfoService.md
+  - name: IWTSWindowChangedCallback
+    href: IWTSWindowChangedCallback.md
 - name: Troubleshooting
   items:
   - name: Troubleshooting
