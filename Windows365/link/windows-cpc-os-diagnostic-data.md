@@ -40,7 +40,7 @@ Windows 365 Link comes with the Windows CPC OS preinstalled. Enterprise customer
 
 For the best experience, use the most current build of Windows CPC OS.
 
-For information about Windows 365 Service data, see [Privacy and data in Windows 365](../enterprise/privacy-personal-data).
+For information about Windows 365 Service data, see [Privacy and data in Windows 365](../enterprise/privacy-personal-data.md).
 
 ## Windows CPC OS diagnostic data and Subject Requests for the GDPR
 
