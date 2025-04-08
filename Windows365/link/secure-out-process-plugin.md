@@ -64,6 +64,8 @@ There are three parties involved when plugins are used in an RDP connection.
 
 For example, consider a situation, when a user uses Azure Virtual desktop to connect to a virtual desktop and uses Teams application running in the virtual desktop. Here the Azure Virtual Desktop is the RDP client (client application), the [Teams VDI plugin](/microsoftteams/new-teams-vdi-requirements-deploy) is the RDP plugin and the Teams is the remote application running in the virtual desktop is the server application.
 
+We have a complete working example [here](https://github.com/microsoft/SampleOutOfProcRdpPlugin/tree/main). In this example, we go into implementation details using an example RDP client, RDP plugin and a sample application running in the remote virtual machine.
+
 ### What do plugin authors have to do?
 All RDP plugins work through COM communications. The RDP plugin is the COM server, and the RDP client is the COM client (For more information, see [COM clients and COM servers](/windows/win32/com/com-clients-and-servers)). Both the COM client (RDP client) and COM server (RDP Plugin) are in the client machine.
 There are two main tasks that the plugin authors need to complete-
