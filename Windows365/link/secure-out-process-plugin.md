@@ -4,11 +4,11 @@ title: Secure out-of-process plugin
 titleSuffix:
 description: Learn about the secure out-of-process plugin for Windows 365 Link
 keywords:
-author: ErikjeMS  
+author: ribanerjee  
 ms.author: ribanerjee
 manager: dougeby
-ms.date: 04/03/2025
-ms.topic: overview
+ms.date: 04/08/2025
+ms.topic: how-to
 ms.service: windows-365-link
 ms.subservice:
 ms.localizationpriority: high
@@ -29,12 +29,16 @@ ms.collection:
 - tier2
 ---
 
-# Secure out-of-process plugin for Windows 365 Link
+# Secure out-of-process plugin for Windows 365 Link (preview)
 
 ## Introduction
+
 ### What is a Remote Desktop plugin?
+
 A Remote Desktop plugin is an extension or add-on that enhances the functionality of Microsoft Remote Desktop (RDP) clients, typically in third-party applications. For example, [Teams VDI Plugin](/microsoftteams/vdi-2) which is designed to optimize the performance of Teams when running in virtualized environments.
 **For Windows 365 Link, these plugins must comply with a new architecture detailed in this document. If you represent an ISV that needs a Remote Desktop plugin to work with Link, please [complete and submit this form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5TElPlHy6hJpLhhqUqVoJpUNE9DRDlYTlhPTEhJS0lONDk2TzNLTkpQNy4u).**
+
+This feature is in [public preview](../public-preview.md).
 
 ### What is an out-of-process Remote Desktop Plugin? 
 Traditional RDP plugins are loaded into the same process as the RDP client. As seen in the following diagram, the `RDPClientProcess.exe` loads the different RDP plugin dlls. Once loading is done, the plugin becomes part of the `RDPClientProcess.exe`.

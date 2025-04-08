@@ -4,10 +4,10 @@ title: IWTSWindowChangedCallback
 titleSuffix:
 description: Learn about the new IWTS interface IWTSWindowChangedCallback
 keywords:
-author: ErikjeMS  
+author: ribanerjee  
 ms.author: ribanerjee
 manager: dougeby
-ms.date: 04/03/2025
+ms.date: 04/08/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
