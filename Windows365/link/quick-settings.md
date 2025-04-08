@@ -57,6 +57,7 @@ To see the accessibility options, on the **Sign in** screen, select the **Access
 | Language | Choose display language used on your Windows 365 Link. |
 | Display | Change the scale for you display and set two monitor arrangement. |
 | Privacy and Security | View privacy and security settings for your Location, Camera, and microphone. Not in OOBE.|
+| About this device | Device name, OS build, Serial numbers and Check for updates. |
 | Power button | View power management options for the device. |
 
 ## Shortcuts
