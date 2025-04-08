@@ -68,9 +68,9 @@ items:
   - name: Secure out-of-process plugin
     href: secure-out-process-plugin.md
   - name: IWTSWindowInfoService
-    href: IWTSWindowInfoService.md
+    href: iwts-window-info-service.md
   - name: IWTSWindowChangedCallback
-    href: IWTSWindowChangedCallback.md
+    href: iwts-window-changed-callback.md
 - name: Troubleshooting
   items:
   - name: Troubleshooting
