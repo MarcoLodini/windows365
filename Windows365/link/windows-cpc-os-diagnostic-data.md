@@ -85,13 +85,13 @@ The next section provides steps on how to execute a data subject request for Win
 
 Microsoft provides the ability to access, delete, and export certain Windows CPC OS diagnostic data through the Azure portal, and also directly via preexisting application programming interfaces (APIs).
 
-#### Step 1: Access
+### Step 1: Access
 
 Microsoft provides a way for the tenant administrator within your organization to access Windows CPC OS diagnostic data associated with a particular user’s use of a device. The data retrieved for an access request will be provided, via export, in a machine-readable format and will be provided in files that allow the user to know which devices and services the data is associated with. As noted previously, the data retrieved won't include data that may compromise the security or stability of the Windows 365 Link device.
 
 The Azure portal provides the enterprise customer’s tenant administrator the capability to manage DSR access requests. Azure DSR, Part 2, Step 3: Export, describes how to execute a DSR access request for Windows CPC OS diagnostic data, via export, through the Azure portal.
 
-#### Step 2: Delete
+### Step 2: Delete
 
 Microsoft provides a way to execute user-based DSR delete requests based on a particular user's Microsoft Entra object.
 
@@ -102,13 +102,13 @@ Microsoft also provides the ability to delete users, which in turn deletes Windo
 > [!IMPORTANT]  
 > Deleting collected data doesn't stop further collection from the device. To turn off data collection follow the procedure described in the respective service's reference documentation.
 
-#### Step 3: Export
+### Step 3: Export
 
 The tenant administrator is the only person within your organization who can access Windows CPC OS diagnostic data associated with a particular user's use of a Windows 365 Link enabled with the Windows CPC OS diagnostic data processor configuration. The data retrieved for an export request will be provided in a machine-readable format and will be provided in files that allow the user to know which devices and services the data is associated with. As noted previously, the data retrieved won't include data that may compromise the security or stability of the Windows 365 Link. Azure DSR, Part 2, Step 3: Export, describes how to execute a DSR export request for Windows CPC OS diagnostic data through the Azure portal.
 
 Microsoft also provides the ability to export Windows CPC OS diagnostic data directly via a preexisting application programming interface (API). Details are described in the API reference documentation.
 
-#### Notify us about exporting or deleting issues
+### Notify us about exporting or deleting issues
 
 If you run into issues while exporting or deleting Windows CPC OS diagnostic data from the Azure portal, go to the Azure portal **Help + Support** blade and submit a new ticket under **Subscription Management** > **Privacy and compliance requests for Subscriptions** > **Privacy Blade and GDPR Requests**.
 
