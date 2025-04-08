@@ -33,7 +33,7 @@ ms.collection:
 
 ## Introduction
 ### What is a Remote Desktop plugin?
-A Remote Desktop plugin is an extension or add-on that enhances the functionality of Microsoft Remote Desktop (RDP) clients, typically in third-party applications. For example, [Teams VDI Plugin](/en-us/microsoftteams/vdi-2) which is designed to optimize the performance of Teams when running in virtualized environments.
+A Remote Desktop plugin is an extension or add-on that enhances the functionality of Microsoft Remote Desktop (RDP) clients, typically in third-party applications. For example, [Teams VDI Plugin](/microsoftteams/vdi-2) which is designed to optimize the performance of Teams when running in virtualized environments.
 **For Windows 365 Link, these plugins must comply with a new architecture detailed in this document. If you represent an ISV that needs a Remote Desktop plugin to work with Link, please [complete and submit this form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5TElPlHy6hJpLhhqUqVoJpUNE9DRDlYTlhPTEhJS0lONDk2TzNLTkpQNy4u).**
 
 ### What is an out-of-process Remote Desktop Plugin? 
@@ -45,7 +45,7 @@ In the out-of-process model,
 2. Limit the plugin's access to the wider Windows operating system by enforcing process isolation [using AppContainers](/windows/win32/secauthz/appcontainer-isolation).
 
 ## Out-of-process plugin loading architecture
-The following diagram shows a high-level explaination of how the RDP clients interact with the RDP plugins in an out-of-process model.
+The following diagram shows a high-level explanation of how the RDP clients interact with the RDP plugins in an out-of-process model.
 
 ![out-of-process plugin model](./media/secure-out-process-plugin/outofproc.png "out-of-process plugin model")
 1. The RDP plugins can be thought of as COM servers and RDP clients are COM clients.
@@ -56,7 +56,7 @@ The following diagram shows a high-level explaination of how the RDP clients int
 There are three parties involved when plugins are used in an RDP connection.
 1. The RDP client (for example, [Azure Virtual Desktop](https://azure.microsoft.com/products/virtual-desktop)).
 2. The RDP plugin.
-3. The application for which the plugin is written (for example, [Teams application](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)).
+3. The application for which the plugin is written (for example, [Teams application](https://www.microsoft.com/microsoft-teams/group-chat-software)).
 
 For example, consider a situation, when a user uses Azure Virtual desktop to connect to a virtual desktop and uses Teams application running in the virtual desktop. Here the Azure Virtual Desktop is the RDP client (client application), the [Teams VDI plugin](/microsoftteams/new-teams-vdi-requirements-deploy) is the RDP plugin and the Teams is the remote application running in the virtual desktop is the server application.
 
