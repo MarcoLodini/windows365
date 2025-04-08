@@ -63,6 +63,14 @@ items:
     href: wipe-reset-windows-365-link.md
   - name: Auto detect local time zone
     href: auto-detect-time-zone.md
+- name: Developers
+  items:
+  - name: Secure out-of-process plugin
+    href: secure-out-process-plugin.md
+  - name: IWTSWindowInfoService
+    href: iwts-window-info-service.md
+  - name: IWTSWindowChangedCallback
+    href: iwts-window-changed-callback.md
 - name: Troubleshooting
   items:
   - name: Troubleshooting
