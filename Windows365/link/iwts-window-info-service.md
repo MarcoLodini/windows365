@@ -108,7 +108,7 @@ HRESULT GetRdpClientProcessId(
 
 `[out, retval] unsigned long* processId`
 
-A pointer to the process id of the RDP client process.
+A pointer to the process ID of the RDP client process.
 
 **Return**
 
