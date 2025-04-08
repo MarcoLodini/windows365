@@ -65,6 +65,14 @@ items:
     href: auto-detect-time-zone.md
   - name: Windows CPC OS diagnostic data
     href: windows-cpc-os-diagnostic-data.md
+- name: Developers
+  items:
+  - name: Secure out-of-process plugin
+    href: secure-out-process-plugin.md
+  - name: IWTSWindowInfoService
+    href: iwts-window-info-service.md
+  - name: IWTSWindowChangedCallback
+    href: iwts-window-changed-callback.md
 - name: Troubleshooting
   items:
   - name: Troubleshooting
