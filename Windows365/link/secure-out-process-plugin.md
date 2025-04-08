@@ -46,19 +46,19 @@ Traditional RDP plugins are loaded into the same process as the RDP client. As s
 
 In the out-of-process model,
 1. The RDP client process loads the RDP plugins out-of-process, that is, as an independent process separate from the RDP client and
-2. Limit the plugin's access to the wider Windows operating system by enforcing process isolation [using AppContainers](/windows/win32/secauthz/appcontainer-isolation).
+2. Limit the plugin's access to the wider Windows operating system by enforcing process isolation using [AppContainers](/windows/win32/secauthz/appcontainer-isolation).
 
 ## Out-of-process plugin loading architecture
 The following diagram shows a high-level explanation of how the RDP clients interact with the RDP plugins in an out-of-process model.
 
 ![out-of-process plugin model](./media/secure-out-process-plugin/outofproc.png "out-of-process plugin model")
 1. The RDP plugins can be thought of as COM servers and RDP clients are COM clients.
-2. The RDP plugins are now independent processes running in App Isolation. The RDPClientProcess.exeloads the plugins using COM's [CoCreateInstance] API(/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
-3. The RDP plugin authors don't have to change the core business logic present in the dlls. They just need to package the plugin as an MSIX [Link to section]. Thus, plugin authors have to make minimal changes to the RDP plugin code.
+2. The RDP plugins are now independent processes running in App Isolation. The RDPClientProcess.exeloads the plugins using COM's [CoCreateInstance API](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
+3. The RDP plugin authors don't have to change the core business logic present in the dlls. They just need to package the plugin as an [MSIX](/windows-365/link/secure-out-process-plugin#msix). Thus, plugin authors have to make minimal changes to the RDP plugin code.
 
 ## Implementation details
 There are three parties involved when plugins are used in an RDP connection.
-1. The RDP client (for example, [Azure Virtual Desktop](https://azure.microsoft.com/products/virtual-desktop)).
+1. The RDP client (for example, [Windows App](/windows-app/overview)).
 2. The RDP plugin.
 3. The application for which the plugin is written (for example, [Teams application](https://www.microsoft.com/microsoft-teams/group-chat-software)).
 
@@ -68,7 +68,7 @@ For example, consider a situation, when a user uses Azure Virtual desktop to con
 All RDP plugins work through COM communications. The RDP plugin is the COM server, and the RDP client is the COM client (For more information, see [COM clients and COM servers](/windows/win32/com/com-clients-and-servers)). Both the COM client (RDP client) and COM server (RDP Plugin) are in the client machine.
 There are two main tasks that the plugin authors need to complete-
 1. Define the functions of the interfaces declared in [tsvirtualchannels documentation](/windows/win32/api/tsvirtualchannels/). Plugin authors need not define every single function but only the ones that are in use.
-2. Package/distribute the RDP plugin as an MSIX [Link to section]. Currently MSIX is the only way of packaging applications which supports App Isolation [Link to section], COM [Link to section] and Package Identity [Link to section]. There are some important details that need to be kept in mind while packaging the app. These details are addressed in the section, "Packaging the SamplePlugin project as an MSIX"
+2. Package/distribute the RDP plugin as an [MSIX](/windows-365/link/secure-out-process-plugin#msix). Currently MSIX is the only way of packaging applications which supports [App Isolation](/windows-365/link/secure-out-process-plugin#app-isolation), [COM](/windows-365/link/secure-out-process-plugin#component-object-model) and [Package Identity](/windows-365/link/secure-out-process-plugin#package-identity). There are some important details that need to be kept in mind while packaging the app. These details are addressed using an example [here](https://github.com/microsoft/SampleOutOfProcRdpPlugin/blob/main/SamplePluginMsix/README.md).
 
 ### What do the RDP clients have to do?
 At a high level, it's the RDP client's responsibility to 
