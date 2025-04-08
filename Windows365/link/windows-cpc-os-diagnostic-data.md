@@ -1,8 +1,8 @@
 ---
 # required metadata
-title: Windows CPC OS diagnostic data
+title: Windows CPC OS privacy and data
 titleSuffix:
-description: Learn about Windows CPC OS diagnostic data
+description: Learn about Windows CPC OS privacy and data
 keywords:
 author: ErikjeMS  
 ms.author: erikje
@@ -29,7 +29,7 @@ ms.collection:
 - tier2
 ---
 
-# Windows CPC OS diagnostic data
+# Windows CPC OS privacy and data
 
 Windows 365 Link comes with the Windows CPC OS preinstalled. Enterprise customers are the controllers of the Windows CPS OS diagnostic data and Microsoft processes the data in accordance with the Data Protection Addendum and product terms.
 
