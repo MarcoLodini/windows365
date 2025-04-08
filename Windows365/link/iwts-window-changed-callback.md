@@ -37,8 +37,10 @@ A callback that is invoked whenever an RDP window that is subscribed to and it c
 **IWTSWindowChangedCallback** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. IWTSWindowChangedCallback also has these types of members:
 
 ## Methods
+
 ### IWTSWindowChangedCallback::WindowChanged
-```
+
+```cpp
 HRESULT WindowChanged(
     [in] const WTSWindowInfo* windowInfo
 );
@@ -57,6 +59,7 @@ A pointer to a `WTSWindowInfo` object of the corresponding remote window.
 Returns `S_OK` on success.
 
 ## Requirements
+
 | Requirement                 |  Value  |   
 |-----------------------------|---------|
 | Minimum supported client    |   Windows 11, version 24H2 (build 26100) or later.    |

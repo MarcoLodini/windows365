@@ -30,24 +30,30 @@ ms.collection:
 ---
 
 # IWTSWindowInfoService 
+
 ## Overview
+
 Various functions which give information related to an RDP window that is rendered on the client machine. This allows plugin authors to query this RDP window. This allows RDP plugin authors to accurately find the current window and provide information about where to correctly render with their products.
 Implemented by the RDP client.
-The following structs are relevant for this interface.
+The following enumeration, structures, and methods are relevant for this interface.
 
 ### RdpSessionType
-```
+
+```cpp
 typedef enum RdpSessionType
 {
     Desktop = 0,
     RemoteApp = 1,
 } RdpSessionType;
 ```
+
 Determines whether the RDP session is a desktop session or a remote app session.
 
 ### WTSWindowInfo
+
 Contains a variety of window related information. This window should be of a process that is running in the remote and is being rendered on the client side via RDP.
-```
+
+```cpp
 typedef struct WTSWindowInfo
 {
     HWND Hwnd;
@@ -62,16 +68,20 @@ typedef struct WTSWindowInfo
 ```
 
 ## Inheritance
+
 The **IWTSWindowInfoService** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWTSWindowInfoService** also has these types of members:
 
 ## Methods
+
 ### IWTSWindowInfoService::GetWindowInfo
-```
+
+```cpp
 HRESULT GetWindowInfo(
   [in] HWND remoteHwnd,
   [out] WTSWindowInfo* windowInfo
 );
 ```
+
 **Parameters**
 
 `[in] HWND remoteHwnd`
@@ -83,26 +93,30 @@ The HWND of the window on the client machine, that shows the remote process on t
 An instance of `WTSWindowInfoobject` corresponding to the remoteHwnd.
 
 **Return**
+
 Returns `S_OK` on success.
 
 ### IWTSWindowInfoService::GetRdpClientProcessId
-```
+
+```cpp
 HRESULT GetRdpClientProcessId(
   [out, retval] unsigned long* processId
 );
 ```
 
 **Parameters**
+
 `[out, retval] unsigned long* processId`
 
-A pointer to the process id of the RDP client process.
+A pointer to the process ID of the RDP client process.
 
 **Return**
 
 Returns `S_OK` on success.
 
 ### IWTSWindowInfoService::GetRdpSessionType
-```
+
+```cpp
 HRESULT GetRdpSessionType(
   [out, retval] RdpSessionType* sessionType
 );
@@ -119,12 +133,14 @@ A pointer to a RdpSessionType object.
 Returns `S_OK` on success.
 
 ### IWTSWindowInfoService::SubscribeWindowChanged
-```
+
+```cpp
 HRESULT SubscribeWindowChanged(
   [in] HWND remoteHwnd,
   [in] IWTSWindowChangedCallback* windowChanged
 );
 ```
+
 Monitors a window for changes and invokes a callback upon change.
 
 **Parameters**
@@ -142,12 +158,14 @@ The callback which should be invoked upon the window change. This callback is im
 Returns `S_OK` on success.
 
 ### IWTSWindowInfoService::UnsubscribeWindowChanged
-```
+
+```cpp
 HRESULT UnsubscribeWindowChanged(
   [in] HWND remoteHwnd,
   [in] IWTSWindowChangedCallback* windowChanged
 );
 ```
+
 Undo the SubscribeWindowChanged.
 
 **Parameters**
@@ -165,10 +183,9 @@ The callback which should be unregistered on window changes i.e. stop calling th
 Returns `S_OK` on success.
 
 ## Requirements
+
 | Requirement                 |  Value  |   
 |-----------------------------|---------|
 | Minimum supported client    |   Windows 11, version 24H2 (build 26100) or later.    |
 | Target Platform             |   Windows    |
 | Header                      | tsvirtualchannels.h  |
-
-
