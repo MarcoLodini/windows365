@@ -31,7 +31,7 @@ ms.collection:
 
 # Windows CPC OS diagnostic data
 
-Windows 365 Link comes with the Windows CPC OS pre-installed. Enterprise customers are the controllers of the Windows CPS OS diagnostic data and Microsoft processes the data in accordance with the Data Protection Addendum and product terms.
+Windows 365 Link comes with the Windows CPC OS preinstalled. Enterprise customers are the controllers of the Windows CPS OS diagnostic data and Microsoft processes the data in accordance with the Data Protection Addendum and product terms.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ For information about Windows 365 Service data, see [Privacy and data in Windows
 
 ### Introduction to Data Subject Requests (DSRs)
 
-The EU General Data Protection Regulation (GDPR) gives rights to people (known in the regulation as data subjects) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the data controller or just controller). Personal data is defined broadly under the GDPR as “any data that relates to an identified or identifiable natural person.” The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take action on their personal data is called a Data Subject Request or DSR.
+The EU General Data Protection Regulation (GDPR) gives rights to people (known in the regulation as data subjects) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the data controller or just controller). Personal data is defined broadly under the GDPR as "any data that relates to an identified or identifiable natural person." The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take action on their personal data is called a Data Subject Request or DSR.
 
 Similarly, the California Consumer Privacy Act (CCPA), provides privacy rights and obligations to California consumers, including rights similar to GDPR's Data Subject Rights, such as the right to delete, access, and receive (portability) their personal information. The CCPA also provides for certain disclosures, protections against discrimination when electing exercise rights, and "opt-out/ opt-in" requirements for certain data transfers classified as "sales". This document guides you to information on the completion of Data Subject Requests (DSRs) under the GDPR and CCPA using Microsoft products and services.
 
@@ -66,11 +66,11 @@ The following list provides definitions of terms that are relevant to this guide
 - **Personal data and data subject**: Any information relating to an identified or identifiable natural person (‘data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
 - **Processor**: A natural or legal person, public authority, agency, or other body that processes personal data on behalf of the controller.
 - **Customer Data**: All data, including all text, sound, video, or image files, and software, that are provided to Microsoft by, or on behalf of, a customer through use of the enterprise service.
-- **Windows CPC OS diagnostic data**: Technical data from Windows 365 Link about the device and how Windows CPC OS and related software are performing. It's used to keep Windows CPC OS devices up to date, secure, reliable, performant, and make product improvements. Some examples of Windows CPC OS diagnostic data are the type of hardware being used, and reliability information on device drivers. Some Windows CPC OS components and plugin, connect to Microsoft services directly, but the data they exchange isn't Windows CPC OS diagnostic data. Note: By default, the Windows CPC OS collects ‘Basic/Required’ diagnostic data to keep the OS secure, up to date, and working as expected. An IT admin can manage these settings through Intune and can choose devices to send ‘Optional’ diagnostics data.
+- **Windows CPC OS diagnostic data**: Technical data from Windows 365 Link about the device and how Windows CPC OS and related software are performing. It's used to keep Windows CPC OS devices up to date, secure, reliable, performant, and make product improvements. Some examples of Windows CPC OS diagnostic data are the type of hardware being used, and reliability information on device drivers. Some Windows CPC OS components and plugin, connect to Microsoft services directly, but the data they exchange isn't Windows CPC OS diagnostic data. Note: By default, the Windows CPC OS collects ‘Basic/Required’ diagnostic data to keep the OS secure, up to date, and working as expected. An IT admin can manage these settings through Intune and can choose devices to send "Optional" diagnostics data.
 
 ### Windows CPC diagnostic data
 
-By default, the Windows CPC OS collects ‘Basic/Required’ diagnostic data to keep the OS secure, up to date, and working as expected. An IT admin can manage these settings through Intune and can choose devices to send ‘Optional’ diagnostics data.
+By default, the Windows CPC OS collects ‘Basic/Required’ diagnostic data to keep the OS secure, up to date, and working as expected. An IT admin can manage these settings through Intune and can choose devices to send "Optional" diagnostics data.
 
 Microsoft provides Enterprise customer’s tenant admin with the ability to access, delete, and export Windows CPC OS diagnostic data associated with a user’s use of the devices enabled with the Windows CPC OS diagnostic data.
 
@@ -87,7 +87,7 @@ Microsoft provides the ability to access, delete, and export certain Windows CPC
 
 #### Step 1: Access
 
-Microsoft provides a way for the tenant administrator within your organization to access Windows CPC OS diagnostic data associated with a particular user’s use of a device . The data retrieved for an access request will be provided, via export, in a machine-readable format and will be provided in files that allow the user to know which devices and services the data is associated with. As noted previously, the data retrieved won't include data that may compromise the security or stability of the Windows 365 Link device.
+Microsoft provides a way for the tenant administrator within your organization to access Windows CPC OS diagnostic data associated with a particular user’s use of a device. The data retrieved for an access request will be provided, via export, in a machine-readable format and will be provided in files that allow the user to know which devices and services the data is associated with. As noted previously, the data retrieved won't include data that may compromise the security or stability of the Windows 365 Link device.
 
 The Azure portal provides the enterprise customer’s tenant administrator the capability to manage DSR access requests. Azure DSR, Part 2, Step 3: Export, describes how to execute a DSR access request for Windows CPC OS diagnostic data, via export, through the Azure portal.
 
@@ -113,9 +113,7 @@ Microsoft also provides the ability to export Windows CPC OS diagnostic data dir
 If you run into issues while exporting or deleting Windows CPC OS diagnostic data from the Azure portal, go to the Azure portal **Help + Support** blade and submit a new ticket under **Subscription Management** > **Privacy and compliance requests for Subscriptions** > **Privacy Blade and GDPR Requests**.
 
 > [!NOTE]  
-> It can take up to 5 days to complete a Windows CPC OS diagnostic data export request. If you experience issues, please allow at least 7 days before opening a support ticket.
-
-
+> It can take up to five days to complete a Windows CPC OS diagnostic data export request. If you experience issues, please allow at least seven days before opening a support ticket.
 
 <!-- ########################## -->
 ## Next steps
