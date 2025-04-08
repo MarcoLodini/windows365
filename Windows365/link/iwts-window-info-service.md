@@ -35,7 +35,7 @@ ms.collection:
 
 Various functions which give information related to an RDP window that is rendered on the client machine. This allows plugin authors to query this RDP window. This allows RDP plugin authors to accurately find the current window and provide information about where to correctly render with their products.
 Implemented by the RDP client.
-The following enumeration and structures are relevant for this interface.
+The following enumeration, structures, and methods are relevant for this interface.
 
 ### RdpSessionType
 
