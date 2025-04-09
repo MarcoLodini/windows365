@@ -70,7 +70,8 @@ The following list provides definitions of terms that are relevant to this guide
 
 ### Windows CPC diagnostic data
 
-By default, the Windows CPC OS collects ‘Basic/Required’ diagnostic data to keep the OS secure, up to date, and working as expected. An IT admin can manage these settings through Intune and can choose devices to send "Optional" diagnostics data.
+> [!IMPORTANT]  
+> By default, the Windows CPC OS collects "Basic/Required" diagnostic data to keep the OS secure, up to date, and working as expected. An IT admin can manage these settings through Intune and can choose devices to send "Optional" diagnostics data.
 
 Microsoft provides Enterprise customer’s tenant admin with the ability to access, delete, and export Windows CPC OS diagnostic data associated with a user’s use of the devices enabled with the Windows CPC OS diagnostic data.
 
