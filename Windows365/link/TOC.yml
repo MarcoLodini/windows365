@@ -63,8 +63,19 @@ items:
     href: wipe-reset-windows-365-link.md
   - name: Auto detect local time zone
     href: auto-detect-time-zone.md
+<<<<<<< HEAD
   - name: Windows CPC OS diagnostic data
     href: windows-cpc-os-diagnostic-data.md
+=======
+- name: Developers
+  items:
+  - name: Secure out-of-process plugin
+    href: secure-out-process-plugin.md
+  - name: IWTSWindowInfoService
+    href: iwts-window-info-service.md
+  - name: IWTSWindowChangedCallback
+    href: iwts-window-changed-callback.md
+>>>>>>> d242634637f85ea32f963503f8da7408e953d42e
 - name: Troubleshooting
   items:
   - name: Troubleshooting
