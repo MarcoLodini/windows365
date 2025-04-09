@@ -64,9 +64,14 @@ items:
   - name: Auto detect local time zone
     href: auto-detect-time-zone.md
 <<<<<<< HEAD
+<<<<<<< HEAD
   - name: Windows CPC OS diagnostic data
     href: windows-cpc-os-diagnostic-data.md
 =======
+=======
+  - name: Windows CPC OS diagnostic data
+    href: windows-cpc-os-diagnostic-data.md
+>>>>>>> e41e9751ddc7d1834e6cc27c6e5397a8910faf89
 - name: Developers
   items:
   - name: Secure out-of-process plugin
@@ -75,7 +80,10 @@ items:
     href: iwts-window-info-service.md
   - name: IWTSWindowChangedCallback
     href: iwts-window-changed-callback.md
+<<<<<<< HEAD
 >>>>>>> d242634637f85ea32f963503f8da7408e953d42e
+=======
+>>>>>>> e41e9751ddc7d1834e6cc27c6e5397a8910faf89
 - name: Troubleshooting
   items:
   - name: Troubleshooting
