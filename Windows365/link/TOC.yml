@@ -63,6 +63,8 @@ items:
     href: wipe-reset-windows-365-link.md
   - name: Auto detect local time zone
     href: auto-detect-time-zone.md
+  - name: Windows CPC OS privacy and data
+    href: windows-cpc-os-privacy-data.md
 - name: Developers
   items:
   - name: Secure out-of-process plugin
