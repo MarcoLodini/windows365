@@ -31,7 +31,7 @@ ms.collection:
 
 # Windows CPC OS privacy and data
 
-Windows 365 Link comes with the Windows CPC OS preinstalled. Enterprise customers are the controllers of the Windows CPS OS diagnostic data and Microsoft processes the data in accordance with the Data Protection Addendum and product terms.
+Windows 365 Link comes with the Windows CPC OS preinstalled. Enterprise customers are the controllers of the Windows CPC OS diagnostic data and Microsoft processes the data in accordance with the Data Protection Addendum and product terms.
 
 ## Prerequisites
 
