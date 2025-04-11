@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 07/31/2024
+ms.date: 04/10/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -70,7 +70,6 @@ The following features aren't yet supported for Windows 365 GCC or GCC High.
 - RDP Shortpath for public networks via TURN
 - Windows 365 Link
 - Configure client device redirection for Windows App on iOS/iPadOS/Android using Intune
-- Intune scope tags
 
 ## Next steps
 

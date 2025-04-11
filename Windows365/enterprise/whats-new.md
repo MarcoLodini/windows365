@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2025
+ms.date: 04/10/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,16 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+<!-- ########################## -->
+## Week of April 7, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows 365 Government
+
+#### Windows 365 Government scope tag support<!--56916925-->
+
+Windows 365 Government now supports scope tags.
 
 <!-- ########################## -->
 ## Week of March 31, 2025 (Service release 2503)
