@@ -84,10 +84,6 @@ TURN relay support will be improved by expanding from 14 to over 40 regions glob
 
 End users will be able to manually run connectivity checks on their Cloud PCs from [windows365.microsoft.com](https://windows365.microsoft.com).
 
-### Health status for Cloud PC restore point<!--56539504-->
-
-Admins will be able to see the health status of Cloud PC restore points before deciding to start a restore.
-
 <!-- ***********************************************-->
 ## Provisioning
 
@@ -111,10 +107,6 @@ Administrators will be able to configure and customize this feature within the G
 
 <!-- ***********************************************-->
 ## Windows 365 Frontline
-
-### Concurrency buffer usage alert<!--54902162-->
-
-You’ll be able to set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.
 
 ### Resize Windows 365 Frontline Cloud PCs in dedicated mode<!--54353038-->
 
