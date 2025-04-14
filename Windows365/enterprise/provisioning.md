@@ -95,7 +95,7 @@ If a user is assigned to more than one provisioning policy, provisioning honors 
 
 ## Provisioning policy assignments
 
-Policy assignment involves using groups to assign provisioning policies to your users. Each user can assigned to only one provisioning policy. The first policy that they're assigned to is used to provision any Cloud PCs they're licensed to use (all subsequent assignments to additional policies are ignored).
+Policy assignment involves using groups to assign provisioning policies to your users. Each user can be assigned to only one provisioning policy. The first policy that they're assigned to is used to provision any Cloud PCs they're licensed to use (all subsequent assignments to other policies are ignored).
 
 There are two ways to assign provisioning policies:
 
