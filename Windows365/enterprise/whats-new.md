@@ -60,11 +60,25 @@ For more information about public preview items, see [Public preview in Windows 
 ## Week of April 14, 2025
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+### Health status for Cloud PC restore point<!--56539504-->
+
+You can now see the health status of Cloud PC restore points before deciding to start a restore. For more information, see [Restore a single Cloud PC to a previous state](restore-single-cloud-pc.md) and [Restore multiple Cloud PCs in bulk](restore-bulk.md).
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Monitor and troubleshoot
 
 #### Concurrency buffer usage alert<!--54902162-->
 
 You can set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+### Health status for Cloud PC restore point<!--56539504-->
+
+You can now see the health status of Cloud PC restore points before deciding to start a restore. For more information, see [Restore a single Cloud PC to a previous state](restore-single-cloud-pc.md) and [Restore multiple Cloud PCs in bulk](restore-bulk.md).
 
 <!-- ########################## -->
 ## Week of April 7, 2025
