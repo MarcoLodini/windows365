@@ -58,7 +58,11 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 
 ### Windows 365 disaster recovery options<!--55482055-->
 
-In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
+In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves restore time objective (RTO). As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
+
+### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
+
+Admins will be able to resize Windows 365 Frontline Cloud PCs in designated mode.
 
 <!-- ***********************************************-->
 ## Device security
@@ -90,6 +94,10 @@ End users will be able to manually run connectivity checks on their Cloud PCs fr
 ### Credential Guard and HVCI enabled by default<!--554824970-->
 
 In a future update, newly provisioned and reprovisioned Cloud PCs will have Virtualization-based Security (VBS), Hypervisor-protected Code Integrity (HVCI), and Credential Guard enabled by default.
+
+### Credential Guard and HVCI enabled by default<!--554824970-->
+
+In a future update, newly provisioned and reprovisioned Cloud PCs will have VBS, HVCI, and Credential Guard enabled by default.
 
 <!-- ***********************************************-->
 <!--## Security-->
