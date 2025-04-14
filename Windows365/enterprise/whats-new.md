@@ -76,7 +76,7 @@ You can set up a new alert to monitor concurrency buffer usage for Windows 365 F
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
 
-### Health status for Cloud PC restore point<!--56539504-->
+#### Health status for Cloud PC restore point<!--56539504-->
 
 You can now see the health status of Cloud PC restore points before deciding to start a restore. For more information, see [Restore a single Cloud PC to a previous state](restore-single-cloud-pc.md) and [Restore multiple Cloud PCs in bulk](restore-bulk.md).
 
