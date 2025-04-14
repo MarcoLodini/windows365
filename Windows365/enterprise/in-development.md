@@ -58,15 +58,11 @@ To help in your readiness and planning, this page lists Windows 365 updates and 
 
 ### Windows 365 disaster recovery options<!--55482055-->
 
-In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
+In a future update, admins will have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves restore time objective (RTO). As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure.
 
 ### Resize Windows 365 Frontline Cloud PCs in designated mode<!--54353038-->
 
 Admins will be able to resize Windows 365 Frontline Cloud PCs in designated mode.
-
-### More regions adding to global TURN relay support<!--56400921-->
-
-TURN relay support will be improved by expanding from 14 to over 40 regions globally. This expansion will reduce latency and improve connection reliability by serving users from more diverse locations. The dedicated IP range for Windows 365 traffic, separate from the ACS TURN relay, will optimize and isolate traffic for AVD and Windows 365. This will let customers to bypass certain network restrictions and enhance the quality and speed of Windows 365 traffic.
 
 <!-- ***********************************************-->
 ## Device security
