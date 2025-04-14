@@ -95,10 +95,6 @@ End users will be able to manually run connectivity checks on their Cloud PCs fr
 
 In a future update, newly provisioned and reprovisioned Cloud PCs will have Virtualization-based Security (VBS), Hypervisor-protected Code Integrity (HVCI), and Credential Guard enabled by default.
 
-### Credential Guard and HVCI enabled by default<!--554824970-->
-
-In a future update, newly provisioned and reprovisioned Cloud PCs will have VBS, HVCI, and Credential Guard enabled by default.
-
 <!-- ***********************************************-->
 <!--## Security-->
 
