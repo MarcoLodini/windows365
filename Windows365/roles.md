@@ -1,6 +1,6 @@
 ---
 # required metadata
-title: Microosft and customer responsibilities for Windows 365
+title: Microsoft and customer responsibilities for Windows 365
 titleSuffix:
 description: Learn the responsibilities of Microsoft and customers for Windows 365.
 keywords:
@@ -40,11 +40,11 @@ For shared responsibilities, such as network connectivity and security, customer
 
 For specific responsibilities, see the [Responsibilities table](#responsibilities).
 
-This document applies only to Windows 365 and doesn't apply to any other Microsoft online services or products, including the Windows operating system. This document doesn't supersede any product terms or the service level agreeement (SLA) for Windows 365. For more information, see the [Windows 365 Service Description](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description) and [SLA](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
+This document applies only to Windows 365 and doesn't apply to any other Microsoft online services or products, including the Windows operating system. This document doesn't supersede any product terms or the service level agreement (SLA) for Windows 365. For more information, see the [Windows 365 Service Description](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description) and [SLA](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
 
 ## Shared interest ownership
 
-Some configurations and components are deployed by Microsoft during the initial provisioning of a Cloud PC. After deployment, customers are responsible for their ongoing management and configuration. Examples of such configurations and components include:
+Microsoft deploys some configurations and components during the initial provisioning of a Cloud PC. After deployment, customers are responsible for their ongoing management and configuration. Examples of such configurations and components include:
 
 - Microsoft 365 Apps.
 - Multimedia redirection plug-in.
@@ -58,14 +58,14 @@ Microsoft and customers have the following responsibilities:
 | --- | --- | --- |
 | Change management | Microsoft manages all service infrastructure updates and changes in accordance with SOC 2 and ISO 27001 standards. |  Integrating and testing Microsoft’s service changes within the organization's IT environment. |
 | Gallery image | Production and publication of gallery images on a monthly basis. |  |
-| Intune enrollment | Microsoft makes sure that Cloud PCs are automatically enrolled in Microsoft Intune unless the customer is using Windows 365 Business and hasn’t chosen automatic enrollment or lacks the required licensing. |  |
+| Intune enrollment | Microsoft makes sure that Cloud PCs are automatically enrolled in Microsoft Intune. An exception to this is when the customer uses Windows 365 Business and doesn't choose automatic enrollment or lacks the required licensing. |  |
 | Licensing |  | Assignment and managing Windows 365 licenses to end users. |
-| Network connectivity (shared responsibility)| For Microsoft-hosted networks, Microsoft manages:<br><br>- Network connectivity for Windows 365, including Azure Networking and on-site infrastructure configurations (like firewalls, proxies, and other settings). <br><br>- Network security and RDP connectivity, ensuring a stable connection.<br><br>- Microsoft manages the core network infrastructure. | For ANCs, customers manage: <br><br>- Security, network configurations, firewalls, VNPs, routing, proxies, and any other network components under their control.<br><br>- Proper configuration of their virtual network (vNet), as any misconfigurations can impact connectivity to their Cloud PCs. <br><br>In both ANC and Microsoft-hosted networks, customers are responsible for any operating system-level networking configurations or network security controls they apply. These configurations and controls include third-party agents such as VPNs, custom proxies, or traffic inspection tools that may impact network connectivity. |
+| Network connectivity (shared responsibility)| For Microsoft-hosted networks, Microsoft manages:<br><br>- Network connectivity for Windows 365, including Azure Networking and on-site infrastructure configurations (like firewalls, proxies, and other settings). <br><br>- Network security and RDP connectivity, ensuring a stable connection.<br><br>- Microsoft manages the core network infrastructure. | For Azure network connections (ANC), customers manage: <br><br>- Security, network configurations, firewalls, VPNs, routing, proxies, and any other network components under their control.<br><br>- Proper configuration of their virtual network (vNet), as any misconfigurations can impact connectivity to their Cloud PCs. <br><br>In both ANC and Microsoft-hosted networks, customers are responsible for any operating system-level networking configurations or network security controls they apply. These configurations and controls include third-party agents such as VPNs, custom proxies, or traffic inspection tools that may impact network connectivity. |
 | Ongoing configurations |  | Managing configurations like time zone redirection, USB redirection, and location redirection. |
-| OS and application management |  | Installing updates, configuring settings, and managing OS and application lifecycles running on their Cloud PCs, excluding the service-critical components mentioned above in the Microsoft responsibilities section. |
+| OS and application management |  | Installing updates, configuring settings, and managing OS and application lifecycles running on their Cloud PCs. This responsibility excludes the service-critical components that are Microsoft responsibilities. |
 | Security and compliance (shared responsibility)| Microsoft manages risks related to fraud, abuse, and malicious activity as explained in the [Product Use Rights](/legal/windows-365/windows-365-app-license-terms) and the [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement/). | Implementing endpoint security policies, antivirus protection, regulatory compliance measures, and monitoring security threats to the Cloud PC's operating system. |
 | Security and monitoring | Secures the cloud infrastructure. | Manage Windows client OS and application security running in the cloud. |
-| Service critical components | Microsoft deploys, manages, and maintains the critical components needed to reliably deliver Windows 365, as outlined in the Service Description and SLA. These components include: Service agents: RD Agent, Azure Agent, CMD Agent. |  |
+| Service critical components | Microsoft deploys, manages, and maintains the critical components needed to reliably deliver Windows 365, as outlined in the Service Description and SLA. These components include: Service agents: RD-Agent, Azure Agent, CMD Agent. |  |
 | Service-level commitments | Microsoft makes sure Windows 365 availability and performance as defined in the SLA. |  |
 | Support and troubleshooting | Microsoft provides platform-level support. | Customers handle OS-level issues, application troubleshooting, and user-related concerns. |
 | User management and authentication |  | Managing user accounts, access permissions, and identity security. |
@@ -77,7 +77,7 @@ To minimize disruption to administrators and end users in supported configuratio
 - Uses Azure capabilities such as hibernation and hardware generation upgrades
 - Performs ongoing optimizations.
 
-In the event of a service incident, Microsoft may temporarily adjust infrastructure, networking, or other managed components to restore or maintain the stability and availability of the Windows 365 service. These adjustments ensure reliable operation and uninterrupted user access.
+If a service incident occurs, Microsoft may temporarily adjust infrastructure, networking, or other managed components to restore or maintain the stability and availability of the Windows 365 service. These adjustments ensure reliable operation and uninterrupted user access.
 
 <!-- ########################## -->
 ## Next steps
