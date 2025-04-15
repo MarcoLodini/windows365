@@ -36,13 +36,56 @@ Windows 365 follows a shared responsibility model like the [rest of the online s
 - Microsoft is responsible for the security and compliance of the cloud infrastructure.
 - Customers  are responsible for managing and configuring security and compliance in the cloud according to their specific needs and risk tolerance.
 
-For shared responsibilities, such as network connectivity and security, customers must understand their role and take appropriate action when needed. This clear division promotes efficient operation and security of the Windows 365 environment.
-
-For specific responsibilities, see the [Responsibilities table](#responsibilities).
+If a service incident occurs, Microsoft might temporarily adjust infrastructure, networking, or other managed components to restore or maintain the stability and availability of the Windows 365 service. These adjustments ensure reliable operation and uninterrupted user access.
 
 This document applies only to Windows 365 and doesn't apply to any other Microsoft online services or products, including the Windows operating system. This document doesn't supersede any product terms or the service level agreement (SLA) for Windows 365. For more information, see the [Windows 365 Service Description](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description) and [SLA](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
 
-## Shared interest ownership
+
+## Microsoft responsibilities
+
+**Change management**:  Microsoft manages all service infrastructure updates and changes in accordance with SOC 2 and ISO 27001 standards.
+
+**Gallery image**: Production and publication of gallery images on a monthly basis.
+
+**Intune enrollment**: Microsoft makes sure that Cloud PCs are automatically enrolled in Microsoft Intune. An exception to this automatic enrollment is when the customer uses Windows 365 Business and doesn't choose automatic enrollment or lacks the required licensing.
+
+**Network connectivity**: For Microsoft-hosted networks, Microsoft manages:
+
+- Network connectivity for Windows 365, including Azure Networking and on-site infrastructure configurations (like firewalls, proxies, and other settings).
+- Network security and Remote Desktop Protocol (RDP) connectivity, ensuring a stable connection.
+- Microsoft manages the core network infrastructure.
+
+**Security and compliance**: Microsoft manages risks related to fraud, abuse, and malicious activity as explained in the [Product Use Rights](/legal/windows-365/windows-365-app-license-terms) and the [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement/).
+
+**Service critical components**: Microsoft deploys, manages, and maintains the critical components needed to reliably deliver Windows 365, as outlined in the Service Description and SLA. These components include: Service agents: RD-Agent, Azure Agent, CMD Agent.
+
+**Service-level commitments**: Microsoft makes sure Windows 365 availability and performance as defined in the SLA.
+
+
+## Customer responsibilities
+
+**Change management**: Integrating and testing Microsoft’s service changes within the organization's IT environment.
+
+**Licensing**: Assignment and managing Windows 365 licenses to end users.
+
+**Network connectivity**: For Azure network connections (ANC), customers manage:
+
+- Security, network configurations, firewalls, VPNs, routing, proxies, and any other network components under their control.
+- Proper configuration of their virtual network, as any misconfigurations can affect connectivity to their Cloud PCs.
+
+In both ANC and Microsoft-hosted networks, customers are responsible for any operating system-level networking configurations or network security controls they apply. These configurations and controls include third-party agents such as VPNs, custom proxies, or traffic inspection tools that can affect network connectivity.
+
+**Ongoing configurations**: Managing configurations like time zone redirection, USB redirection, and location redirection.
+
+**Operating system and application management**: Installing updates, configuring settings, and managing OS and application lifecycles running on their Cloud PCs. This responsibility excludes the service-critical components that are Microsoft responsibilities.
+
+**Security and compliance**: Customers implementing endpoint security policies, antivirus protection, regulatory compliance measures, and monitoring security threats to the Cloud PC's operating system.
+
+**User management and authentication**: Managing user accounts, access permissions, and identity security.
+
+## Shared responsibilities
+
+For shared responsibilities, such as network connectivity and security, customers must understand their role and take appropriate action when needed. This clear division promotes efficient operation and security of the Windows 365 environment.
 
 Microsoft deploys some configurations and components during the initial provisioning of a Cloud PC. After deployment, customers are responsible for their ongoing management and configuration. Examples of such configurations and components include:
 
@@ -50,34 +93,16 @@ Microsoft deploys some configurations and components during the initial provisio
 - Multimedia redirection plug-in.
 - Windows operating system configurations, such as disabling port 3389, or enabling security features like Hypervisor-protected Code Integrity (HVCI) and Credential Guard through supported management tools.
 
+**Network connectivity**: 
+
+**Security and monitoring**: Microsoft secures the cloud infrastructure. Customers manage Windows client OS and application security running in the cloud.
+
+**Support and troubleshooting**: Microsoft provides platform-level support. Customers handle OS-level issues, application troubleshooting, and user-related concerns.
+
+
 ## Responsibilities
 
 Microsoft and customers have the following responsibilities:
-
-| Area | Microsoft responsibilities | Customer responsibilities |
-| --- | --- | --- |
-| Change management | Microsoft manages all service infrastructure updates and changes in accordance with SOC 2 and ISO 27001 standards. |  Integrating and testing Microsoft’s service changes within the organization's IT environment. |
-| Gallery image | Production and publication of gallery images on a monthly basis. |  |
-| Intune enrollment | Microsoft makes sure that Cloud PCs are automatically enrolled in Microsoft Intune. An exception to this automatic enrollment is when the customer uses Windows 365 Business and doesn't choose automatic enrollment or lacks the required licensing. |  |
-| Licensing |  | Assignment and managing Windows 365 licenses to end users. |
-| Network connectivity (shared responsibility)| For Microsoft-hosted networks, Microsoft manages:<br><br>- Network connectivity for Windows 365, including Azure Networking and on-site infrastructure configurations (like firewalls, proxies, and other settings). <br><br>- Network security and Remote Desktop Protocol (RDP) connectivity, ensuring a stable connection.<br><br>- Microsoft manages the core network infrastructure. | For Azure network connections (ANC), customers manage: <br><br>- Security, network configurations, firewalls, VPNs, routing, proxies, and any other network components under their control.<br><br>- Proper configuration of their virtual network, as any misconfigurations can affect connectivity to their Cloud PCs. <br><br>In both ANC and Microsoft-hosted networks, customers are responsible for any operating system-level networking configurations or network security controls they apply. These configurations and controls include third-party agents such as VPNs, custom proxies, or traffic inspection tools that can affect network connectivity. |
-| Ongoing configurations |  | Managing configurations like time zone redirection, USB redirection, and location redirection. |
-| OS and application management |  | Installing updates, configuring settings, and managing OS and application lifecycles running on their Cloud PCs. This responsibility excludes the service-critical components that are Microsoft responsibilities. |
-| Security and compliance (shared responsibility)| Microsoft manages risks related to fraud, abuse, and malicious activity as explained in the [Product Use Rights](/legal/windows-365/windows-365-app-license-terms) and the [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement/). | Implementing endpoint security policies, antivirus protection, regulatory compliance measures, and monitoring security threats to the Cloud PC's operating system. |
-| Security and monitoring | Secures the cloud infrastructure. | Manage Windows client OS and application security running in the cloud. |
-| Service critical components | Microsoft deploys, manages, and maintains the critical components needed to reliably deliver Windows 365, as outlined in the Service Description and SLA. These components include: Service agents: RD-Agent, Azure Agent, CMD Agent. |  |
-| Service-level commitments | Microsoft makes sure Windows 365 availability and performance as defined in the SLA. |  |
-| Support and troubleshooting | Microsoft provides platform-level support. | Customers handle OS-level issues, application troubleshooting, and user-related concerns. |
-| User management and authentication |  | Managing user accounts, access permissions, and identity security. |
-
-## Windows 365 incidents
-
-To minimize disruption to administrators and end users in supported configurations, Windows 365:
-
-- Uses Azure capabilities such as hibernation and hardware generation upgrades
-- Performs ongoing optimizations.
-
-If a service incident occurs, Microsoft might temporarily adjust infrastructure, networking, or other managed components to restore or maintain the stability and availability of the Windows 365 service. These adjustments ensure reliable operation and uninterrupted user access.
 
 <!-- ########################## -->
 ## Next steps
