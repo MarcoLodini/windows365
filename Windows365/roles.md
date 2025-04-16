@@ -88,7 +88,7 @@ Microsoft deploys some configurations and components during the initial provisio
 
 **Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](./includes/roles-network-connectivity-microsoft.md)]
 
-[!INCLUDE [Network connectivity roles for customers](../includes/roles-network-connectivity-customer.md)]
+[!INCLUDE [Network connectivity roles for customers](./includes/roles-network-connectivity-customer.md)]
 
 **Security and monitoring**: Microsoft secures the cloud infrastructure. Customers manage Windows client OS and application security running in the cloud.
 
