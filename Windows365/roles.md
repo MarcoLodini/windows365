@@ -36,6 +36,8 @@ Windows 365 follows a shared responsibility model like the [rest of the online s
 - Microsoft is responsible for the security and compliance of the cloud infrastructure.
 - Customers  are responsible for managing and configuring security and compliance in the cloud according to their specific needs and risk tolerance.
 
+For more information, see [Windows 365 service description service responsibility section](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description?branch=main#service-responsibility).
+
 If a service incident occurs, Microsoft might temporarily adjust infrastructure, networking, or other managed components to restore or maintain the stability and availability of the Windows 365 service. These adjustments ensure reliable operation and uninterrupted user access.
 
 This document applies only to Windows 365 and doesn't apply to any other Microsoft online services or products, including the Windows operating system. This document doesn't supersede any product terms or the service level agreement (SLA) for Windows 365. For more information, see the [Windows 365 Service Description](/office365/servicedescriptions/windows-365-service-description/windows-365-service-description) and [SLA](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
@@ -98,11 +100,6 @@ Microsoft deploys some configurations and components during the initial provisio
 **Security and monitoring**: Microsoft secures the cloud infrastructure. Customers manage Windows client OS and application security running in the cloud.
 
 **Support and troubleshooting**: Microsoft provides platform-level support. Customers handle OS-level issues, application troubleshooting, and user-related concerns.
-
-
-## Responsibilities
-
-Microsoft and customers have the following responsibilities:
 
 <!-- ########################## -->
 ## Next steps
