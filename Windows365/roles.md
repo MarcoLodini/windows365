@@ -51,7 +51,7 @@ This document applies only to Windows 365 and doesn't apply to any other Microso
 
 **Intune enrollment**: Microsoft makes sure that Cloud PCs are automatically enrolled in Microsoft Intune. An exception to this automatic enrollment is when the customer uses Windows 365 Business and doesn't choose automatic enrollment or lacks the required licensing.
 
-**Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](../includes/roles-network-connectivity-microsoft.md)]
+**Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](./includes/roles-network-connectivity-microsoft.md)]
 
 **Security and compliance**: Microsoft manages risks related to fraud, abuse, and malicious activity as explained in the [Product Use Rights](/legal/windows-365/windows-365-app-license-terms) and the [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement/).
 
@@ -66,7 +66,7 @@ This document applies only to Windows 365 and doesn't apply to any other Microso
 
 **Licensing**: Assignment and managing Windows 365 licenses to end users.
 
-**Network connectivity**: [!INCLUDE [Network connectivity roles for customers](../includes/roles-network-connectivity-customer.md)]
+**Network connectivity**: [!INCLUDE [Network connectivity roles for customers](./includes/roles-network-connectivity-customer.md)]
 
 **Ongoing configurations**: Managing configurations like time zone redirection, USB redirection, and location redirection.
 
@@ -86,7 +86,7 @@ Microsoft deploys some configurations and components during the initial provisio
 - Multimedia redirection plug-in.
 - Windows operating system configurations, such as disabling port 3389, or enabling security features like Hypervisor-protected Code Integrity (HVCI) and Credential Guard through supported management tools.
 
-**Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](../includes/roles-network-connectivity-microsoft.md)]
+**Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](./includes/roles-network-connectivity-microsoft.md)]
 
 [!INCLUDE [Network connectivity roles for customers](../includes/roles-network-connectivity-customer.md)]
 
