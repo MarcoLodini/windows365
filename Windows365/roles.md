@@ -51,11 +51,7 @@ This document applies only to Windows 365 and doesn't apply to any other Microso
 
 **Intune enrollment**: Microsoft makes sure that Cloud PCs are automatically enrolled in Microsoft Intune. An exception to this automatic enrollment is when the customer uses Windows 365 Business and doesn't choose automatic enrollment or lacks the required licensing.
 
-**Network connectivity**: For Microsoft-hosted networks, Microsoft manages:
-
-- Network connectivity for Windows 365, including Azure Networking and on-site infrastructure configurations (like firewalls, proxies, and other settings).
-- Network security and Remote Desktop Protocol (RDP) connectivity, ensuring a stable connection.
-- Microsoft manages the core network infrastructure.
+**Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](../includes/roles-network-connectivity-microsoft.md)]
 
 **Security and compliance**: Microsoft manages risks related to fraud, abuse, and malicious activity as explained in the [Product Use Rights](/legal/windows-365/windows-365-app-license-terms) and the [Microsoft Online Services Agreement](https://www.microsoft.com/servicesagreement/).
 
@@ -70,12 +66,7 @@ This document applies only to Windows 365 and doesn't apply to any other Microso
 
 **Licensing**: Assignment and managing Windows 365 licenses to end users.
 
-**Network connectivity**: For Azure network connections (ANC), customers manage:
-
-- Security, network configurations, firewalls, VPNs, routing, proxies, and any other network components under their control.
-- Proper configuration of their virtual network, as any misconfigurations can affect connectivity to their Cloud PCs.
-
-In both ANC and Microsoft-hosted networks, customers are responsible for any operating system-level networking configurations or network security controls they apply. These configurations and controls include third-party agents such as VPNs, custom proxies, or traffic inspection tools that can affect network connectivity.
+**Network connectivity**: [!INCLUDE [Network connectivity roles for customers](../includes/roles-network-connectivity-customer.md)]
 
 **Ongoing configurations**: Managing configurations like time zone redirection, USB redirection, and location redirection.
 
@@ -95,7 +86,9 @@ Microsoft deploys some configurations and components during the initial provisio
 - Multimedia redirection plug-in.
 - Windows operating system configurations, such as disabling port 3389, or enabling security features like Hypervisor-protected Code Integrity (HVCI) and Credential Guard through supported management tools.
 
-**Network connectivity**: 
+**Network connectivity**: [!INCLUDE [Network connectivity roles for Microsoft](../includes/roles-network-connectivity-microsoft.md)]
+
+[!INCLUDE [Network connectivity roles for customers](../includes/roles-network-connectivity-customer.md)]
 
 **Security and monitoring**: Microsoft secures the cloud infrastructure. Customers manage Windows client OS and application security running in the cloud.
 
