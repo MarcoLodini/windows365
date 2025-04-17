@@ -18,7 +18,7 @@ items:
 - name: Compliance overview
   href: compliance-overview.md
 - name: Customer/Microsoft responsibilities
-  href: roles.md
+  href: customer-microsoft-responsibilities.md
 - name: Cloud PC feature support with RDP
   href: /azure/virtual-desktop/compare-remote-desktop-clients?pivots=windows-365
 - name: What if my subscription expires? 
