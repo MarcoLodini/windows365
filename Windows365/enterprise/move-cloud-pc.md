@@ -39,7 +39,7 @@ By editing a provisioning policy, you can move some or all existing Cloud PCs in
 
 Moving Cloud PCs doesn't result in reprovisioning.
 
-After a Cloud PC is successfully moved to a new region or ANC, its restore points in the older region or ANC are deleted and are no longer accessible.
+After a Cloud PC is moved to a new region or ANC, its restore points in the older region or ANC are deleted and no longer accessible.
 
 ## Supported Cloud PC move scenarios
 
@@ -72,7 +72,7 @@ Any new Cloud PCs provisioned after updating the policy configuration follow the
 
 The best time to perform moves is over the weekend to make sure the impact to users is minimized. Cloud PCs are shut down and inaccessible for up to several hours during the move process. You should notify your users before the move so that they can save their work and sign out.
 
-When moving many devices to a new region, start with a few non-critical Cloud PCs and check for success before moving the critical Cloud PCs.
+When moving many devices to a new region, start with a few noncritical Cloud PCs and check for success before moving the critical Cloud PCs.
 
 You can track the status of moving Cloud PCs with the [Cloud PC actions report](report-cloud-pc-actions.md).
 
