@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/14/2025
+ms.date: 04/15/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -55,7 +55,6 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 app 
 -->
 
-
 <!-- ########################## -->
 ## Week of April 14, 2025
 
@@ -73,12 +72,9 @@ You can now see the health status of Cloud PC restore points before deciding to 
 
 You can set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.
 
-<!-- vvvvvvvvvvvvvvvvvvvvvv -->
-### Device management
+#### Cloud PC concurrency report update<!--55445657-->
 
-#### Health status for Cloud PC restore point<!--56539504-->
-
-You can now see the health status of Cloud PC restore points before deciding to start a restore. For more information, see [Restore a single Cloud PC to a previous state](restore-single-cloud-pc.md) and [Restore multiple Cloud PCs in bulk](restore-bulk.md).
+The Connected Frontline Cloud PCs report now shows a user's session length. You can also restart Windows 365 Frontline Cloud PCs from the report if you've reached max concurrency on any indivudal assignments. For more information, see [Connected Frontline Cloud PCs report](report-connected-frontline-cloud-pcs.md).
 
 <!-- ########################## -->
 ## Week of April 7, 2025
