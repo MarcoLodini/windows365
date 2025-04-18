@@ -72,7 +72,7 @@ Each Cloud PC can have one manual restore point. If you create another manual re
 
 ## Unhealthy restore point
 
-When viewing the restore point list for a Cloud PC, Windows 365 notes any unhealthy snapshots with the triangle symbol icon Unhealthy snapshot have a low probability of successfully restoring the Cloud PC. This advisory status doesn’t block using the snapshot for any actions (like export, restore, share).
+When viewing the restore point list for a Cloud PC, Windows 365 notes any unhealthy snapshots with the triangle symbol icon (![Image of unhealthy restore point warning icon](./media/restore-overview/triangle.png)). Unhealthy snapshot have a low probability of successfully restoring the Cloud PC. This advisory status doesn’t block using the snapshot for any actions (like export, restore, share).
 
 ## Disaster recovery
 
