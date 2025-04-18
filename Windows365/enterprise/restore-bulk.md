@@ -44,9 +44,9 @@ You can use the Microsoft Intune admin center to bulk restore multiple Cloud PCs
         - **Before specified date and time**: If you choose this option, the Cloud PCs will be restored to the closest restore point before the date and time you specified.
         - **After specified date and time**: If you choose this option, the Cloud PCs will be restored to the closest restore point after the date and time you specified.
         - **Whichever is closest (before or after specified date and time)**: If you choose this option, the Cloud PCs will be restored to the closest restore point to the date and time you specified.
+    6. If you don't want to use unhealthy snapshots for the restore process, select **Skip unhealthy snapshots unless all snapshots are unhealthy for the selected time range**. Selecting this makes sure that the restore uses only healthy snapshots (if there's at least one healthy snapshot in the selected time range). If all snapshots are unhealthy, the one that matches the other criteria is used to attempt the restore.
     ![Screenshot of bulk device action restore](./media/restore-bulk/bulk-device-action-restore.png)
 3. Select **Next**.
-4. If you don't want to use unhealthy snapshots for the restore process, select **Skip unhealthy snapshots unless all snapshots are unhealthy for the selected time range**. Selecting this makes sure that the restore uses only healthy snapshots (if there's at least one healthy snapshot in the selected time range). If all snapshots are unhealthy, the one that matches the other criteria is used to attempt the restore.
 4. On the **Devices** page, select the Cloud PCs that you want to restore > **Next**.
 5. On the **Review + create** page, confirm your choices > **Create**.
 
