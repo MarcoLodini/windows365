@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 02/06/2025
+ms.date: 04/21/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -66,7 +66,7 @@ A few things to keep in mind:
 
 3. On the  **General** page, select a **License type**:
     - **Enterprise**: Provision Cloud PCs for Windows 365 Enterprise.
-    - **Frontline**: Provision Cloud PCs for [Windows 365 Frontline](introduction-windows-365-frontline.md).
+    - **Frontline**: Provision Cloud PCs for [Windows 365 Frontline](introduction-windows-365-frontline.md). You must have Windows 365 Frontline licenses to create a provisioning policy for Frontline Cloud PCs. A warning is shown if you lack such licenses when you choose this option.
 4. If you choose **Frontline**, you must also select a **Frontline type**:
     - **Dedicated**: Provision Cloud PCs in [dedicated mode](introduction-windows-365-frontline.md#windows-365-frontline-in-dedicated-mode).
     - **Shared**: Provision Cloud PCs in [shared mode](introduction-windows-365-frontline.md#windows-365-frontline-in-shared-mode).
