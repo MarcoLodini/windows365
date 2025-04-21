@@ -37,6 +37,21 @@ By editing a provisioning policy, you can move some or all existing Cloud PCs in
 - One Azure network connection (ANC) to another ANC.
 - A Microsoft hosted network to an ANC and vice versa.
 
+Moving Cloud PCs doesn't result in reprovisioning.
+
+After a Cloud PC is moved to a new region or ANC, its restore points in the older region or ANC are deleted and no longer accessible.
+
+## Supported Cloud PC move scenarios
+
+| Join type | To/from | To/from | Supported? |
+| --- | --- | --- | --- |
+| Microsoft Entra join <-> Microsoft Entra join | Microsoft-hosted network region or region group | Another Microsoft-hosted network region or region group | Yes |
+| Microsoft Entra join <-> Microsoft Entra join | ANC | Another ANC | Yes |
+| Microsoft Entra join <-> Microsoft Entra join | Microsoft-hosted network region or region group | ANC | Yes |
+| Microsoft Entra hybrid join <-> Microsoft Entra hybrid join | ANC | Another ANC | Yes |
+| Microsoft Entra hybrid join <-> Microsoft Entra join | ANC (Microsoft Entra hybrid join) | Microsoft-hosted network region or region group | No |
+| Microsoft Entra hybrid join <-> Microsoft Entra join | ANC (Microsoft Entra hybrid join) | Another ANC (Microsoft Entra join) | No |
+
 ## Bulk move all Cloud PCs in a policy
 
 [!INCLUDE [Move a Cloud PC first steps](../includes/move-cloud-pc-steps.md)]
@@ -44,22 +59,20 @@ By editing a provisioning policy, you can move some or all existing Cloud PCs in
 
 \* The domain defined in the new ANC must match that of the Cloud PCs that you want to move. The domain used in the original ANC must be reachable from the new ANC.
 
-All Cloud PCs provisioned after these changes are created in the new region.
+Any new Cloud PCs provisioned after updating the policy configuration follow the updated policy configuration and are created in the new region or ANC.
 
-## Move a subset of Cloud PCs (preview)
-
-Moving a subset of Cloud PCs is in [public preview](../public-preview.md).
+## Move a subset of Cloud PCs
 
 [!INCLUDE [Move a Cloud PC first steps](../includes/move-cloud-pc-steps.md)]
-6. In the **Apply this configuration to existing Cloud PCs** box, select **Region or Azure network connections for select devices (preview)** > **Apply**.
-7. Under **Select devices (preview)**, select the devices that you want to move. You can move up to 100 devices at a time.
+6. In the **Apply this configuration to existing Cloud PCs** box, select **Region or Azure network connections for select devices** > **Apply**.
+7. Under **Select devices**, select the devices that you want to move. You can move up to 100 devices at a time.
 8. Choose **Select** > **Continue**.
 
 ## Best practices
 
 The best time to perform moves is over the weekend to make sure the impact to users is minimized. Cloud PCs are shut down and inaccessible for up to several hours during the move process. You should notify your users before the move so that they can save their work and sign out.
 
-When moving many devices to a new region, start with a few non-critical Cloud PCs and check for success before moving the critical Cloud PCs.
+When moving many devices to a new region, start with a few noncritical Cloud PCs and check for success before moving the critical Cloud PCs.
 
 You can track the status of moving Cloud PCs with the [Cloud PC actions report](report-cloud-pc-actions.md).
 

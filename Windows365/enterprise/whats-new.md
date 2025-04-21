@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/15/2025
+ms.date: 04/21/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,16 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app 
 -->
+
+<!-- ########################## -->
+## Week of April 21, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Move selected Cloud PCs from one region or Azure network connection to another<!--55706276-->
+
+You can now move selected Cloud PCs from one region or Azure network connection (ANC) to another. For more information, see [Move Cloud PC](move-cloud-pc.md).
 
 <!-- ########################## -->
 ## Week of April 14, 2025
