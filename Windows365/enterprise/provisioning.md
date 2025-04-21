@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/11/2025
+ms.date: 04/14/2025
 ms.topic: overview
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -92,6 +92,15 @@ Removing the targeting of a provisioning policy that was used for successful Clo
 Provisioning policies are assigned to user groups so there’s the possibility of overlapping groups/users.
 
 If a user is assigned to more than one provisioning policy, provisioning honors the first assigned provisioning policy and ignores all others. It’s best practice to avoid any policy targeting overlaps to ensure consistent provisioning.
+
+## Provisioning policy assignments
+
+Policy assignment involves using groups to assign provisioning policies to your users. Each user can be assigned to only one provisioning policy. The first policy that they're assigned to is used to provision any Cloud PCs they're licensed to use (all subsequent assignments to other policies are ignored).
+
+There are two ways to assign provisioning policies:
+
+- **Discrete** (preferred): A dedicated group is created specifically for assigning a provisioning policy. This method is useful for scenarios where certain users or departments need unique configurations for Cloud PCs or access privileges.
+- **Hybrid**: A provisioning policy is assigned directly to the group-based license group. This method can be helpful for smaller deployments, when managing multiple teams with similar requirements with little change expected.
 
 ## Provisioning retry
 
