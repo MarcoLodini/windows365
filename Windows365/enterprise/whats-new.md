@@ -80,7 +80,7 @@ You can now see the health status of Cloud PC restore points before deciding to 
 
 #### New documentation article: Microsoft and customer roles and responsbilities for Windows 365<!--57154947-->
 
-We’ve created a new article. For more information, see [Microsoft and customer roles and responsibilities for Windows 365](/windows-365/customer-microsoft-responsibilities).
+We’ve created a new article. For more information, see [Microsoft and customer roles and responsibilities for Windows 365](/windows-365/customer-microsoft-responsibilities). 
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Monitor and troubleshoot
