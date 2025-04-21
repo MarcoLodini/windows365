@@ -110,6 +110,10 @@ The Every time sign-in frequency option has moved out of preview and into genera
 
 The Visual Effects performance option now defaults to **Let Windows choose what’s best for my computer**.
 
+#### Windows 365 disaster recovery options<!--55482055-->
+
+Admins now have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure. For more information, see [Windows 365 disaster recovery plus](disaster-recovery-plus.md).
+
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Provisioning
 
