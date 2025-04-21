@@ -65,6 +65,13 @@ For more information about public preview items, see [Public preview in Windows 
 
 You can now move selected Cloud PCs from one region or Azure network connection (ANC) to another. For more information, see [Move Cloud PC](move-cloud-pc.md).
 
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device provisioning
+
+#### Create provisioning policy process warning for lack of Windows 365 Frontline licenses<!--56967522-->
+
+When creating a provisioning policy for Windows 365 Frontline Cloud PCs, the process now provides a warning if the tenant has no Windows 365 Frontline licenses.
+
 <!-- ########################## -->
 ## Week of April 14, 2025
 
