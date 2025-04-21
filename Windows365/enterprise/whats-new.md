@@ -56,7 +56,7 @@ For more information about public preview items, see [Public preview in Windows 
 -->
 
 <!-- ########################## -->
-## Week of April 14, 2025
+## Week of April 21, 2025
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Device management
