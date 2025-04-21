@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/15/2025
+ms.date: 04/21/2025
 ms.topic: whats-new
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -56,6 +56,16 @@ For more information about public preview items, see [Public preview in Windows 
 -->
 
 <!-- ########################## -->
+## Week of April 21, 2025
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Move selected Cloud PCs from one region or Azure network connection to another<!--55706276-->
+
+You can now move selected Cloud PCs from one region or Azure network connection (ANC) to another. For more information, see [Move Cloud PC](move-cloud-pc.md).
+
+<!-- ########################## -->
 ## Week of April 14, 2025
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
@@ -99,6 +109,10 @@ The Every time sign-in frequency option has moved out of preview and into genera
 #### Default Visual Effects performance option change<!--55063759-->
 
 The Visual Effects performance option now defaults to **Let Windows choose what’s best for my computer**.
+
+#### Windows 365 disaster recovery options<!--55482055-->
+
+Admins now have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure. For more information, see [Windows 365 disaster recovery plus](disaster-recovery-plus.md).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Provisioning
