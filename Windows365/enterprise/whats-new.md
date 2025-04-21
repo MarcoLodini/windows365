@@ -76,13 +76,6 @@ You can now move selected Cloud PCs from one region or Azure network connection 
 You can now see the health status of Cloud PC restore points before deciding to start a restore. For more information, see [Restore a single Cloud PC to a previous state](restore-single-cloud-pc.md) and [Restore multiple Cloud PCs in bulk](restore-bulk.md).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
-### Documentation
-
-#### New documentation article: Microsoft and customer roles and responsbilities for Windows 365<!--57154947-->
-
-We’ve created a new article. For more information, see [Microsoft and customer roles and responsibilities for Windows 365](/windows-365/customer-microsoft-responsibilities). 
-
-<!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Monitor and troubleshoot
 
 #### Concurrency buffer usage alert<!--54902162-->
