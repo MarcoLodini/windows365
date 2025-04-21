@@ -67,7 +67,7 @@ As part of the process to place Cloud PCs under review, Windows 365 requires the
       - Select **Enable version-level immutability support**.
       - When the **Premium** **Performance** option is selected, **Zone-redundant storage (ZRS)** must also be selected. Locally redundant storage (LRS) isn't a supported immutable storage option.
 
-    After the storage account is created, you must also apply a [lock policy](/azure/storage/blobs/immutable-policy-configure-container-scope). For full details on how to configure Azure Blob Storage for immutability and adherence to regulations like SEC Rule 17a-4, see the full compliance assessment located in the Cohasset report in the [Microsoft Service Trust Center](https://aka.ms/AzureWormStorage).
+    After the storage account is created, you must apply a [lock policy](/azure/storage/blobs/immutable-policy-configure-container-scope). For more information about how to configure Azure Blob Storage for immutability and adherence to regulations like SEC Rule 17a-4, see [Azure - Cohasset Assessment - WORM Storage (2024) Report](https://aka.ms/AzureWormStorage).
 
     NOT SUPPORTED: Setting a [Permit scope for copy operations](/azure/storage/common/security-restrict-copy-operations). It must be (null), the default value, to allow copying from any storage account to the destination account.
 
