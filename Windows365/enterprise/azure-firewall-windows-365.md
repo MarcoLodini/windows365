@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 08/28/2024
+ms.date: 04/21/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -34,13 +34,13 @@ ms.collection:
 This article explains how to simplify and protect your Windows 365 environment using Azure Firewall. The example architecture explained here provides low maintenance and automated access to the required endpoints through a direct and optimized connection path. You can use Azure Firewall network rules and fully qualified domain name (FQDN) tags to replicate this architecture example in your environment.
 
 > [!NOTE]  
-> This article applies to customers who deploy Windows 365 with Azure network connections (ANC). This article doesn’t apply to environments that use Microsoft hosted networks. For more information about each, see [Windows 365 networking deployment options](deployment-options.md).
+> This article applies to customers who deploy Windows 365 with Azure network connections (ANC). This article doesn’t apply to environments that use Microsoft hosted networks because the underlying security and connectivity is managed by Microsoft. For more information about each, see [Windows 365 networking deployment options](deployment-options.md).
 
 The Windows 365 service requires optimized, non-proxied connectivity to critical service endpoints, many of which reside within Microsoft’s infrastructure. Connecting to these resources using on-premises networks through the internet is inefficient and isn't recommended. Such connections can also be complex to configure and manage.
 
 For example, some Windows 365 customers using the ANC deployment model might have a direct connection back to an on-premises environment that uses ExpressRoute or Site-To-Site VPN. Outbound traffic might be routed using an existing proxy server in the same way as on-premises traffic. This connection strategy isn’t optimized for Windows 365 environments and likely to introduce significant performance impact.
 
-Instead, you can use Azure Firewall with your ANC Windows 365 environments to provide optimized, secure, low maintenance, and automated access.
+Instead, you can use Azure Firewall with your ANC Windows 365 environments to provide optimized, secure, low maintenance, and automated access. YOu can also use a direct path to optimize critical remote desktop protocol (RDP) traffic and other long-lived connections, like those to a secure web gateway.
 
 ## Required endpoints for Windows 365
 
@@ -59,6 +59,7 @@ FQDN tags for certain services are available for Azure Firewall to help configur
 There are many ways to configure networking within Azure. Here, we use:
 
 - A single VNet with Azure Firewall managing outbound access.
+- An optimization of RDP traffic to send it direct to Microsoft.
 - An ExpressRoute circuit to connect the VNet back to the on-premises environment.
 
 ![Example of a Windows 365 rchitecture diagram using Windows Firewall.](./media/azure-firewall-windows-365/architecture-diagram.png)
@@ -68,6 +69,11 @@ The traffic flow in this diagram:
 1. Contoso Corporate Network: This on-premises IP subnet is advertised into the VNet through the ExpressRoute gateway. All traffic to this range (10.0.0.0/8) is sent through the ExpressRoute circuit.
 2. All other traffic from the Windows 365 subnet is sent to the Azure firewall through a User Defined Route (UDR) route of 0.0.0.0/0. The next hop IP is set to the Azure Firewall's private IP.
 3. The Firewall has application rules (and FQDN tags) and network rules configured for the Windows 365 required endpoints. Traffic that complies with the rules is allowed out. Any other traffic not explicitly permitted is blocked.
+4. An additional UDR points to the "WindowsVirtualDesktop" service tag which carries IP ranges for RDP connectivity, configured with next hop set to "Internet". This avoids the RDP traffic having to traverse the firewall and is directly placed onto Microsoft’s network.  
+
+## RDP connectivity optimization
+
+In this example configuration, RDP is configured with a specific user-defined route (UDR) to point the "WindowsVirtualDesktop" service tag to "internet". This configuration means that this high volume and latency sensitive traffic has a direct and highly efficient path to the infrastructure and avoids putting unnecessary load on the firewall. It's strongly recommended that this configuration is implemented to give the most performant and reliable path for RDP. While the destination for this UDR is "Internet", as this traffic is to Microsoft endpoints, this traffic from the Cloud PC to the RDP infrastructure doesn’t hit the internet but stays within the Microsoft backbone.  
 
 ## Azure Firewall application rules
 
@@ -81,7 +87,7 @@ The environment in the diagram was set up using the following Azure Firewall app
 | Windows Update | FQDN Tag | WindowsUpdate| HTTP: 80, HTTPS: 443 | [Not recommended](/windows/deployment/update/windows-update-security#securing-metadata-connections) | Optional|
 | Citrix HDX Plus | FQDN Tag | CitrixHDXPlusForWindows365 | HTTP: 80, HTTPS: 443 | [Not recommended](/windows/deployment/update/windows-update-security#securing-metadata-connections) | Optional (only required when using Citrix HDX Plus) |
 
-Azure Firewall can be associated with public IP addresses to provide outbound connectivity to the internet. The first Public IP is selected at random to provide [outbound SNAT](/azure/firewall/features#outbound-snat-support). The next available public IP will be used after all SNAT ports from the first IP are exhausted. In scenarios that require high throughput, it is recomended to leverage an [Azure NAT Gateway](/azure/nat-gateway/nat-overview). NAT Gateway dynamically scales outbound connectivity and can be [integrated with an Azure Firewall](/azure/firewall/integrate-with-nat-gateway). See the [integrate NAT Gateway with Azure Firewall tutorial](/azure/nat-gateway/tutorial-hub-spoke-nat-firewall) for guidance.
+Azure Firewall can be associated with public IP addresses to provide outbound connectivity to the internet. The first Public IP is selected at random to provide [outbound SNAT](/azure/firewall/features#outbound-snat-support). The next available public IP will be used after all SNAT ports from the first IP are exhausted. In scenarios that require high throughput, it's recommended to leverage an [Azure NAT Gateway](/azure/nat-gateway/nat-overview). NAT Gateway dynamically scales outbound connectivity and can be [integrated with an Azure Firewall](/azure/firewall/integrate-with-nat-gateway). See the [integrate NAT Gateway with Azure Firewall tutorial](/azure/nat-gateway/tutorial-hub-spoke-nat-firewall) for guidance.
 
 ### Windows365 tag
 
@@ -109,7 +115,6 @@ Azure Firewall doesn’t currently handle nonstandard ports in an FQDN tag. Wind
 | Registration | FQDN | hm-iot-in-2-prod-preu01.azure-devices.net  | TCP | 443,5671 | [Not recommended](/azure/virtual-desktop/proxy-server-support#dont-use-ssl-termination-on-the-proxy-server) | Required |
 | Registration | FQDN | hm-iot-in-3-prod-preu01.azure-devices.net | TCP | 443,5671 | [Not recommended](/azure/virtual-desktop/proxy-server-support#dont-use-ssl-termination-on-the-proxy-server) | Required |
 | UDP connectivity via TURN | IP | 20.202.0.0/16 | UDP | 3478 | Not recommended | Required |
-| TURN connectivity | IP | 20.202.0.0/16 | TCP | 443 | Not recommended | Required |
 | Registration | FQDN | hm-iot-in-4-prod-prna01.azure-devices.net | TCP | 443, 5671 | [Not recommended](/azure/virtual-desktop/proxy-server-support#dont-use-ssl-termination-on-the-proxy-server) | Required |
 
 ## Partner security solution options
