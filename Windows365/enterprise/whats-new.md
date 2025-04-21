@@ -65,6 +65,13 @@ For more information about public preview items, see [Public preview in Windows 
 
 You can now move selected Cloud PCs from one region or Azure network connection (ANC) to another. For more information, see [Move Cloud PC](move-cloud-pc.md).
 
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device provisioning
+
+#### Create provisioning policy process warning for lack of Windows 365 Frontline licenses<!--56967522-->
+
+When creating a provisioning policy for Windows 365 Frontline Cloud PCs, the process now provides a warning if the tenant has no Windows 365 Frontline licenses.
+
 <!-- ########################## -->
 ## Week of April 14, 2025
 
@@ -109,6 +116,10 @@ The Every time sign-in frequency option has moved out of preview and into genera
 #### Default Visual Effects performance option change<!--55063759-->
 
 The Visual Effects performance option now defaults to **Let Windows choose what’s best for my computer**.
+
+#### Windows 365 disaster recovery options<!--55482055-->
+
+Admins now have two options for disaster recovery: the existing cross region disaster recovery and the new disaster recovery plus. The latter allocates a second Cloud PC at the time of configuration which improves RTO. As the recovery Cloud PC already exists, there isn't a capacity risk at the time of failure. For more information, see [Windows 365 disaster recovery plus](disaster-recovery-plus.md).
 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Provisioning
