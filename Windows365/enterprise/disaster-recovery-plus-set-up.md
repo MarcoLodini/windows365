@@ -48,7 +48,7 @@ To configure [disaster recovery plus](disaster-recovery-plus.md), use the follow
 
     When configuring a backup location, consider things like data sovereignty and geographic distance between the user and the Cloud PC backup location. The greater the distance between your backup Cloud PC and your user’s connect location increases network latency and impacts performance. Full copies of your Cloud PCs are kept in the backup location, including all data stored on the Cloud PC disk.
 
-8. Indicate if end users are allowed to activiate and deactivate DR Plus themselves.  **NOTE:** currently the user is only able to activate / deactivate from the Cloud PC user portal.
+8. Indicate if end users are allowed to activate and deactivate DR Plus themselves. Currently, users can only activate/deactivate from the Cloud PC user portal.
 9. Select **Next**.
 10. On the **Assignments** page, add the groups containing users that you want this user setting applied to. All Cloud PCs associated with a user share the same disaster recovery plus settings.
 11. On the **Review + create** page, select **Create**.
