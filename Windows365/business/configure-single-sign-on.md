@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 03/27/2024
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-business
@@ -37,11 +37,11 @@ To enable SSO using Microsoft Entra ID authentication, there are four tasks you 
 
 1. [Enable Microsoft Entra authentication for Remote Desktop Protocol (RDP)](#enable-microsoft-entra-authentication-for-rdp).
 
-1. Configure the target device groups.
+2. [Configure the target device groups](#configure-the-target-device-groups).
 
-1. Review your Conditional Access policies.
+3. [Review your Conditional Access policies](#review-your-conditional-access-policies).
 
-1. Configure your organizational settings to enable SSO.
+4. [Turn on SSO for all Cloud PCs in your account](#turn-on-sso-for-all-cloud-pcs-in-your-account).
 
 ## Before enabling SSO
 
