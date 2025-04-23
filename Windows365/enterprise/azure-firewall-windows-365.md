@@ -73,8 +73,11 @@ The traffic flow in this diagram:
 
 ## RDP connectivity optimization
 
-In this example configuration, RDP is configured with a specific UDR to point the "WindowsVirtualDesktop" service tag to "internet". This configuration means that this high volume and latency sensitive traffic has a direct and highly efficient path to the infrastructure and avoids putting unnecessary load on the firewall. It's recommended that this configuration is implemented to give the most performant and reliable path for RDP. While the destination for this UDR is "Internet", as this traffic is to Microsoft endpoints, this traffic from the Cloud PC to the RDP infrastructure doesn’t hit the internet but stays within the Microsoft backbone.  
+In this example configuration, RDP is configured with a specific UDR to point the "WindowsVirtualDesktop" service tag to "internet". This configuration means that this high volume and latency sensitive traffic has a direct and highly efficient path to the infrastructure and avoids putting unnecessary load on the firewall. It's recommended that this configuration is implemented to give the most performant and reliable path for RDP. While the destination for this UDR is "Internet", as this traffic is to Microsoft endpoints, this traffic from the Cloud PC to the RDP infrastructure doesn’t hit the internet but stays within the Microsoft backbone.
 
+> [!NOTE]
+> This example design uses default outbound access. In September 2025, default outbound access will be retired for new deployments. It will continue to be available for existing deployments. For more information about the retirement, see the [official announcement]( https://azure.microsoft.com/updates?id=default-outbound-access-for-vms-in-azure-will-be-retired-transition-to-a-new-method-of-internet-access). After September, an explicit form of NAT, like a NAT Gateway, can be used in new deployments to provide this function. Adding a NAT Gateway to the subnet used means the NAT Gateway is used for traffic directed at “Internet” instead of default outbound access.
+  
 ## Azure Firewall application rules
 
 The environment in the diagram was set up using the following Azure Firewall application rules (applied in callout 3). All traffic not destined for the Contoso on-premises subnet is directed to the firewall. These rules allow the defined traffic to egress to its destination. For more information about deploying Azure Firewall, see [Deploy and configure Azure Firewall using the Azure portal](/azure/firewall/tutorial-firewall-deploy-portal).
