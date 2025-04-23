@@ -49,11 +49,7 @@ Before you enable SSO, review the following information for using it in your env
 
 ### Disconnection when the session is locked
 
-When SSO is enabled, users sign in to Windows using a Microsoft Entra ID authentication token, which provides support for passwordless authentication to Windows. The Windows lock screen in the remote session doesn't support Microsoft Entra ID authentication tokens or passwordless authentication methods, like FIDO keys. Instead of the previous behavior of showing the remote lock screen when a session is locked, the session is instead disconnected and the user is notified. Disconnecting the session ensures that:
-
-- Users benefit from a single sign-on experience and can reconnect without authentication prompt when allowed.
-- Users can sign back into their session using passwordless authentication like FIDO keys.
-- Conditional Access policies, including multifactor authentication and sign-in frequency, are re-evaluated when the user reconnects to their session.
+For more information, see [Session lock behavior](/azure/virtual-desktop/configure-single-sign-on#session-lock-behavior).
 
 ## Prerequisites
 
