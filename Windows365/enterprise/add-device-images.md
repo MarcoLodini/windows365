@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 05/07/2024
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -45,7 +45,7 @@ You can upload the custom image to the Windows 365 service by following these st
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-2. Select **Devices** > **Windows 365** (under **Provisioning**) > **Custom images** > **Add**.
+2. Select **Devices** > **Windows 365** > **Custom images** > **Add**.
 ![Screenshot of add device image](./media/add-device-images/add-device-image.png)
 
 3. In the **Add image** pane, provide the following information:
@@ -62,7 +62,7 @@ After successfully uploading the image, you'll see the uploaded image when selec
 
 You can delete a custom image from Windows 365 by following these steps:
 
-1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** > **Windows 365** (under **Provisioning**) > **Custom images**.
+1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** > **Windows 365** > **Custom images**.
 2. On the **Device images** page, select the check box next to the image > **Delete**.
 3. Select **Yes** on the confirmation pop up to permanently delete the image.
 
