@@ -72,6 +72,14 @@ You can now move selected Cloud PCs from one region or Azure network connection 
 
 When creating a provisioning policy for Windows 365 Frontline Cloud PCs, the process now provides a warning if the tenant has no Windows 365 Frontline licenses.
 
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Documentation
+
+#### New documentation article: Microsoft and customer roles and responsibilities for Windows 365<!--57154947-->
+
+We’ve created a new article. For more information, see [Microsoft and customer roles and responsibilities for Windows 365](/windows-365/customer-microsoft-responsibilities).
+
+
 <!-- ########################## -->
 ## Week of April 14, 2025
 
