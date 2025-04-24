@@ -38,7 +38,7 @@ Windows 365 Link runs a small purpose-built Windows based operating system calle
 
 There are no new CSPs or policies specifically created for Windows 365 Link.
 
-While a CSP in general may be supported, specific policies within it may cover functionality that isn’t enabled on the device. Consequently, certain policies within these supported CSPs may have no effect when applied to a Windows 365 Link device.
+While a CSP in general may be supported, specific policies within it may cover functionality that isn’t enabled on the device. So, certain policies within these supported CSPs may have no effect when applied to a Windows 365 Link device.
 
 ## Policy CSP areas supported on for Windows 365 Link
 
