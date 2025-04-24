@@ -71,11 +71,6 @@ The traffic flow in this diagram:
 3. Contoso Corporate Network: This on-premises IP subnet is advertised into the VNet through the ExpressRoute gateway. All traffic to this range (10.0.0.0/8) is sent through the ExpressRoute circuit as it's more specific than rule #1.
 4. The Firewall has application rules (and FQDN tags) and network rules configured for the Windows 365 required endpoints. Traffic that complies with the rules is allowed out. Any other traffic not explicitly permitted is blocked.
 
-1. Contoso Corporate Network: This on-premises IP subnet is advertised into the VNet through the ExpressRoute gateway. All traffic to this range (10.0.0.0/8) is sent through the ExpressRoute circuit.
-2. All other traffic from the Windows 365 subnet is sent to the Azure firewall through a user-defined route (UDR) route of 0.0.0.0/0. The next hop IP is set to the Azure Firewall's private IP.
-3. The Firewall has application rules (and FQDN tags) and network rules configured for the Windows 365 required endpoints. Traffic that complies with the rules is allowed out. Any other traffic not explicitly permitted is blocked.
-4. Another UDR points to the "WindowsVirtualDesktop" service tag which carries IP ranges for RDP connectivity, configured with next hop set to "Internet". This UDR prevents RDP traffic from traversing the firewall and is directly placed onto Microsoft’s network.
-
 ## RDP connectivity optimization
 
 In this example configuration, RDP is configured with a specific UDR to point the "WindowsVirtualDesktop" service tag to "internet". This configuration means that this high volume and latency sensitive traffic has a direct and highly efficient path to the infrastructure and avoids putting unnecessary load on the firewall. It's recommended that this configuration is implemented to give the most performant and reliable path for RDP. While the destination for this UDR is "Internet", as this traffic is to Microsoft endpoints, this traffic from the Cloud PC to the RDP infrastructure doesn’t hit the internet but stays within the Microsoft backbone.
