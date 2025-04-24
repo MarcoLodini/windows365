@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2025
+ms.date: 04/24/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.localizationpriority: high
@@ -36,9 +36,9 @@ Windows 365 Link runs a small purpose-built Windows based operating system calle
 - Windows 365 Link can only be Entra joined, so Active Directory Group Policy isn’t supported for the device.
 - Windows 365 Link supports a subset of Windows configuration service provider (CSP) policies.
 
-There are no new CSPs or policies specific for the Windows 365 Link.
+There are no new CSPs or policies specifically created for Windows 365 Link.
 
-While a CSP in general may be supported, specific policies within it may cover functionality that isn’t enabled on the device. Therefore, some of the policies in these supported CSP lists may result in a no op if targeted at a Windows 365 Link device.
+While a CSP in general may be supported, specific policies within it may cover functionality that isn’t enabled on the device. So, certain policies within these supported CSPs may have no effect when applied to a Windows 365 Link device.
 
 ## Policy CSP areas supported on for Windows 365 Link
 
@@ -69,7 +69,7 @@ While a CSP in general may be supported, specific policies within it may cover f
 - [VirtualizationBasedTechnology](/windows/client-management/mdm/policy-csp-virtualizationbasedtechnology)
 - [Wifi](/windows/client-management/mdm/policy-csp-wifi)
 
-## Other CSPs supported for the Windows 365 Link
+## Other CSPs supported on Windows 365 Link
 
 - [BitLocker](/windows/client-management/mdm/bitlocker-csp)
 - [CertificateStore](/windows/client-management/mdm/certificatestore-csp)
