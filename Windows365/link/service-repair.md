@@ -34,7 +34,7 @@ ms.collection:
 You can get service (warranty or protection plan) for your Windows 365 Link devices:
 
 - Directly from Microsoft
-- Through a third-party Windows 365 Link Authorized Service Provider.
+- Through a [third-party Windows 365 Link Authorized Service Provider](/surface/authorized-service-providers).
 
 You can use the Intune admin center to open support cases to:
 
