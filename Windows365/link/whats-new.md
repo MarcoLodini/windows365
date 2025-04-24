@@ -31,7 +31,7 @@ ms.collection:
 
 # What's new in Windows 365 Link
 
-Learn what new features are available in Windows 365 Link.
+Learn what new features are available in Windows 365 Link. 
 
 For information about Windows 365 Enterprise new features, see [What's new in Windows 365 Enterprise](../enterprise/whats-new.md).
 
