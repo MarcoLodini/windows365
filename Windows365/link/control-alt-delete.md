@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 11/19/2024
+ms.date: 04/24/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -39,8 +39,9 @@ When you press Control + Alt + Delete on your Windows 365 Link, you see the foll
 | Sign out | Closes your Windows 365 connection and signs out of device.  |
 | Task Manager | Opens the Task Manager of your Cloud PC. |
 | Connection details | Shows information about the current connection to your Cloud PC. |
-| Restore and Troubleshoot | Initiates these processes for your Cloud PC. |
+| Restore | Initiates these processes for your Cloud PC. |
 | Quick settings | Opens a small set of essential settings. For more information, see [Quick settings](quick-settings.md). |
+| Inspect connection | Shows diagnostic information. |
 
 <!-- ########################## -->
 ## Next steps
