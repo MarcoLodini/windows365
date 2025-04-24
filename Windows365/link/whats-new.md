@@ -33,9 +33,6 @@ ms.collection:
 
 Learn what new features are available in Windows 365 Link.
 
-> [!NOTE]
-> Each monthly update may roll out over several weeks and might not be immediately available to all customers.
-
 For information about Windows 365 Enterprise new features, see [What's new in Windows 365 Enterprise](../enterprise/whats-new.md).
 
 <!-- ########################## -->
