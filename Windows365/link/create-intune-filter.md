@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2025
+ms.date: 04/24/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -41,7 +41,7 @@ To create a filter exclusively including Windows 365 Link devices:
 4. Select the following values:
     - **Property**: **operatingSystemSKU (Operating System SKU)**.
     - **Operator**: **Equals**.
-    - **Value**: **WCPC (Windows PC (210))**.
+    - **Value**: **WCPC (Windows CPC (210))**.
 5. Select **Next**.
 6. On the **Review + create** page, select **Create**.  
 

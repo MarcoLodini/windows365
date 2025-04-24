@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2025
+ms.date: 04/24/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -34,7 +34,7 @@ ms.collection:
 You can get service (warranty or protection plan) for your Windows 365 Link devices:
 
 - Directly from Microsoft
-- Through a third-party Windows 365 Link Authorized Service Provider.
+- Through a [third-party Windows 365 Link Authorized Service Provider](/surface/authorized-service-providers).
 
 You can use the Intune admin center to open support cases to:
 
@@ -44,7 +44,7 @@ You can use the Intune admin center to open support cases to:
 
 To open a support case:
 
-1. Sign into the Microsoft Intune admin center and select **Troubleshooting + Support** > **Help and Support** > **Windows 365** > **Windows 365 Link** > type a description of the issue > **Contact Support**.
+1. Sign into the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and select **Troubleshooting + Support** > **Help and Support** > **Windows 365** > **Windows 365 Link** > type a description of the issue > **Contact Support**.
 2. A Microsoft support agent contacts you to troubleshoot your issue. For hardware servicing issues, the turnaround time depends on your location and supply chain availability.
 
 ## Customer self-repair for Windows 365 Link
@@ -64,7 +64,7 @@ The following replacements components are available for the Windows 365 Link dev
 
 ## Windows 365 Link Service Guide
 
-The Windows 365 Link Service Guide provides instructions for repairing the Microsoft Windows 365 Link device using genuine Microsoft parts. It is intended for technically inclined individuals  with the knowledge, experience, and specialized tools required to repair Microsoft devices. The guide is available as a PDF in the following languages:
+The Windows 365 Link Service Guide provides instructions for repairing the Microsoft Windows 365 Link device using genuine Microsoft parts. It's intended for technically inclined individuals  with the knowledge, experience, and specialized tools required to repair Microsoft devices. The guide is available as a PDF in the following languages:
 
 - [Chinese (simplified)](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Chinese_(Simplified)_Windows_365_Link_Service_Guide.pdf)
 - [Dutch](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Dutch_Windows_365_Link_Service_Guide.pdf)

@@ -56,7 +56,7 @@ Lock the device using any of these methods:
 - In your Cloud PC, select start > **Power** > **Disconnect**.
 - In your Cloud PC, select start > **Power** > **Lock**.\*
 
-\* This methods lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differently).
+\* This method lock the remote session on the Cloud PC. Single sign-on connections are also disconnected (but admins can configure policies to behave differently).
 
 After the user locks the device, the user is redirected back to the **Sign in** screen. The previous user's Cloud PC connection persists for 15 minutes by default, allowing for quick reconnection if the user had to temporarily step away, returns to the device, and signs in again.
 
