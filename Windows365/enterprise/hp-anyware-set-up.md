@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/10/2024
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -19,7 +19,7 @@ ms.assetid:
 #ROBOTS:
 #audience:
 
-ms.reviewer: elaineyou    
+ms.reviewer: aradinger    
 ms.suite: ems
 search.appverid: MET150
 #ms.tgt_pltfrm:
@@ -52,7 +52,7 @@ To turn on the HP Anyware connector, follow these steps:
 
    ![Screenshot of navigating to Connectors and tokens](./media/set-up-citrix/connectors-tokens.png)
 
-2. Select **Windows Windows partner connectors** > **Add**.
+2. Select **Windows 365 partner connectors** > **Add**.
 3. Under **Add connector**, select **HP Anyware** in the drop-down list.
 4. Next to **Allow people to use HP Anyware to connect to their Cloud PCs**, set the toggle to **On** > **Add**.
 

@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: erikje
 author: ErikjeMS
 manager: dougeby
-ms.date: 03/27/2024
+ms.date: 02/23/2025
 audience: Admin
 ms.topic: how-to
 ms.service: windows-365
@@ -19,7 +19,7 @@ ms.assetid:
 #ROBOTS:
 #audience:
 
-ms.reviewer: ivivano
+ms.reviewer: tmariscal
 ms.suite: ems
 search.appverid: MET150
 #ms.tgt_pltfrm:
