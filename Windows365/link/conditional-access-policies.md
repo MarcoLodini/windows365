@@ -90,4 +90,4 @@ For more information about creating Conditional Access policies for resources us
 <!-- ########################## -->
 ## Next steps
 
-[Suppress single sign-on consent prompt](single-sign-on-suppress.md).
+[Suppress single sign-on consent prompt](requirements.md#windows-365-sso-requirements).
