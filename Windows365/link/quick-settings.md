@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/02/2025
+ms.date: 04/24/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -48,6 +48,8 @@ Select audio output device and manage its volume.
 ## Accessibility
 
 To see the accessibility options, on the **Sign in** screen, select the **Accessibility** icon (![Image of the Accessibility icon.](media/quick-settings/accessibility-icon.gif)). You can then set the following accessibility options.
+
+## Settings
 
 | Control | Description |
 | --- | --- |
