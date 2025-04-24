@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 04/10/2025
+ms.date: 04/24/2025
 ms.topic: overview
 ms.service: windows-365-link
 ms.subservice:
@@ -49,7 +49,7 @@ Warranty and Protection Plans vary by market. For more information, see [Warrant
 
 ## Out-of-warranty service
 
-Microsoft offers service for a minimum of three years from the date of sale for Windows 365 Link. At first, it may be covered under your limited hardware warranty or, if you purchase one, an optional protection plan. After that, Microsoft offers out-of-warranty service and some replacement components for a fee. Availability of replacement components and service options varies by market and over time.
+Microsoft offers service for a minimum of three years from the date of sale for Windows 365 Link. At first, it may be covered under your limited hardware warranty or, if you purchase one, an optional protection plan. After that, Microsoft offers out-of-warranty service and some replacement components for a fee. Replacement components can be purchased for a minimum of three years after the end of the device's production. Availability of replacement components and service options varies by market and over time.
 
 If the device is no longer covered by Microsoft’s Limited Hardware Warranty or a Microsoft Protection Plan, you may be eligible for out-of-warranty service for a fee. The product may be repaired or replaced depending on the available out-of-warranty offers, which vary by country. For more information, see [How much does out-of-warranty service cost for your device or accessory?]( https://support.microsoft.com/topic/how-much-does-out-of-warranty-service-cost-for-your-device-or-accessory-8fcde6e4-e03b-461b-bd04-98053f991cac).
 
