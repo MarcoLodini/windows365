@@ -64,7 +64,7 @@ The following replacements components are available for the Windows 365 Link dev
 
 ## Windows 365 Link Service Guide
 
-The Windows 365 Link Service Guide provides instructions for repairing the Microsoft Windows 365 Link device using genuine Microsoft parts. It is intended for technically inclined individuals  with the knowledge, experience, and specialized tools required to repair Microsoft devices. The guide is available as a PDF in the following languages:
+The Windows 365 Link Service Guide provides instructions for repairing the Microsoft Windows 365 Link device using genuine Microsoft parts. It's intended for technically inclined individuals  with the knowledge, experience, and specialized tools required to repair Microsoft devices. The guide is available as a PDF in the following languages:
 
 - [Chinese (simplified)](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Chinese_(Simplified)_Windows_365_Link_Service_Guide.pdf)
 - [Dutch](https://download.microsoft.com/download/3fc40e0c-957b-4b49-b1b1-1e7d58387b27/Dutch_Windows_365_Link_Service_Guide.pdf)
