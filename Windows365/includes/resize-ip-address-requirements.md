@@ -9,7 +9,7 @@ ms.author: erikje
 ms.custom: include file
 ---
 
-## IP address requirements
+### IP address requirements
 
 When you resize a Microsoft Entra hybrid join bring-your-own-network Cloud PC, a second IP address must be available in the subnet for the Cloud PC to be resized.
 
