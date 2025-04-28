@@ -13,6 +13,8 @@ The **Resize** remote action, which preserves user and disk data, lets you:
 
 - Upgrade the RAM, CPU, and storage size of a Cloud PC.
 - Downgrade the RAM and CPU of a Cloud PC. Resizing doesn't let you downsize disk space.
+- [Resize single Cloud PCs](resize-cloud-pc-single.md).
+- [Resize multiple Cloud PCs in bulk](resize-cloud-pc-bulk.md).
 
 These operations don't require reprovisioning of the Cloud PC.
 

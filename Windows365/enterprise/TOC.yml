@@ -231,9 +231,9 @@ items:
           href: reprovision-cloud-pc.md
         - name: Bulk reprovision Frontline Cloud PCs
           href: frontline-shared-bulk-reprovision.md
-        - name: Remotely manage Cloud PCs
+        - name: Resizing Cloud PCs
           items:  
-          - name: Overview
+          - name: Cloud PC resizing overview
             href: resize-cloud-pc.md
           - name: Resize a single Cloud PC
             href: resize-cloud-pc-single.md

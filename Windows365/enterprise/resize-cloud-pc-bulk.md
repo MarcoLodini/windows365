@@ -31,11 +31,13 @@ ms.collection:
 
 # Resize Cloud PCs in bulk
 
-[!INCLUDE [Resize a Cloud PC intro](../includes/resize-introduction.md)]
+You can resize Cloud PCs in bulk using Microsoft Intune.
 
 Resizing in bulk can have large scale impact. Before resizing a large group of Cloud PCs, try resizing a small group. This step helps familiarize you with the process.
 
 Up to 5,000 Cloud PCs can be resized at a time.
+
+For more information about resizing, see [Cloud PC resizing overview](resize-cloud-pc.md).
 
 ### Bulk resize Cloud PCs originally provisioned with directly assigned licenses
 
