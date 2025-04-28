@@ -31,7 +31,7 @@ ms.collection:
 
 # Resize a single Cloud PC
 
-You can use the **Resize** remote action to resize a single Cloud PC that has been provisioned with a direction assigned license or a group-based licensed.
+You can use the **Resize** remote action to resize a single Cloud PC that was provisioned with a direct assigned license or a group-based licensed.
 
 For more information about resizing Cloud PCs in bulk, see [Resize Cloud PCs in bulk](resize-cloud-pc-bulk.md).
 
@@ -62,7 +62,7 @@ If there are available licenses, the resizing starts.
 6. The user’s Cloud PC is placed in the **Resize pending license** state as can be seen in the Windows 365 provisioning blade.
 7. Select **Users** > search for the user name assigned to the Cloud PC and select it > **Groups**.
 8. To retrieve the old license, remove the users from the original source Microsoft Entra group. If you don’t perform this step, a new Cloud PC will be provisioned with the original source license after you assign the target license.
-    - When using Microsoft Entra ID hybrid in your environment, after removing the user from the original group, you must wait until Microsoft Entra Connect synchronizes  your on-premises Active Directory with your Microsoft Entra ID. This can take up to 30 minutes. Then you can add the user to the new group.
+    - When using Microsoft Entra ID hybrid in your environment, after removing the user from the original group, you must wait until Microsoft Entra Connect synchronizes your on-premises Active Directory with your Microsoft Entra ID. This synchornization can take up to 30 minutes. Then you can add the user to the new group.
 9. Assign the target license to the new target Microsoft Entra group. The resizing process now begins.
 
 <!-- ########################## -->
