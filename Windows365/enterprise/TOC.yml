@@ -231,8 +231,14 @@ items:
           href: reprovision-cloud-pc.md
         - name: Bulk reprovision Frontline Cloud PCs
           href: frontline-shared-bulk-reprovision.md
-        - name: Resize a Cloud PC
-          href: resize-cloud-pc.md
+        - name: Remotely manage Cloud PCs
+          items:  
+          - name: Overview
+            href: resize-cloud-pc.md
+          - name: Resize a single Cloud PC
+            href: resize-cloud-pc-single.md
+          - name: Resize multiple Cloud PCs
+            href: resize-cloud-pc-bulk.md
         - name: Set idle session time limits
           href: frontline-cloud-pc-session-time-limits.md
       - name: Restore a Cloud PC
