@@ -79,7 +79,6 @@ When creating a provisioning policy for Windows 365 Frontline Cloud PCs, the pro
 
 We’ve created a new article. For more information, see [Microsoft and customer roles and responsibilities for Windows 365](/windows-365/customer-microsoft-responsibilities).
 
-
 <!-- ########################## -->
 ## Week of April 14, 2025
 
