@@ -39,7 +39,9 @@ Up to 5,000 Cloud PCs can be resized at a time.
 
 For more information about resizing, see [Cloud PC resizing overview](resize-cloud-pc.md).
 
-### Bulk resize Cloud PCs originally provisioned with directly assigned licenses
+[!INCLUDE [Resize a Cloud PC requirements](../includes/resize-requirements.md)]
+
+## Bulk resize Cloud PCs originally provisioned with directly assigned licenses
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** > **All Devices** > **Bulk device actions** > **OS (Windows)** > **Select device type (Cloud PCs)** > **Device action (Resize)**.
 2. On the **Basics** page, select the **Source size** for the Cloud PCs to be resized.
@@ -48,7 +50,7 @@ For more information about resizing, see [Cloud PC resizing overview](resize-clo
 5. Under **Select devices**, choose the devices that you want to resize > **Next**.
 6. On the **Review + create** page, select **Create**.
 
-### Bulk resize Cloud PCs originally provisioned with group-based licenses
+## Bulk resize Cloud PCs originally provisioned with group-based licenses
 
 1. Sign in to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** > **All Devices** > **Bulk device actions** > **OS (Windows)** > **Select device type (Cloud PCs)** > **Device action (Resize)**.
 2. On the **Basics** page, select the **Source size** for the Cloud PCs to be resized.
@@ -59,7 +61,7 @@ For more information about resizing, see [Cloud PC resizing overview](resize-clo
 7. Select **Groups** > select the group that your changing > **Licenses** > select the old license > **Remove license** > **Yes** > **Save**. Repeat this step for each group that you want to change.
 8. Select **Assignments** > select the license that you want to resize the Cloud PCs to > **Save**. The users' Cloud PC starts resizing, which you can check in the Windows 365 provisioning blade.
 
-### Bulk resize a subset of Cloud PCs originally provisioned using group-based licenses
+## Bulk resize a subset of Cloud PCs originally provisioned using group-based licenses
 
 1. Create a new target Microsoft Entra group. Add the users from the source Microsoft Entra group that you want to resize. Alternately, you can use existing Microsoft Entra groups if you're mapping the groups to individual Windows 365 license types.
 2. Assign the existing provisioning policy targeting the original source Microsoft Entra group to the new target Microsoft Entra group. You only need to do this step if you don't have a discrete Microsoft Entra group for your provisioning policy assignment. If you have discrete Microsoft Entra groups to manage your provisioning policy assignments, you can omit this step.

@@ -31,9 +31,11 @@ ms.collection:
 
 # Resize a single Cloud PC
 
-[!INCLUDE [Resize a Cloud PC intro](../includes/resize-introduction.md)]
+You can use the **Resize** remote action to resize a single Cloud PC that has been provisioned with a direction assigned license or a group-based licensed.
 
-Downsizing may impact support for nested virtualization. For more information, see [Set up virtualization-based workloads support](nested-virtualization.md).
+For more information about resizing Cloud PCs in bulk, see [Resize Cloud PCs in bulk](resize-cloud-pc-bulk.md).
+
+[!INCLUDE [Resize a Cloud PC requirements](../includes/resize-requirements.md)]
 
 ## Resize a single Cloud PC provisioned with a direct assigned license
 
