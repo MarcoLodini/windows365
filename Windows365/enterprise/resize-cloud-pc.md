@@ -72,4 +72,8 @@ If you have a Microsoft Customer Agreement (MCA), you can upgrade your license a
 <!-- ########################## -->
 ## Next steps
 
+[Resize a single Cloud PC](resize-cloud-pc-single.md).
+
+[Resize multiple Cloud PCs in bulk](resize-cloud-pc-bulk.md).
+
 For more information on Cloud PC sizes, see [Cloud PC size recommendations](cloud-pc-size-recommendations.md).
