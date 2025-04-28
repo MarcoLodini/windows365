@@ -35,6 +35,8 @@ You can use the **Resize** remote action to resize a single Cloud PC that was pr
 
 For more information about resizing Cloud PCs in bulk, see [Resize Cloud PCs in bulk](resize-cloud-pc-bulk.md).
 
+For more information about resizing, see [Cloud PC resizing overview](resize-cloud-pc.md).
+
 [!INCLUDE [Resize a Cloud PC requirements](../includes/resize-requirements.md)]
 
 ## Resize a single Cloud PC provisioned with a direct assigned license

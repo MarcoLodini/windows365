@@ -37,6 +37,8 @@ Resizing in bulk can have large scale impact. Before resizing a large group of C
 
 Up to 5,000 Cloud PCs can be resized at a time.
 
+For more information about resizing a single Cloud PC, see [Resize a single Cloud PCs](resize-cloud-pc-single.md).
+
 For more information about resizing, see [Cloud PC resizing overview](resize-cloud-pc.md).
 
 [!INCLUDE [Resize a Cloud PC requirements](../includes/resize-requirements.md)]
