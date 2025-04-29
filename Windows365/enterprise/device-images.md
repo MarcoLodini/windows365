@@ -103,8 +103,6 @@ If none of the default gallery images meet your requirements, you can upload up 
 
 For more information on creating such a custom image, see [Create a managed image of a generalized VM in Azure](/azure/virtual-machines/windows/capture-image-resource).
 
-A custom image can be created using [any of the images mentioned previously as a starting point](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftwindowsdesktop.windows-ent-cpc). For example, you can start with one of those images and then install more applications and make more configuration changes.
-
 > [!NOTE]
 > For custom images with Teams application, follow the instructions detailed in [Create a Cloud PC custom image that supports Microsoft Teams](create-custom-image-support-teams.md) to configure optimizations that are needed.
 > Images with disk encryption sets aren't supported.
